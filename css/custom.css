@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden !important;
+}
+
 .mate-img {
     opacity: 0.65;
 }
