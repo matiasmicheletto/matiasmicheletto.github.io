@@ -1,0 +1,249 @@
+\documentclass[10pt]{article}
+
+\usepackage[left=1in, right=1in, bottom=2cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{array, xcolor}
+\usepackage{censor}
+\usepackage[urlbordercolor={1 1 1}]{hyperref}
+\usepackage{longtable}
+
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+
+\def\censorData{1} % Censurar datos personales para publicar
+
+
+\title{\bfseries\huge Currículum Vitae}
+\author{\Large Matías J. Micheletto}
+\date{Agosto 2020}
+
+\begin{document}
+\maketitle
+
+\section{Datos personales}
+\raggedright
+\textbf{Apellido y nombres:} Micheletto, Matías Javier \\
+\textbf{Documento de identidad:}
+\ifx\censorData\undefined
+  34.377.688 \\
+\else
+	\censor{34.377.688} \\
+\fi
+\textbf{Lugar y fecha de nacimiento:}
+\ifx\censorData\undefined
+  	Bahía Blanca, 26 de abril de 1989 \\
+\else
+	\censor{Bahía Blanca, 26 de abril} de 1989 \\
+\fi
+\textbf{Nacionalidad:} Argentino \\
+\textbf{Estado civil:} Soltero \\
+\textbf{Domicilio laboral:}
+\ifx\censorData\undefined
+  	San Andres 800, DIEC-IIIE UNS-CONICET, Bahía Blanca, CP 8000 \\
+\else
+	\censor{San Andres 800 Bahía Blanca, CP 8000} \\
+\fi
+\textbf{Teléfono:}
+\ifx\censorData\undefined
+  	+54 9 291 459 5181 - \textbf{Fax:} +54 9 291 459 5154 \\
+\else
+	\censor{ +54 9 291 459 5181 - \textbf{Fax:} +54 9 291 459 5154 } \\
+\fi
+\textbf{Correo electrónico:} matias.micheletto@uns.edu.ar \\
+
+\section{Formación}
+\begin{tabular}{L!{\VRule}R}
+2016 & {\bf Universidad Nacional del Sur}\\
+	 & Egresado de la carrera Ingeniería Electrónica. \\
+	 & Promedio con aplazos: 8.17/10. \\[5pt]
+
+2006 & {\bf Escuela de Agricultura y Ganadería U.N.S.} \\
+ 	 & Egresado Modalidad en Cs. Naturales y Técnico en Producción Agropecuaria.\\
+	 & Promedio con aplazos: 7.79/10. \\
+\end{tabular}
+
+\section{Docencia}
+\begin{tabular}{L!{\VRule}R}
+2018 - Pres. & {\bf Asistente de Cátedra} \\
+	 & Técnicas Digitales - Diseño de Circuitos Lógicos. \\[5pt]
+	 
+2016 - 2018. & {\bf Ayudante A (Graduado)} \\
+	 & Técnicas Digitales - Diseño de Circuitos Lógicos. \\
+\end{tabular}
+
+\section{Becas}
+\begin{longtable}{L!{\VRule}R}
+2016 - Pres. & {\bf Beca Interna Doctoral CONICET} \\
+ 	 & \textit{``Desarrollo de Sistemas Computacionales para Sustento de Tareas Agropecuarias en el Sudoeste de la Provincia de Buenos Aires''.} \\
+	 & \textbf{Director:} Dr. Rodrigo Santos. \\
+	 & \textbf{Co-Director:} Dr. Juan Galantini. \\ [5pt]
+
+2015 - 2016 & {\bf Beca de Investigación PGI-MAyDS} \\
+	 & \textit{``Sustentabilidad de Construcciones Civiles''.} \\
+	 & \textbf{Director:} Dr. Néstor Ortega. \\
+	 & Secretaría General de Ciencia y Tecnología U.N.S. Res. CSU-752/15. \\[5pt]
+\newpage
+2014 & {\bf Beca de Introducción a la Investigación para Alumnos Avanzados} \\
+	 & \textbf{Tema:}\textit{``Planificación Óptima de Sistemas de Tiempo Real en Plataformas Multicore''.} \\
+	 & \textbf{Director:} Dr. Javier Orozco. \\
+	 & Secretaría General de Ciencia y Tecnología U.N.S. \\
+	 & Res. CSU-135/14. \\[5pt]
+
+2014 & {\bf Beca Interna de Estímulo al Estudio} \\
+	 & Dpto. de Ingeniería Eléctrica y Computadoras U.N.S. \\
+	 & Res. CSU-213/14. \\[5pt]
+
+2013 & {\bf Beca Interna de Estímulo al Estudio} \\
+	 & Dpto. de Ingeniería Eléctrica y Computadoras U.N.S. \\
+	 & Res. CSU-128/13. \\
+\end{longtable}
+
+\section{Premios y distinciones}
+\begin{tabular}{L!{\VRule}R}
+2018 & {\bf Agrotón 2018} \\
+	 & \textbf{Segundo premio.} \\
+	 & \textbf{Equipo A:} Matías Micheletto, Alejandro André, Matías Timi, José Augusto Strick, Franco Tronelli y Guido Temperini. \\
+	 & \textbf{Propuesta:} Paquete de Automatización e Información Integral de Soluciones Agropecuarias (PAIISA). \\
+\end{tabular}
+
+
+\section{Publicaciones en revistas}
+\begin{tabular}{L!{\VRule}R}
+2020 & {\bf Development and Validation of a LiDAR Scanner for 3D Evaluation of Soil Vegetal Coverage.} \\
+	 & Matias Micheletto, Luciano Zubiaga, Rodrigo Santos, Juan Galantini, Miguel Cantamutto, Javier Orozco. \\
+	 & Electronics, 9(1), 109. \\[5pt]
+	 
+2019 & {\bf Utilizando UML para el aprendizaje del modelado y diseño de sistemas ciber-físicos.} \\
+	 & Leonardo Ordínez, Rodrigo Santos, Gabriel Eggly, Matías Micheletto. \\
+	 & IEEE-RITA, 15(1), 50-60. \\[5pt]
+
+2019 & {\bf Scheduling Mandatory-Optional-Time Tasks in Homogeneous Multi-Core Systems with Energy Constraints Using Bio-Inspired Meta-Heuristics.} \\
+	 & Matías Micheletto, Rodrigo Santos, Javier Orozco. \\
+	 & Journal of Universal Computer Science, 25(4), 390-417. \\[5pt]
+
+2018 & {\bf Flying Real-Time Network to Coordinate Disaster Relief Activities in Urban Areas.} \\
+	 & Matías Micheletto, Vinicius Petrucci, Rodrigo Santos, Javier Orozco, Daniel Mosse, Sergio Ochoa, Roc Meseguer. \\
+	 & Sensors, 18(5), 1662. \\[5pt]
+	 
+2017 & {\bf Real-Time Communication Support for Underwater Acoustic Sensor Networks.} \\
+	 & Rodrigo Santos, Javier Orozco, Matías Micheletto, Sergio Ochoa, Roc Meseguer, Pere Milan, Carlos Molina. \\
+	 & Sensors, 17(7), 1629. \\	 
+\end{tabular}
+
+\newpage
+
+\section{Cursos de Posgrado}
+\begin{longtable}{L!{\VRule}R}
+2020 & {\bf ``Sistemas Colaborativos con Restricciones Temporales''.} \\
+   & Departamento de Ingeniería Eléctrica y de Computadoras. \\
+   & Dictado por: Dr. Javier Orozco y Dr. Rodrigo Santos. \\
+   & Duración: 60hs.  Nota obtenida: 10 (diez). \\[5pt]
+
+2017 & {\bf ``Minería de Datos y Aprendizaje Automatizado''.} \\
+   & Departamento de Ciencias e Ingeniería de la Computación. \\
+   & Dictado por: Dr. Carlos Chesñevar. \\
+   & Duración: 90hs.  Nota obtenida: 10 (diez). \\[5pt]
+
+2017 & {\bf ``Tópicos en Big Data''.} \\
+   & Departamento de Ingeniería Eléctrica y Computadoras. \\
+   & Dictado por: Dr. Claudio Delrieux. \\
+   & Duración: 80hs. Nota obtenida: 10 (diez). \\[5pt]
+
+2017 & {\bf ``Modelos Matemáticos de Simulación en la Investigación Agropecuaria''.} \\
+   & Departamento de Agronomía. \\
+   & Dictado por: Dr. Juan Galantini. \\
+   & Duración: 60hs.  Nota obtenida: 10 (diez). \\[5pt]
+
+2016 & {\bf ``Sistemas Distribuidos de Tiempo Real''.} \\
+   & Departamento de Ingeniería Eléctrica y Computadoras. \\
+   & Dictado por: Dr. Ricardo Cayssials y Dr. Edgardo Ferro. \\
+   & Duración: 60hs. Nota obtenida: 10 (diez). \\[5pt]
+
+2016 & {\bf ``Internet de las Cosas y el Control, un Enfoque Holístico''.} \\
+   & Departamento de Ingeniería Eléctrica y Computadoras. \\
+   & Dictado por: Dr. Rodrigo Santos y Dr. Sergio Ochoa. \\
+   & Duración: 60hs. Nota obtenida: 10 (diez). \\[5pt]
+\end{longtable}
+
+\section{Pasantías}
+\begin{tabular}{L!{\VRule}R}
+2014 & {\bf Pasantía interna Dpto. de Ingeniería Eléctrica y Computadoras U.N.S.} \\
+	 & Desarrollo de un Libro Multimedial Interactivo de Mecánica. \\
+	 & Duración: 10 meses. \\
+\end{tabular}
+
+\section{Participación en congresos}
+\begin{longtable}{L!{\VRule}R}
+2019 & {\bf 13$^{th}$ International Conference on Ubiquitous Computing \& Ambient Intelligence} \\
+	 & \textit{``Evacuation Supporting System Network (ESSN) based on IoT Components''.} \\
+	 & Gabriel Eggly, José Mariano Finochietto, Matías Micheletto, Rodrigo Santos, Sergio Ochoa, Roc Meseguer and Javier Orozco. \\[5pt]
+
+2019 & {\bf 48º Jornadas Argentinas de Informática} \\
+	 & 1º Taller Argentino de Internet de las Cosas (TAIC) \\
+	 & \textit{``Internet de las Cosas como Bien Social''.} \\
+	 & Gabriel Eggly, Mariano Finochietto, Matías J. Micheletto, Rodrigo Santos. \\[5pt]
+
+2018 & {\bf 47º Jornadas Argentinas de Informática} \\
+	 & 10º Congreso de AgroInformática (CAI 2018) \\
+	 & \textit{``Diseño e Implementación de un Escáner Lidar para Análisis Tridimensional de Covertura Vegetal de Suelos''.} \\
+	 & Matías J. Micheletto, Rodrigo Santos, Luciano Zubiaga, Juan Galantini. \\[5pt]
+
+2017 & {\bf XXV Jornadas de Jóvenes Investigadores} \\
+	 & \textit{``Planificación Óptima de un Sistema Multiprocesador de Tiempo Real con Restricciones de Precedencia, Comunicación y Energía''.} \\
+	 & Matías J. Micheletto, Alejandro Borghero, Gabriel M. Eggly. \\[5pt]
+
+2017 & {\bf 46º Jornadas Argentinas de Informática} \\
+	 & 9º Congreso de AgroInformática (CAI 2017) \\
+	 & \textit{``Desarrollo de una Aplicación Móvil para Cálculos de Pulverizaciones Agrícolas''.} \\
+	 & Gabriel M. Eggly, Matías J. Micheletto, Juan P. D'Amico, Santiago J. Crocioni. \\[5pt]
+
+2016 & {\bf V Congreso Internacional sobre Cambio Climático y Desarrollo Sustentable} \\
+	 & \textit{``Afectación de la Luna en la Medición de la Contaminación Lumínica''.} \\
+	 & Luciana C. Lambertucci, Matías J. Micheletto, Jorge A. Starobinsky, Néstor F. Ortega. \\[5pt]
+
+2016 & {\bf 10$^{th}$ International Conference on Ubiquitous Computing \& Ambient Intelligence} \\
+	 & \textit{``Scheduling Real-Time Traffic in Underwater Acoustic Wireless Sensor Networks''.} \\
+	 & Rodrigo Santos, Javier Orozco, Matías Micheletto, Sergio Ochoa, Roc Meseguer, Pere Millan, Carlos Molina. \\[5pt]
+
+2016 & {\bf 45º Jornadas Argentinas de Informática} \\
+	 & 8º Congreso de AgroInformática (CAI 2016) \\
+	 & \textit{``Diseño e Implementación de un Registrador de Esfuerzos para Maquinaria Agrícola''.} \\
+	 & Matías J. Micheletto, Gabriel M. Eggly, Rodrigo Santos. \\[5pt]
+
+2015 & {\bf V Brazilian Symposium on Computing Systems Engineering} \\
+	 & \textit{``Using bioinspired meta-heuristics to solve reward-based energy-aware mandatory/optional real-time tasks scheduling''.} \\
+	 & Matías J. Micheletto, Javier D. Orozco, Rodrigo Santos.  \\[5pt]
+
+2014 & {\bf Simposio Argentino de Sistemas Embebidos} \\
+	 & Foro tecnológico 2014 \\
+	 & \textit{``Design and Implementation of an Embedded Prototype for Monitoring a Combine Harvester''.} \\
+	 & Ana S. Arauz Lozano, Matías J. Micheletto, Leonardo Ordinez, Rodrigo Santos.  \\[5pt]
+
+2012 & {\bf 41º Jornadas Argentinas de Informática} \\
+	 & Concurso de Trabajos Estudiantiles U.N.L.P. \\
+	 & \textit{``Optimizador de Funciones Multivariadas por Enjambre de Partículas''.} \\
+	 & Matías J. Micheletto. \\
+\end{longtable}
+
+\section{Evaluación de proyectos}
+\begin{tabular}{L!{\VRule}R}
+2019 & {\bf FONCyT-ANPCyT} \\
+	 & PICT-START UP-2018 \\
+	 & Participación como par evaluador de proyectos. \\[5pt]
+
+2017 & {\bf CLEI 2017 / 46 JAIIO} \\
+	 & Simposio Latinoamericano de Infraestructura, Hardware y Software 2017. \\
+	 & Participación como revisor de trabajos. \\
+\end{tabular}
+
+\section{Idiomas}
+\begin{tabular}{L!{\VRule}R}
+	& {\bf Inglés} \\
+	&  Comprensión oral y escrita. Redacción de texto científico y técnico.
+\end{tabular}
+
+\end{document}
+\grid

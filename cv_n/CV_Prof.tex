@@ -1,0 +1,271 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+\usepackage[spanish]{babel}
+
+% Burbujas de habilidades
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Desarrollo}\\\textbf{Web Frontend},
+        \textbf{Ciencia de}\\\textbf{Datos},
+        \textbf{Optimización}\\ \textbf{Numérica},
+        \textbf{Desarrollo}\\\textbf{Móvil},
+        \textbf{Machine}\\\textbf{Learning},
+        \textbf{~~~Sistemas~~~}\\\textbf{~~Embebidos~~},
+        \textbf{Diseño}\\\textbf{3D}
+    }
+}
+
+% Barras de conocimiento de lenguajes
+\programming{{OpenSCAD \textbullet {\large\LaTeX} \textbullet Python / 3}, {Pascal \textbullet Visual Basic \textbullet Java / 4}, {C++ \textbullet JavaScript \textbullet Matlab / 5}}
+
+% Cursos realizados
+\courses{
+    \textbf{Minería de Datos y Aprendizaje Automatizado.}\\ Duración: 90hs.  Nota obtenida: 10 (diez).\\
+    \textbf{Tópicos en Big Data.}\\ Duración: 80hs.  Nota obtenida: 10 (diez).\\
+    \textbf{Modelos Matemáticos de Simulación en la Investigación Agropecuaria.}\\ Duración: 60hs.  Nota obtenida: 10 (diez).\\
+    \textbf{Sistemas Distribuidos de Tiempo Real.}\\ Duración: 60hs.  Nota obtenida: 10 (diez).\\
+    \textbf{Internet de las Cosas y el Control, un Enfoque Holístico.}\\ Duración: 60hs.  Nota obtenida: 10 (diez).\\
+}
+
+
+%----------------------------------------------------------------------------------------
+%	 INFORMACION PERSONAL
+%----------------------------------------------------------------------------------------
+
+\cvname{MATÍAS MICHELETTO}
+\cvjobtitle{ Ingeniero Electrónico \\ Desarrollador freelance }
+\cvlinkedin{in/matiasmicheletto}
+\cvgithub{matiasmicheletto}
+\cvnumberphone{+54 9 291 459 5181}
+\cvsite{matiasmicheletto.github.io}
+\cvmail{matias.micheletto@uns.edu.ar}
+\cvfacebook{/miche1989}
+\cvinstagram{/matias.jm_}
+\cvyoutube{/channel/UCI0mjA0Hl7jok8DzrWavTng}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofilefirst % Sidebar de primera pagina
+
+\section{Educación}
+\begin{twenty}
+    %\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+	\twentyitem
+    	{2016}
+        {}
+        {Ingeniería Electrónica.}
+        {Promedio: 8.17/10.0}
+        {\href{http://www.uns.edu.ar/}{Universidad Nacional del Sur.}}
+        {}
+	\twentyitem
+    	{2006}
+		{}
+		{Cs. Naturales y Téc. en Prod. Agropecuaria.}
+        {Promedio: 7.79/10.0}
+        {Escuela de Agricultura y Ganadería U.N.S.}
+        {}
+\end{twenty}
+
+\section{Docencia}
+\begin{twenty}
+    \twentyitem
+    	{2018 - Pres.}
+		{}
+        {Asistente de cátedra dedicación simple}
+        {\href{http://www.diec.uns.edu.ar/}{DIEC - UNS}}
+        {}
+        {Diseño de Circuitos Lógicos - Técnicas Digitales}
+    \twentyitem
+    	{2016 - 2018}
+		{}
+        {Ayudante de cátedra graduado}
+        {\href{http://www.diec.uns.edu.ar/}{DIEC - UNS}}
+        {}
+        {Diseño de Circuitos Lógicos - Técnicas Digitales}
+\end{twenty}
+
+\section{Experiencia}
+\begin{twenty} 
+\twentyitem
+    	{2019 - Pres.}
+		{}
+        {Desarrollo front-end}
+        {\href{http://www.webcapp.com/}{CAPP (CAPP Mobile S.R.L.)}}
+        {}
+        {\begin{itemize}
+        \item Colaboración en el desarrollo de la aplicación, backoffice y tienda online de CAPP.
+        \end{itemize}}\\
+\twentyitem
+    	{2017 - 2019}
+		{}
+        {Desarrollo front-end e IoT}
+        {\href{http://www.cinaweb.org/}{CINA (Neufitech S.R.L.)}}
+        {}
+        {\begin{itemize}
+        \item Desarrollo de plataforma web para aplicaciones de actividades neuro-psicológicas (PsiMESH).
+        \item Colaboración en desarrollo y mantenimiento del sistema de gestión de turnos de CINA.
+        \item Diseño e implementación de dispositivos IoT para asistencia en comunicación y movilidad de personas con discapacidades motrices.
+        \end{itemize}}
+\end{twenty}
+
+\vspace{2mm}
+
+\section{Becas}
+\begin{twenty}
+    \twentyitem
+    	{2016 - 2021}
+		{}
+        {Beca de Posgrado}
+        {ICIC-CONICET}
+        {\textit{``Desarrollo de Sistemas Computacionales para Sustento de Tareas Agropecuarias en el Sudoeste de la Provincia de Buenos Aires''.}}
+        {\textbf{Director:} Dr. Rodrigo Santos. \textbf{Co-Director:} Dr. Juan Galantini.} \\
+    \twentyitem
+    	{2015 - 2016}
+		{}
+        {Beca de Investigación}
+        {Secretaría General de Ciencia y Tecnología U.N.S.}
+        {PGI-MAyDS \textit{``Sustentabilidad de Construcciones Civiles''.}}
+        {\textbf{Director:} Dr. Néstor Ortega.} \\
+    \twentyitem
+    	{2014}
+		{}
+        {Beca de Introducción a la Investigación para Alumnos Avanzados}
+        {}
+        {\textit{``Planificación Óptima de Sistemas de Tiempo Real en Plataformas Multicore''.}}
+        {\textbf{Director:} Dr. Javier Orozco.} \\
+    \twentyitem
+    	{2013, 2014}
+		{}
+        {Becas Internas de Estímulo al Estudio}
+        {DIEC - UNS}
+        {}
+        {} 
+\end{twenty}
+
+\section{Premios}
+\begin{twenty}
+    \twentyitem
+    	{2018}
+		{}
+        {Agroton 2018}
+        {Segundo premio}
+        {\textbf{Equipo A:} Matías Micheletto, Alejandro André, Matías Timi, José Augusto Strick, Franco Tronelli y Guido Temperini.}
+        {\textbf{Propuesta:} Paquete de Automatización e Información Integral de Soluciones Agropecuarias (PAIISA)}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PAGINA 2
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+% Barras de conocimiento de tecnologías
+\techs{{Firebase \textbullet NodeJS \textbullet Apache Cordova / 4}, {Angular \textbullet Vue / 3.5}, {Materialize \textbullet Bootstrap \textbullet Framework7 / 4}, {Weka \textbullet Matlab \textbullet Proteus / 4.5}, {Arduino \textbullet Processing \textbullet Eclipse / 5}}
+
+% Proyectos realizados
+\projects{
+    \textbf{\href{https://github.com/matiasmicheletto/EyeRobot}{EyeRobot:}} Robot FPV inalámbrico controlado por Wifi mediante Eyetracker.\\
+    \textbf{\href{http://www.diec.uns.edu.ar/rts}{RTS Research Group:}} Sitio web dinámico para grupo de investigación.\\
+    \textbf{\href{https://github.com/matiasmicheletto/CompostGrid}{CompostGrid:}} Dataloggers GSM para monitoreo de conductividad eléctrica y temperatura en pilas de compost. \\
+    \textbf{\href{https://sebastianlopezrepresentaciones.com}{Sebastian López Representaciones:}} \\PWA con panel de administrador para CRM y red de clientes, para compañía distribuidora de materiales de construcción. \\
+    \textbf{\href{http://www.cipressus.uns.edu.ar}{Cipressus:}} Sistema de gestión de contenidos para el aprendizaje de sistemas digitales. \\
+    \textbf{\href{http://www.psimesh.com}{PsiMESH:}} Plataforma con actividades digitales de evaluación neuro psicológicas. \\
+    \textbf{\href{https://play.google.com/store/apps/details?id=com.inta.criollo2&hl=es}{Criollo:}} Aplicación nativa Android para cálculos de pulverizaciones agrícolas. 
+}
+
+\makeprofilesecond % Sidebar de segunda pagina
+
+\section{Publicaciones}
+{\begin{itemize}
+\item {\bf Development and Validation of a LiDAR Scanner for 3D Evaluation of Soil Vegetal Coverage.} \textit{Matias Micheletto, Luciano Zubiaga, Rodrigo Santos, Juan Galantini, Miguel Cantamutto, Javier Orozco.}
+Electronics, 9(1), 109, -.
+\item {\bf Utilizando UML para el aprendizaje del modelado y diseño de sistemas ciber-físicos.} \textit{Leonardo Ordínez, Rodrigo Santos, Gabriel Eggly, Matías Micheletto.}
+IEEE-RITA, 14(3), -.
+\item {\bf Scheduling Mandatory-Optional-Time Tasks in Homogeneous Multi-Core Systems with Energy Constraints Using Bio-Inspired Meta-Heuristics.} \textit{Matías Micheletto, Rodrigo Santos, Javier Orozco.} Journal of Universal Computer Science, 25(4), 390-417.
+\item {\bf Flying Real-Time Network to Coordinate Disaster Relief Activities in Urban Areas.} \textit{Matías Micheletto, Vinicius Petrucci, Rodrigo Santos, Javier Orozco, Daniel Mosse, Sergio Ochoa, Roc Meseguer.} Sensors, 18(5), 1662.
+\item {\bf Real-Time Communication Support for Underwater Acoustic Sensor Networks.} \textit{Rodrigo Santos, Javier Orozco, Matías Micheletto, Sergio Ochoa, Roc Meseguer, Pere Milan, Carlos Molina.} Sensors, 17(7), 1629.
+\end{itemize}}
+
+\vspace{2mm}
+
+\section{Participación en congresos}
+
+\begin{twenty}
+\twentyitem
+    {2019}
+    {}
+    {13$^{th}$ International Conference on Ubiquitous Computing \& Ambient Intelligence\\} 
+    {\textit{``Evacuation Supporting System Network (ESSN) based on IoT Components''.}}
+    {Gabriel Eggly, José Mariano Finochietto, Matías Micheletto, Rodrigo Santos, Sergio Ochoa, Roc Meseguer and Javier Orozco}
+
+\twentyitem
+    {2019}
+    {}
+    {48º Jornadas Argentinas de Informática\\} 
+    {\textit{``Internet de las Cosas como Bien Social''.}}
+    {Gabriel Eggly, Mariano Finochietto, Matías J. Micheletto, Rodrigo Santos.}
+    
+\twentyitem
+    {2018}
+    {}
+    {47º Jornadas Argentinas de Informática\\}
+    {\textit{``Diseño e Implementación de un Escáner Lidar para Análisis Tridimensional de Covertura Vegetal de Suelos''.}}
+    {Matías J. Micheletto, Rodrigo Santos, Luciano Zubiaga, Juan Galantini.}
+
+\twentyitem
+    {2017}
+    {}
+    {XXV Jornadas de Jóvenes Investigadores\\}
+    {\textit{``Planificación Óptima de un Sistema Multiprocesador de Tiempo Real con Restricciones de Precedencia, Comunicación y Energía''.}}
+    {Matías J. Micheletto, Alejandro Borghero, Gabriel M. Eggly.}
+    
+\twentyitem
+    {2017}
+    {}
+    {46º Jornadas Argentinas de Informática\\}
+    {\textit{``Desarrollo de una Aplicación Móvil para Cálculos de Pulverizaciones Agrícolas''.}}
+    {Gabriel M. Eggly, Matías J. Micheletto, Juan P. D'Amico, Santiago J. Crocioni.}
+    
+\twentyitem
+    {2016}
+    {}
+    {V Congreso Internacional sobre Cambio Climático y Desarrollo Sustentable\\}
+    {\textit{``Afectación de la Luna en la Medición de la Contaminación Lumínica''.}}
+    {Luciana C. Lambertucci, Matías J. Micheletto, Jorge A. Starobinsky, Néstor F. Ortega.}
+    
+\twentyitem
+    {2016}
+    {}
+    {10$^{th}$ International Conference on Ubiquitous Computing \& Ambient Intelligence\\}
+    {\textit{``Scheduling Real-Time Traffic in Underwater Acoustic Wireless Sensor Networks''.}}
+    {Rodrigo Santos, Javier Orozco, Matías Micheletto, Sergio Ochoa, Roc Meseguer, Pere Millan, Carlos Molina.}
+    
+\twentyitem
+    {2016}
+    {}
+    {45º Jornadas Argentinas de Informática\\}
+    {\textit{``Diseño e Implementación de un Registrador de Esfuerzos para Maquinaria Agrícola''.}}
+    {Matías J. Micheletto, Gabriel M. Eggly, Rodrigo Santos.}
+    
+\end{twenty}
+
+\end{document} 

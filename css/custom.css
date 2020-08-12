@@ -1,5 +1,11 @@
 body{
-	overflow-x: hidden !important;
+    overflow-x: hidden !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .mate-img {
