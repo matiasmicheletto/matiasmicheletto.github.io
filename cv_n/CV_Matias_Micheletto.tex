@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+\usepackage[spanish]{babel}
+
+% Burbujas de habilidades
+\newcommand\skills{ 
+~
+    \smartdiagram[bubble diagram]{
+        \textbf{Desarrollo}\\\textbf{de Software},
+        \textbf{Diseño}\\\textbf{Web Front-end},
+        \textbf{Aplicaciones}\\\textbf{Móviles},
+        \textbf{Ciencia}\\\textbf{de Datos},
+        \textbf{~~~Sistemas~~~}\\\textbf{~~Embebidos~~},
+        \textbf{Docencia}
+    }
+}
+
+% Barras de conocimiento de lenguajes
+\programming{ {PHP \textbullet Java \textbullet SQL / 2.5}, {OpenSCAD \textbullet Matlab / 5}, {C++ \textbullet Python \textbullet JS \textbullet HTML5 \textbullet CSS3 / 5.5}}
+
+% Cursos realizados
+\courses{
+    \textbullet Análisis visual de grandes volúmenes de datos. [90 hs.] \\
+    \textbullet Sistemas Colaborativos con Restricciones Temporales. [60 hs.] \\
+    \textbullet Minería de Datos y Aprendizaje Automatizado. [90 hs.] \\
+    \textbullet Tópicos en Big Data. [80 hs.]\\
+    \textbullet Modelos Matemáticos de Simulación en la Inv. Agrop. [60 hs.]\\
+    \textbullet Sist. Distribuidos de Tiempo Real. [60 hs.]\\
+    \textbullet IoT y el Control, un Enfoque Holístico. [60 hs.]\\
+}
+
+
+%----------------------------------------------------------------------------------------
+%    INFORMACION PERSONAL
+%----------------------------------------------------------------------------------------
+
+\cvname{MATÍAS MICHELETTO}
+\cvjobtitle{ Ingeniero Electrónico }
+\cvlinkedin{in/matiasmicheletto}
+\cvgithub{matiasmicheletto}
+\cvnumberphone{+54 9 291 459 5181}
+\cvsite{matiasmicheletto.github.io}
+\cvmail{matias.micheletto@uns.edu.ar}
+\cvfacebook{/miche1989}
+\cvinstagram{/matias.jm_}
+\cvyoutube{/channel/UCI0mjA0Hl7jok8DzrWavTng}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofilefirst % Sidebar de primera pagina
+
+\section{Resumen}
+\begin{twenty}
+
+Actualmente me encuentro finalizando mi tesis para aspirar al título de Doctor en \\
+Ingeniería a la vez que me desempeño como docente de las asignaturas de grado \\
+Técnicas Digitales y Diseño de Circuitos Lógicos, en la Universidad Nacional del Sur.\\
+
+Durante el periodo doctoral, en paralelo al cursado de materias de posgrado y a las \\
+actividades de investigación, he adquirido conocimiento y experiencia en desarrollo \\
+de aplicaciones web, de escritorio, móviles y en implementación de sistemas \\
+embebidos.
+
+\end{twenty}
+
+\section{Educación}
+\begin{twenty}
+    %\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+    \twentyitem
+        {2021}
+        {}
+        {Doctorado en Ingeniería.}
+        {Tesis en desarrollo}
+        {\href{http://www.uns.edu.ar/}{Universidad Nacional del Sur.}}
+        {}
+    \twentyitem
+        {2016}
+        {}
+        {Ingeniería Electrónica.}
+        {Promedio: 8.17/10.0}
+        {\href{http://www.uns.edu.ar/}{Universidad Nacional del Sur.}}
+        {}
+    \twentyitem
+        {2006}
+        {}
+        {Cs. Naturales y Téc. en Prod. Agropecuaria.}
+        {Promedio: 7.79/10.0}
+        {Escuela de Agricultura y Ganadería U.N.S.}
+        {}
+\end{twenty}
+
+\section{Docencia}
+\begin{twenty}
+    \twentyitem
+        {2018 - Pres.}
+        {}
+        {Asistente de cátedra dedicación simple}
+        {\href{http://www.diec.uns.edu.ar/}{DIEC - UNS}}
+        {}
+        {Diseño de Circuitos Lógicos - Técnicas Digitales}
+    \twentyitem
+        {2016 - 2018}
+        {}
+        {Ayudante de cátedra graduado}
+        {\href{http://www.diec.uns.edu.ar/}{DIEC - UNS}}
+        {}
+        {Diseño de Circuitos Lógicos - Técnicas Digitales}
+\end{twenty}
+
+\section{Experiencia}
+\begin{twenty} 
+\twentyitem
+        {2019 - Pres.}
+        {}
+        {Desarrollo front-end}
+        {\href{http://www.webcapp.com/}{CAPP (CAPP Mobile S.R.L.)}}
+        {}
+        {\begin{itemize}
+        \item Colaboración en el desarrollo de la app móvil, backoffice, panel administrador y tienda online de CAPP.
+        \end{itemize}}\\
+\twentyitem
+        {2017 - 2019}
+        {}
+        {Desarrollo front-end e IoT}
+        {\href{http://www.cinaweb.org/}{CINA (Neufitech S.R.L.)}}
+        {}
+        {\begin{itemize}
+        \item Desarrollo de plataforma web para aplicaciones de actividades neuro-psicológicas (PsiMESH).
+        \item Colaboración en desarrollo y mantenimiento del sistema de gestión de turnos de CINA.
+        \item Diseño e implementación de dispositivos IoT para asistencia en comunicación y movilidad de personas con discapacidades motrices.
+        \end{itemize}}
+\end{twenty}
+
+\vspace{2mm}
+
+\section{Pasantías}
+\begin{twenty}
+    \twentyitem
+        {2014 - 2015}
+        {}
+        {Pasantía Interna}
+        {DIEC-UNS}
+        {\textit{``Desarrollo de un Libro Multimedial de Mecánica''.}}
+        {\textbf{Director:} Dr. Gustavo Gasaneo. \textbf{Co-Director:} Dr. Claudio Delrieux.} \\
+\end{twenty}
+
+\section{Premios}
+\begin{twenty}
+    \twentyitem
+        {2018}
+        {}
+        {Agroton 2018}
+        {Segundo premio}
+        {\textbf{Equipo A:} Matías Micheletto, Alejandro André, Matías Timi, José Augusto Strick, Franco Tronelli y Guido Temperini.}
+        {\textbf{Propuesta:} Paquete de Automatización e Información Integral de Soluciones Agropecuarias (PAIISA)}
+\end{twenty}
+
+
+\end{document} 

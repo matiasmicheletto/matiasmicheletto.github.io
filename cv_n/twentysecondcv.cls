@@ -3,8 +3,8 @@
 \NeedsTeXFormat{LaTeX2e}
 
 %----------------------------------------------------------------------------------------
-%	 REQUIRED PACKAGES
-%-----------------------------------------------------------------------	-----------------
+%    REQUIRED PACKAGES
+%-----------------------------------------------------------------------    -----------------
 
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[sfdefault]{ClearSans}
@@ -56,7 +56,7 @@
 \fi
 
 %----------------------------------------------------------------------------------------
-%	 COLOURS
+%    COLOURS
 %----------------------------------------------------------------------------------------
 
 \definecolor{white}{RGB}{255,255,255}
@@ -105,7 +105,7 @@
 \colorlet{headercolor}{gray}
 
 %----------------------------------------------------------------------------------------
-%	 MISC CONFIGURATIONS
+%    MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
 % \renewcommand{\bfseries}{\color{black}} % Make \textbf produce coloured text instead
@@ -115,12 +115,12 @@
 \setlength{\parindent}{0pt} % Disable paragraph indentation
 
 % --------------------------------------------------------------------------------------
-% 	FONTS
+%   FONTS
 %-------------------------------------------------------------------------------------
 \newfontfamily\headingfont[Path = fonts/]{segoeuib.ttf}
 
 %----------------------------------------------------------------------------------------
-%	 SIDEBAR DEFINITIONS
+%    SIDEBAR DEFINITIONS
 %----------------------------------------------------------------------------------------
 
 \setlength{\TPHorizModule}{1cm} % Left margin
@@ -154,40 +154,40 @@
 
 % Comando para barras de progreso de lenguajes
 \newcommand\programming[1]{ 
-	\renewcommand{\programming}{
-		\begin{tikzpicture}
-			\foreach [count=\i] \x/\y in {#1}{
-				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-				\node [above right] at (0,\i+0.35) {\x};
-			}
-		\end{tikzpicture}
-	}
+    \renewcommand{\programming}{
+        \begin{tikzpicture}
+            \foreach [count=\i] \x/\y in {#1}{
+                \draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+                \draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
+                \node [above right] at (0,\i+0.35) {\x};
+            }
+        \end{tikzpicture}
+    }
 }
 
 % Comando para barras de progreso de tecnologías
 \newcommand\techs[1]{ 
-	\renewcommand{\techs}{
-		\begin{tikzpicture}
-			\foreach [count=\i] \x/\y in {#1}{
-				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-				\node [above right] at (0,\i+0.35) {\x};
-			}
-		\end{tikzpicture}
-	}
+    \renewcommand{\techs}{
+        \begin{tikzpicture}
+            \foreach [count=\i] \x/\y in {#1}{
+                \draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+                \draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
+                \node [above right] at (0,\i+0.35) {\x};
+            }
+        \end{tikzpicture}
+    }
 }
 
 \newcommand\courses[1]{ 
-	\renewcommand{\courses}{
-		{#1}
-	}
+    \renewcommand{\courses}{
+        {#1}
+    }
 }
 
 \newcommand\projects[1]{ 
-	\renewcommand{\projects}{
-		{#1}
-	}
+    \renewcommand{\projects}{
+        {#1}
+    }
 }
 
 
@@ -220,7 +220,7 @@
     \renewcommand{\arraystretch}{2}
     \begin{tabular}{p{0.7cm} @{\hskip 0.5cm}p{5cm}}
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
-      		{$
+            {$
               \begin{array}{l}
               \hspace{2mm} \Huge \textnormal{\faMobile} 
               \end{array}
@@ -267,18 +267,20 @@
     
     {\large \textbf{Vista General}}
     
-	    \skills
+        \skills
         
         %------------------------------------------------
     
         \vspace{3mm}  
     
-	    {\large \textbf{Programación y diseño}} 
-		
-		    \programming
+        {\large \textbf{Programación y diseño}} 
+        
+            \programming
         
         \vspace{4mm}
         \profilesection{Cursos}{3.5cm} 
+        
+        {\large \textbf{Universitarios de posgrado}}
         
         \courses
 
@@ -316,7 +318,7 @@
     \renewcommand{\arraystretch}{2}
     \begin{tabular}{p{0.7cm} @{\hskip 0.5cm}p{5cm}}
       \ifthenelse{\equal{\cvfacebook}{}}{}{
-      		{$
+            {$
               \begin{array}{l}
               \hspace{1mm} \huge \textnormal{\textcolor{mainblue}\faFacebook} 
               \end{array}
@@ -342,9 +344,9 @@
     
         \vspace{3mm}  
     
-	    {\large \textbf{Tecnologías}} 
-		
-		    \techs
+        {\large \textbf{Tecnologías}} 
+        
+            \techs
         
         \vspace{4mm}
         \profilesection{Proyectos}{3cm} 
@@ -356,95 +358,95 @@
 
 
 %----------------------------------------------------------------------------------------
-%	 COLOURED SECTION TITLE BOX
+%    COLOURED SECTION TITLE BOX
 %----------------------------------------------------------------------------------------
 
 % Command to create the rounded boxes around the first three letters of section titles
 \newcommand*\round[2]{%
-	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=white](char){#1};%
+    \tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=white](char){#1};%
 }
 
 \def\@sectioncolor#1#2#3{%
-	{%
-		\color{pblue} #1#2#3%
-	}%
+    {%
+        \color{pblue} #1#2#3%
+    }%
 }
 
 
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
-	{%
-		\LARGE\headingfont\color{headercolor}%
-		\@sectioncolor #1%
-	}
+    {%
+        \LARGE\headingfont\color{headercolor}%
+        \@sectioncolor #1%
+    }
   \par\vspace{\parskip}
 }
 
 \renewcommand{\subsection}[1]{
-	\par\vspace{.5\parskip}{%
-		\Large\headingfont\color{headercolor} #1%
-	}
-	\par\vspace{.25\parskip}%
+    \par\vspace{.5\parskip}{%
+        \Large\headingfont\color{headercolor} #1%
+    }
+    \par\vspace{.25\parskip}%
 }
 
 \pagestyle{empty}
 
 %----------------------------------------------------------------------------------------
-%	 LONG LIST ENVIRONMENT
+%    LONG LIST ENVIRONMENT
 %----------------------------------------------------------------------------------------
 
 \setlength{\tabcolsep}{0pt}
 
 % New environment for the long list
 \newenvironment{twenty}{%
-	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
-	\end{tabular*}
+    \end{tabular*}
 }
 
 % \newcommand{\twentyitem}[5]{%
-% 	#1&\parbox[t]{0.83\textwidth}{%
-% 		\textbf{#2}% 
-% 		\hfill%
-% 		{\footnotesize#3}\\%
+%   #1&\parbox[t]{0.83\textwidth}{%
+%       \textbf{#2}% 
+%       \hfill%
+%       {\footnotesize#3}\\%
 %         \ifblank{#4}{}{#4 \\}
-% 		#5\vspace{\parsep}%
-% 	}\\
+%       #5\vspace{\parsep}%
+%   }\\
 % }
 
 \newcommand{\twentyitem}[6]{%
-	#1&\parbox[t]{0.83\textwidth}{%
-		\textbf{#3}% 
-		\hfill%
-		{\footnotesize#4}%
+    #1&\parbox[t]{0.83\textwidth}{%
+        \textbf{#3}% 
+        \hfill%
+        {\footnotesize#4}%
         }\\%
     #2&\parbox[t]{0.83\textwidth}{%
-		\ifblank{#5}{}{#5 \\}
-		#6%
-	}\\
+        \ifblank{#5}{}{#5 \\}
+        #6%
+    }\\
 }
 
 %----------------------------------------------------------------------------------------
-%	 SMALL LIST ENVIRONMENT
+%    SMALL LIST ENVIRONMENT
 %----------------------------------------------------------------------------------------
 
 \setlength{\tabcolsep}{0pt}
 
 % New environment for the small list
 \newenvironment{twentyshort}{%
-	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
-	\end{tabular*}
+    \end{tabular*}
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	#1&\parbox[t]{0.83\textwidth}{%
-		#2%
-	}\\
+    #1&\parbox[t]{0.83\textwidth}{%
+        #2%
+    }\\
 }
 
 %----------------------------------------------------------------------------------------
-%	 MARGINS AND LINKS
+%    MARGINS AND LINKS
 %----------------------------------------------------------------------------------------
 
 \RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.1cm,nohead,nofoot]{geometry}
