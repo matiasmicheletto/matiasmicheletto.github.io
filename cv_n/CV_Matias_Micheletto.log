@@ -1,12 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.16)  11 AUG 2020 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.16)  14 JAN 2021 20:15
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**CV_Prof.tex
-(./CV_Prof.tex
+**/home/matias/Proyectos/git_repos/matiasmicheletto.github.io/cv_n/CV_Matias_Micheletto.tex
+(/home/matias/Proyectos/git_repos/matiasmicheletto.github.io/cv_n/CV_Matias_Micheletto.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(./twentysecondcv.cls
+(/home/matias/Proyectos/git_repos/matiasmicheletto.github.io/cv_n/twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -24,12 +25,9 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+ (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2016/01/19 v6377 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
 L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
@@ -135,12 +133,10 @@ L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
 \l__coffin_scaled_total_height_dim=\dimen132
 \l__coffin_scaled_width_dim=\dimen133
 L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+) (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count109
-))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count110
 \l__xparse_m_args_int=\count111
@@ -153,7 +149,7 @@ Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
-! Fatal fontspec error: "cannot-use-pdftex"
+/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty:28: Fatal fontspec error: "cannot-use-pdftex"
 ! 
 ! The fontspec package requires either XeTeX or LuaTeX.
 ! 
@@ -173,13 +169,13 @@ l.28 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
 
  ) ) ) 
 Here is how much of TeX's memory you used:
- 7101 strings out of 493029
- 143483 string characters out of 6136233
- 157022 words of memory out of 5000000
+ 7102 strings out of 493029
+ 143921 string characters out of 6136233
+ 157035 words of memory out of 5000000
  10703 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,1n,44p,10385b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,1n,44p,10463b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.
 PDF statistics:
