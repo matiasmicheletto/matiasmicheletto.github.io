@@ -1,0 +1,270 @@
+{
+    "main-header": {
+        "es": "<span>Currículum Vitae</span>&amp; Portafolio",
+        "en": "<span>Resume</span>&amp; Portfolio"
+    },
+    "intro": {
+        "es": "Intro<span>01.</span>",
+        "en": "Intro<span>01.</span>"
+    },
+    "about": {
+        "es": "Sobre mí<span>02.</span>",
+        "en": "About me<span>02.</span>"
+    },
+    "skills": {
+        "es": "Habilidades<span>03.</span>",
+        "en": "Skills<span>03.</span>"
+    },
+    "education": {
+        "es": "Formación<span>04.</span>",
+        "en": "Education<span>04.</span>"
+    },    
+    "portfolio": {
+        "es": "Portafolio<span>05.</span>",
+        "en": "Portfolio<span>05.</span>"
+    },
+    "experience": {
+        "es": "Experiencia<span>06.</span>",
+        "en": "Experience<span>06.</span>"
+    },
+    "projects": {
+        "es": "Proyectos<span>07.</span>",
+        "en": "Projects<span>07.</span>"
+    },
+    "contact": {
+        "es": "Contacto<span>08.</span>",
+        "en": "Contact<span>08.</span>"
+    },
+    "section-about" : {
+        "es": "Sobre mí",
+        "en": "About me"
+    },
+    "section-skills" : {
+        "es": "Conocimientos &amp; Habilidades",
+        "en": "Knowledge &amp; Skills"
+    },
+    "section-education" : {
+        "es": "Formación",
+        "en": "Education"
+    },
+    "section-tech" : {
+        "es": "Programación &amp; Diseño",
+        "en": "Programming &amp; Design"
+    },
+    "section-portfolio" : {
+        "es": "Portafolio",
+        "en": "Portfolio"
+    },
+    "section-experience" : {
+        "es": "Experiencia laboral",
+        "en": "Experience"
+    },
+    "section-open-source" : {
+        "es": "Prototipos Open-Source",
+        "en": "Open-Source prototypes"
+    },
+    "section-contact" : {
+        "es": "Contacto",
+        "en": "Contact"
+    },
+    "ctr-publications" : {
+        "es": "Publicaciones",
+        "en": "Publications"
+    },
+    "ctr-conferences" : {
+        "es": "Congresos",
+        "en": "Conferences"
+    },
+    "ctr-projects" : {
+        "es": "Proyectos",
+        "en": "Projects"
+    },
+    "ctr-awards" : {
+        "es": "Premios",
+        "en": "Awards"
+    },
+    "about-p1" : {
+        "es": "Hola! Soy Matías Micheletto",
+        "en": "Hi! I am Matías Micheletto"
+    },
+    "about-p2" : {
+        "es": "Soy Ingeniero Electrónico doctorado en Ingeniería, docente universitario y desarrollador independiente, de Bahía Blanca, Argentina.",
+        "en": "I am a PhD Electronic Engineer and software developer enthusiast, from Bahía Blanca, Argentina."
+    },
+    "about-p3" : {
+        "es": "Trabajando en grupos de investigación multidisciplinarios, ha adquirido experiencia y habilidades en el desarrollo de soluciones tecnológicas aplicadas a un amplio espectro de problemáticas.",
+        "en": "After obtaining my Electronic Engineering degree, I started working as PhD candidate under a CONICET intern scholarship where acquired skills and experience in data science, software and hardware development applied to a wide variety of applications and collaborating with researchers from different disciplines."
+    },
+    "about-p4" : {
+        "es": "Durante el periodo doctoral, en paralelo a las actividades de investigación y docencia, he tenido la posibilidad de trabajar con análisis y procesamiento de datos, desarrollo de  aplicaciones móviles, web y de escritorio, como así también en la implementación de sistemas embebidos.",
+        "en": "I have worked as teaching assistant and have published 5+ articles in international journals and participated in 15+ national and international conferences related to technology, education and engineering."
+    },
+    "skills-1-title" : {
+        "es": "Ciencia de datos",
+        "en": "Data science"
+    },
+    "skills-1-detail" : {
+        "es": "Extracción de información. Modelado, simulación y optimización numérica. Investigación operativa.",
+        "en": "Information extraction. Modeling, simulation and numeric optimization. Operations research."
+    },
+    "skills-2-title" : {
+        "es": "Software",
+        "en": "Software"
+    },
+    "skills-2-detail" : {
+        "es": "Diseño e implementación de aplicaciones móviles, web y de escritorio. Desarrollo de firmware para sistemas embebidos.",
+        "en": "Design and implementation of web, desktop and mobiles apps. Firmware development for embedded systems."
+    },
+    "skills-3-title" : {
+        "es": "Hardware",
+        "en": "Hardware"
+    },
+    "skills-3-detail" : {
+        "es": "Diseño y fabricación de PCB. Diseño de piezas y mecanismos para impresión 3D.",
+        "en": "PCB design and manufacturing. 3D design of parts and mechanisms for printing."
+    },
+    "skills-4-title" : {
+        "es": "Educación",
+        "en": "Coaching"
+    },
+    "skills-4-detail" : {
+        "es": "Docencia universitaria. Capacitación y formación de recursos humanos.",
+        "en": "University level teaching. Human resources coaching and training."
+    },
+    "edu-1-title" : {
+        "es": "Doctorado en Ingeniería",
+        "en": "Engineering PhD"
+    },
+    "edu-1-detail" : {
+        "es": "Título de tesis: \"Desarrollo de Sistemas Computacionales para Sustento de Tareas Agropecuarias en el Sudoeste de la Provincia de Buenos Aires\".",
+        "en": "Title of thesis: \"Development of Computer Systems for Supporting Agricultural Work in the Southwest of the Buenos Aires Province\"."
+    },
+    "edu-1-extra" : {
+        "es": "Directores: Dr. Rodrigo M. Santos, Dr. Juan A. Galantini.",
+        "en": "Advisors: Dr. Rodrigo M. Santos, Dr. Juan A. Galantini."
+    },
+    "edu-2-title" : {
+        "es": "Ingeniería Electrónica",
+        "en": "Electronic Engineering"
+    },
+    "edu-2-detail" : {
+        "es": "Proyecto final: \"Planificación Óptima de Sistemas de Tiempo Real en Plataformas Multicore\". <br> Director: Dr. Javier D. Orozco.",
+        "en": "Final project: \"Optimal Real-Time Task Scheduling for Multicore Systems.\" <br> Advisor: Dr. Javier D. Orozco."
+    },
+    "edu-2-extra" : {
+        "es": "Promedio: 8.17/10",
+        "en": "GPA: 8.17/10"
+    },
+    "edu-3-title" : {
+        "es": "Técnico en Producción Agropecuaria y polimodal en Cs. Naturales",
+        "en": "Natural Sciences High School and Agriculture Production B.S."
+    },
+    "edu-3-detail" : {
+        "es": "Promedio: 7.79/10",
+        "en": "GPA: 7.79/10"
+    },
+    "exp-1-title" : {
+        "es": "Desarrollador front-end",
+        "en": "Front-end developer"
+    },
+    "exp-1-detail" : {
+        "es": "Colaboración en el desarrollo de la Aplicación Móvil, Back-Office, Panel Administrador y Tienda Online.",
+        "en": "Collaboration in the design and implementation of the CAPP mobile application, backoffice, admin panel and online shop."
+    },
+    "exp-2-li1" : {
+        "es": "Desarrollo de plataforma web para aplicaciones de actividades neuro-psicológicas (PsiMESH).",
+        "en": "Design and implementation of a PWA application."
+    },
+    "exp-2-li2" : {
+        "es": "Sistema de solicitud y administración de turnos Centro Integral de Neurociencias Aplicadas.",
+        "en": "Development of a patient appointment manager."
+    },
+    "exp-2-li3" : {
+        "es": "Diseño e implementación de dispositivos IoT para asistencia en comunicación y movilidad de personas con discapacidades motrices (EyeRobot).",
+        "en": "Design and implementation of IoT devices as communication interfaces for disabled people."
+    },
+    "exp-3-title" : {
+        "es": "Asistente de cátedra<br>Diseño de Circuitos Lógicos - Técnicas Digitales",
+        "en": "Teaching assistant<br>Digital electronic courses"
+    },
+    "exp-4-title" : {
+        "es": "Ayudante de cátedra graduado<br>Diseño de Circuitos Lógicos - Técnicas Digitales",
+        "en": "Graduated teaching collaborator<br>Digital electronic courses"
+    },
+    "exp-5-title" : {
+        "es": "Pasante interno<br>Desarrollo de un Libro Multimedial interactivo de Mecánica",
+        "en": "Internship<br>Development of interactive and multimedia web applications"
+    },
+    "resume-n" : {
+        "es": "CV resumido",
+        "en": "Resume"
+    },
+    "resume-a" : {
+        "es": "CV académico",
+        "en": "Academic CV"
+    },
+    "contact-me" : {
+        "es": "Contactarme",
+        "en": "Get in touch"
+    },
+    "all" : {
+        "es": "Todo",
+        "en": "All"
+    },
+    "blog-autotest" : {
+        "es": "Una aplicación móvil que guía al usuario por una lista de menús configurables y un panel de administrador que permite definir y crear arboles de decisión formados por menús de contenido editable. Desarrollado en el contexto de la expansión de la pandemia de COVID-19.",
+        "en": "A mobile application that guides the user through a list of configurable menus and an administrator panel that allows defining and creating decision trees made up of menus with editable content. Developed in the context of the expanding COVID-19 pandemic."
+    },
+    "blog-eyerobot" : {
+        "es": "Robot FPV (First-Person View) inalámbrico controlado por Wifi mediante Eyetracker. Este robot permite simular el manejo de una silla de ruedas empleando un eyetracker como interface de control, para personas con movilidad reducida.",
+        "en": "Wireless FPV (First-Person View) robot controlled by Wifi via Eyetracker. This robot allows to simulate the handling of a wheelchair using an eyetracker as a controlling interface, intended for people with reduced mobility."
+    },
+    "blog-compostgrid" : {
+        "es": "Dataloggers GSM para monitorear variables de forma remota. Desarrollado para medir temperatura y conductividad eléctrica en pilas de compost, puede extenderse para diferentes procesos. Posee un puerto RS485 para conectar varios dispositivos en serie que comparten acceso a la red y alimentación.",
+        "en": "GSM dataloggers to monitor variables remotely. Developed to measure temperature and electrical conductivity in compost piles, it can be extended for different processes. It has an RS485 port to connect several serial devices that share access to the network and power"
+    },
+    "blog-cipressus" : {
+        "es": "Cipressus es un sistema de gestión de contenidos para el aprendizaje (LCMS). Esta aplicación web posee una interfaz para controlar un probador de circuitos digitales de 8 canales por USB o por medio de una conexión Bluetooth LE.",
+        "en": "Cipressus is a learning content management system (LCMS). This web application has an interface to control an 8-channel digital circuit tester via USB or via Bluetooth LE connection."
+    },
+    "blog-escaner" : {
+        "es": "Un prototipo que permite escanear la superficie del suelo midiendo la altura de la cobertura vegetal mediante un sensor de distancia láser accionado mediante un mecanismo CNC. Se adjunta una aplicación móvil para el control inalámbrico del escáner.",
+        "en": "A prototype that allows scanning the ground vegetal coverage by measuring the height of vegetation using a laser distance sensor controlled by a CNC mechanism. A mobile app is used as a wireless control for the device."
+    },
+    "blog-domecontroller" : {
+        "es": "Sistema de control realimentado de posicionamiento para una cúpula de 2.5 metros de diámetro de un observatorio clase ecuatorial.",
+        "en": "Position feedback control system for a 2.5 meter diameter dome of an equatorial-class observatory."
+    },
+    "read-more": {
+        "es": "Leer más ",
+        "en": "Read more "
+    },
+    "location" : {
+        "es": "Ubicación",
+        "en": "Location"
+    },
+    "phones" : {
+        "es": "Teléfonos",
+        "en": "Phones"
+    },
+    "name" : {
+        "es": "Nombre",
+        "en": "Name"
+    },
+    "email" : {
+        "es": "Email",
+        "en": "Email"
+    },
+    "subject" : {
+        "es": "Asunto",
+        "en": "Subject"
+    },
+    "your-message" : {
+        "es": "Tu mensaje",
+        "en": "Your message"
+    },
+    "send" : {
+        "es": "Enviar",
+        "en": "Send"
+    }
+}

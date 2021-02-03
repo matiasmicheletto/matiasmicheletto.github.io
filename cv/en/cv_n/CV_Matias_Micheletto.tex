@@ -1,0 +1,79 @@
+\documentclass{muratcan_cv}
+
+\setname{Dr. Matías Javier}{Micheletto}
+\setaddress{Bahía Blanca - Argentina}
+\setmobile{+54 9 291 4380079}
+\setmail{matiasmicheletto@gmail.com}
+\setposition{Work Student} 
+\setlinkedinaccount{https://www.linkedin.com/in/matiasmicheletto/}
+\setgithubaccount{https://matiasmicheletto.github.io}
+\setthemecolor{red}
+
+\begin{document}
+\headerview
+\vspace{1ex}
+
+\addblocktext{Summary}{
+After obtaining my Electronic Engineering degree, I started working as PhD candidate under a CONICET intern scholarship where acquired skills and experience in data science, software and hardware development applied to a wide variety of applications and collaborating with researchers from different disciplines. I have worked as teaching assistant and have published 5+ articles in international journals and participated in 15+ national and international conferences related to technology, education and engineering.
+}
+
+\section{Education} 
+    \datedexperience{Universidad Nacional del Sur}{2016-2021} 
+    \explanation{PhD Engineering} 
+    \explanationdetail{\coloredbullet\
+     Thesis title: ``Development of Computer Systems for Supporting Agricultural Work in the Southwest of the Buenos Aires Province''. Thesis grade: 10/10.
+     }
+    \explanationdetail{\coloredbullet\
+     Advisors: Dr. Rodrigo M. Santos and Dr. Juan A. Galantini.
+     }
+    \datedexperience{Universidad Nacional del Sur}{2007-2016} 
+    \explanation{B.S. Electronic Engineering} 
+     \explanationdetail{\coloredbullet \ 
+     GPA: 8.17/10. Awarded with four undergraduate student scholarships and a one-year internship.
+     }
+    
+
+\section{Experience}
+    %
+    \datedexperience{CAPP Mobile BB S.R.L.}{2019} 
+    \explanation{Front-end software developer} 
+    \explanationdetail{\coloredbullet\
+     Collaboration in the design and implementation of the CAPP mobile application, backoffice, admin panel and shop website.
+     }
+    %
+    \datedexperience{Neufitech S.R.L.}{2017-2019} 
+    \explanation{Full-stack web developer and IoT Engineer} 
+    \explanationdetail{\coloredbullet\
+     Design and implementation of a PWA platform. Desing and implementation of IoT devices as interfaces for disabled people.
+     }
+    %
+    \datedexperience{Universidad Nacional del Sur}{2016-2020} 
+    \explanation{Teaching assistant} 
+    \explanationdetail{\coloredbullet\
+     Digital electronic courses for engineering students.
+     }
+    
+    
+\section{Skills}
+    \newcommand{\skillone}{\createskill{Programming Languages}{\textbf{\emph{Experienced:}} \ \  HTML+JS+CSS \cpshalf C++ \cpshalf Matlab \ \ \textbf{\emph{Familiar:}} \ \  Python \cpshalf SQL \cpshalf Java}}
+    \newcommand{\skillthree}{\createskill{Data Science Tools \ \& \ Libraries}{Jupyter \cpshalf Matplotplib \cpshalf Numpy \cpshalf Pandas \cpshalf Scikit-learn}}
+    \newcommand{\skillfour}{\createskill{Web Frameworks and Tools}{ReactJS \cpshalf Angular 1 \cpshalf Bootstrap \cpshalf Materialize \cpshalf Framework7 \cpshalf Firebase \cpshalf Heroku}}
+    \newcommand{\skillfive}{\createskill{Mobile Development}{ Apache Cordova \cpshalf React Native }}
+    \newcommand{\skillsix}{\createskill{IoT and Embedded Systems}{ Arduino \cpshalf NodeMCU \cpshalf Raspberry }}
+    \createskills{\skillone, \skillthree, \skillfour, \skillfive, \skillsix}
+    
+\section{Extra}
+    \newcommand{\extraone}{
+    Awarded 2nd place ``Agroton 2018'' (24hr innovation contest).
+    }
+    \newcommand{\extratwo}{
+    Teaching and coaching habilities acquired through 5+ years experience in college's engineering courses.
+    }
+    \newcommand{\extrathree}{
+    Creative problem solver, detailed and meticulous.
+    }
+    \newcommand{\listofextras}{\extraone, \extratwo, \extrathree}
+    \createbullets{\listofextras}
+
+\createfootnote
+\end{document}

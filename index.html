@@ -7,10 +7,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Matias Micheletto - CV y Portafolio">
-    <meta name="keywords" content="Matias Micheletto, IoT, Developer, CV, Personal, Portfolio, Data Science">
+    <meta name="description" content="Matias Micheletto - Resume and Portfolio">
+    <meta name="keywords" content="Matias Micheletto, IoT, Developer, CV, Personal, Portfolio, Data Scientist">
 
     <title>Matías Micheletto - CV &amp; Portfolio</title>
+
     <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,800">
@@ -25,7 +26,7 @@
 </head>
 
 <body>    
-        
+
     <div class="preloader">
         <div class="loading-inner"></div>
     </div>
@@ -45,28 +46,28 @@
         <div class="menu-list">
             <ul class="menu-links list-unstyled">
                 <li>
-                    <a class="active" href="#home">Intro<span>01.</span></a>
+                    <a class="active trn" href="#home">intro</a>
                 </li>
                 <li>
-                    <a href="#about">Sobre mí<span>02.</span></a>
+                    <a class="trn" href="#about">about</a>
                 </li>
                 <li>
-                    <a href="#services">Habilidades<span>03.</span></a>
+                    <a class="trn" href="#services">skills</a>
                 </li>
                 <li>
-                    <a href="#education">Formación<span>04.</span></a>
+                    <a class="trn" href="#education">education</a>
                 </li>
                 <li>
-                    <a href="#portfolio">Portafolio<span>05.</span></a>
+                    <a class="trn" href="#portfolio">portfolio</a>
                 </li>
                 <li>
-                    <a href="#resume">Experiencia<span>06.</span></a>
+                    <a class="trn" href="#resume">experience</a>
                 </li>
                 <li>
-                    <a href="#blog">Proyectos<span>07.</span></a>
+                    <a class="trn" href="#blog">projects</a>
                 </li>
                 <li>
-                    <a href="#contact">Contacto<span>08.</span></a>
+                    <a class="trn" href="#contact">contact</a>
                 </li>
             </ul>
         </div>
@@ -83,13 +84,19 @@
     <!-- INTRODUCCION -->
 
     <div class="page-content">
+
+        <select id="lang-selector" class="select-picker">
+            <option value="es">ES</option>
+            <option value="en">EN</option>            
+        </select>
+
         <section class="home" id="home">
             <div class="overlay">
                 <div class="main-container">
                     <div class="intro display-table">
                         <div class="display-table-cell">
                             <h4>Matías Micheletto</h4>
-                            <h3><span>Currículum Vitae</span>&amp; Portafolio</h3>
+                            <h3 class="trn">main-header</h3>
                         </div>
                     </div>
                 </div>
@@ -98,7 +105,7 @@
         <section class="about-me" id="about">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Sobre mí<span><i class="fa fa-vcard"></i></span></h2>
+                    <h2><span class="trn">section-about</span><span><i class="fa fa-vcard"></i></span></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-5 col-md-6">
@@ -108,17 +115,13 @@
                     </div>
                     <div class="col-lg-7 col-md-6">
                         <div class="about-info wow fadeInRight" data-wow-duration="1.7s">
-                            <h3>Hola! Soy Matías Micheletto</h3>
-                            <h4>Soy Ingeniero Electrónico doctorado en Ingeniería, docente universitario y desarrollador independiente, de Bahía Blanca, Argentina.</h4>
-                            <p>Trabajando en grupos de investigación multidisciplinarios, ha adquirido experiencia y habilidades en el 
-                            desarrollo de soluciones tecnológicas aplicadas a un amplio espectro de problemáticas.</p>
-                            <p>Durante el periodo doctoral, en paralelo a las actividades de investigación y 
-                            docencia, he tenido la posibilidad de trabajar con análisis y procesamiento de 
-                            datos, desarrollo de  aplicaciones móviles, web y de escritorio, como así también 
-                            en la implementación de sistemas embebidos.</p>
-                            <a href="cv_a/CV_Matias_Micheletto.pdf" target="_blank" class="main-btn btn-download">CV académico</a>
-                            <a href="cv_n/CV_Matias_Micheletto.pdf"  target="_blank" class="main-btn btn-download">CV no académico</a>
-                            <a href="#contact" class="main-btn">Contactarme</a>
+                            <h3 class="trn">about-p1</h3>
+                            <h4 class="trn">about-p2</h4>
+                            <p class="trn">about-p3</p>
+                            <p class="trn">about-p4</p>
+                            <a id="resume-a-link" href="cv/es/cv_a/CV_Matias_Micheletto.pdf" target="_blank" class="main-btn btn-download trn">resume-a</a>
+                            <a id="resume-n-link" href="cv/es/cv_n/CV_Matias_Micheletto.pdf"  target="_blank" class="main-btn btn-download trn">resume-n</a>
+                            <a href="#contact" class="main-btn trn">contact-me</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +135,7 @@
         <section class="services" id="services">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Conocimientos &amp; Habilidades<span><i class="fa fa-tasks"></i></span></h2>
+                    <h2><span class="trn">section-skills</span><span><i class="fa fa-tasks"></i></span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
@@ -140,8 +143,8 @@
                             <div class="service-icon">
                                 <i class="fa fa-bar-chart fa-lg"></i>
                             </div>
-                            <h4>Ciencia de datos</h4>
-                            <p>Extracción de información. Modelado, simulación y optimización numérica. Investigación operativa.</p>
+                            <h4 class="trn">skills-1-title</h4>
+                            <p class="trn">skills-1-detail</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -149,8 +152,8 @@
                             <div class="service-icon">
                                 <i class="fa fa-code fa-lg"></i>
                             </div>
-                            <h4>Software</h4>
-                            <p>Diseño e implementación de aplicaciones móviles, web y de escritorio. Desarrollo de firmware para sistemas embebidos.</p>
+                            <h4 class="trn">skills-2-title</h4>
+                            <p class="trn">skills-2-detail</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -158,8 +161,8 @@
                             <div class="service-icon">
                                 <i class="fa fa-gears fa-lg"></i>
                             </div>
-                            <h4>Hardware</h4>
-                            <p>Diseño y fabricación de PCB. Diseño de piezas y mecanismos para impresión 3D.</p>
+                            <h4 class="trn">skills-3-title</h4>
+                            <p class="trn">skills-3-detail</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -167,8 +170,8 @@
                             <div class="service-icon">
                                 <i class="fa fa-graduation-cap fa-lg"></i>
                             </div>
-                            <h4>Educación</h4>
-                            <p>Docencia universitaria. Capacitación y formación de recursos humanos.</p>
+                            <h4 class="trn">skills-4-title</h4>
+                            <p class="trn">skills-4-detail</p>
                         </div>
                     </div>
                 </div>
@@ -181,7 +184,7 @@
         <section class="resume" id="education">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Formación<span><i class="fa fa-graduation-cap"></i></span></h2>
+                    <h2><span class="trn">section-education</span><span><i class="fa fa-graduation-cap"></i></span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -190,22 +193,17 @@
                                 <div class="resume-icon"><i class="fa fa-graduation-cap"></i></div>
                                 <div class="resume-date">2016 - 2020</div>
                                 <h4>Universidad Nacional del Sur</h4>
-                                <span>Doctorado en Ingeniería</span>
-                                <p>Título de tesis: "Desarrollo de Sistemas Computacionales para Sustento de Tareas
-                                    Agropecuarias en el Sudoeste de la Provincia de Buenos Aires".</p>
-                                <p>Directores: Dr. Rodrigo M. Santos, Dr. Juan A. Galantini</p>
+                                <span class="trn">edu-1-title</span>
+                                <p class="trn">edu-1-detail</p>
+                                <p class="trn">edu-1-extra</p>
                             </div>
                             <div class="resume-item">
                                 <div class="resume-icon"><i class="fa fa-graduation-cap"></i></div>
                                 <div class="resume-date">2007 - 2016</div>
                                 <h4>Universidad Nacional del Sur</h4>
-                                <span>Ingeniería Electrónica</span>
-                                <p>
-                                    Proyecto final: "Planificación Óptima de Sistemas de Tiempo Real en Plataformas
-                                    Multicore". <br>
-                                    Director: Dr. Javier D. Orozco
-                                </p>
-                                <p>Promedio: 8.17/10</p>
+                                <span class="trn">edu-2-title</span>
+                                <p class="trn">edu-2-detail</p>
+                                <p class="trn">edu-2-extra</p>
                             </div>
                         </div>
                     </div>
@@ -214,9 +212,9 @@
                             <div class="resume-item">
                                 <div class="resume-icon"><i class="fa fa-graduation-cap"></i></div>
                                 <div class="resume-date">2004 - 2006</div>
-                                <h4>Escuela de Agricultura y Ganadería U.N.S.</h4>
-                                <span>Técnico en Producción Agropecuaria y polimodal en Cs. Naturales</span>
-                                <p>Promedio: 7.79/10</p>
+                                <h4 class="trn">Escuela de Agricultura y Ganadería U.N.S.</h4>
+                                <span class="trn">edu-3-title</span>
+                                <p class="trn">edu-3-detail</p>
                             </div>
                         </div>
                     </div>
@@ -231,7 +229,7 @@
         <section class="skills">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Programación &amp; Diseño<span><i class="fa fa-gears"></i></span></h2>
+                    <h2><span class="trn">section-tech</span><span><i class="fa fa-gears"></i></span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-6 col-xs-6 skill-xs">
@@ -292,11 +290,11 @@
         <section class="portfolio" id="portfolio">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Portafolio<span><i class="fa fa-briefcase"></i></span></h2>
+                    <h2><span class="trn">section-portfolio</span><span><i class="fa fa-briefcase"></i></span></h2>
                 </div>
                 <div class="filter-menu">
                     <ul id="control" class="list-filter list-unstyled">
-                        <li class="active" data-filter="all">Todo</li>
+                        <li class="active trn" data-filter="all">all</li>
                         <li data-filter="1">Website</li>
                         <li data-filter="2">App</li>
                         <li data-filter="3">PWA</li>
@@ -439,8 +437,8 @@
                             <div class="fact-icon">
                                 <i class="fa fa-book fa-lg"></i>
                             </div>
-                            <h4>Publicaciones</h4>
-                            <span class="fact-number" data-from="0" data-to="5" data-speed="2500"></span>
+                            <h4 class="trn">ctr-publications</h4>
+                            <span class="fact-number" data-from="0" data-to="7" data-speed="2500"></span>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -448,7 +446,7 @@
                             <div class="fact-icon">
                                 <i class="fa fa-graduation-cap fa-lg"></i>
                             </div>
-                            <h4>Participación en congresos</h4>
+                            <h4 class="trn">ctr-conferences</h4>
                             <span class="fact-number" data-from="0" data-to="12" data-speed="2500"></span>
                         </div>
                     </div>
@@ -457,8 +455,8 @@
                             <div class="fact-icon">
                                 <i class="fa fa-briefcase fa-lg"></i>
                             </div>
-                            <h4>Proyectos</h4>
-                            <span class="fact-number" data-from="0" data-to="10" data-speed="2500"></span>
+                            <h4 class="trn">ctr-projects</h4>
+                            <span class="fact-number" data-from="0" data-to="20" data-speed="2500"></span>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -466,7 +464,7 @@
                             <div class="fact-icon">
                                 <i class="fa fa-trophy fa-lg"></i>
                             </div>
-                            <h4>Premios</h4>
+                            <h4 class="trn">ctr-awards</h4>
                             <span class="fact-number" data-from="0" data-to="1" data-speed="2500"></span>
                         </div>
                     </div>
@@ -481,7 +479,7 @@
         <section class="resume" id="resume">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Experiencia laboral<span><i class="fa fa-suitcase"></i></span></h2>
+                    <h2><span class="trn">section-experience</span><span><i class="fa fa-suitcase"></i></span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -491,9 +489,8 @@
                                 <div class="resume-date">2019</div>
                                 <h4>CAPP</h4>
                                 <span>CAPP Mobile BB S.R.L.</span>
-                                <p>Desarrollador front-end</p>
-                                <p>Colaboración en el desarrollo de la Aplicación Móvil, Back-Office, Panel
-                                    Administrador y Tienda Online.</p>
+                                <p class="trn">exp-1-title</p>
+                                <p class="trn">exp-1-detail</p>
                             </div>
                             <div class="resume-item">
                                 <div class="resume-icon"><i class="fa fa-suitcase"></i></div>
@@ -502,12 +499,9 @@
                                 <span>Neufitech S.R.L.</span>
                                 <p>
                                     <ul style="color: #c2c0c3">
-                                        <li>Desarrollo de plataforma web para aplicaciones de actividades
-                                            neuro-psicológicas (PsiMESH).</li>
-                                        <li>Sistema de solicitud y administración de turnos Centro Integral de
-                                            Neurociencias Aplicadas.</li>
-                                        <li>Diseño e implementación de dispositivos IoT para asistencia en comunicación
-                                            y movilidad de personas con discapacidades motrices (EyeRobot)</li>
+                                        <li class="trn">exp-2-li1</li>
+                                        <li class="trn">exp-2-li2</li>
+                                        <li class="trn">exp-2-li3</li>
                                     </ul>
                                 </p>
                             </div>
@@ -520,30 +514,21 @@
                                 <div class="resume-date">2019 - 2020</div>
                                 <h4>Universidad Nacional del Sur</h4>
                                 <span>Dpto. de Ingeniería Eléctrica y Computadoras</span>
-                                <p>
-                                    Asistente de cátedra <br>
-                                    Diseño de Circuitos Lógicos - Técnicas Digitales
-                                </p>
+                                <p class="trn">exp-3-title</p>
                             </div>
                             <div class="resume-item">
                                 <div class="resume-icon"><i class="fa fa-suitcase"></i></div>
                                 <div class="resume-date">2016 - 2018</div>
                                 <h4>Universidad Nacional del Sur</h4>
                                 <span>Dpto. de Ingeniería Eléctrica y Computadoras</span>
-                                <p>
-                                    Ayudante de cátedra graduado <br>
-                                    Diseño de Circuitos Lógicos - Técnicas Digitales
-                                </p>
+                                <p class="trn">exp-4-title</p>
                             </div>
                             <div class="resume-item">
                                 <div class="resume-icon"><i class="fa fa-suitcase"></i></div>
                                 <div class="resume-date">2014</div>
                                 <h4>Universidad Nacional del Sur</h4>
                                 <span>Dpto. de Ingeniería Eléctrica y Computadoras</span>
-                                <p>
-                                    Pasante interno <br>
-                                    Desarrollo de un Libro Multimedial interactivo de Mecánica
-                                </p>
+                                <p class="trn">exp-5-title</p>
                             </div>
                         </div>
                     </div>
@@ -557,7 +542,7 @@
         <section class="blog" id="blog">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Prototipos Open-Source<span><i class="fa fa-newspaper-o"></i></span></h2>
+                    <h2><span class="trn">section-open-source</span><span><i class="fa fa-newspaper-o"></i></span></h2>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-md-4">
@@ -578,16 +563,10 @@
                                     </li>
                                 </ul>
                                 <div class="post-text">
-                                    <p>
-                                        Una aplicación móvil que guía al usuario por una lista de menús configurables y
-                                        un panel de administrador
-                                        que permite definir y crear arboles de decisión formados por menús de contenido
-                                        editable. Desarrollado
-                                        en el contexto de la expansión de la pandemia de COVID-19.
-                                    </p>
+                                    <p class="trn">blog-autotest</p>
                                 </div>
-                                <a href="https://github.com/matiasmicheletto/autotest-creator" class="post-more">Leer
-                                    más <i class="fa fa-angle-double-right"></i></a>
+                                <a href="https://github.com/matiasmicheletto/autotest-creator" class="post-more"><span class="trn">read-more</span>
+                                    <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -614,13 +593,10 @@
                                     </li>-->
                                 </ul>
                                 <div class="post-text">
-                                    <p>Robot FPV (First-Person View) inalámbrico controlado por Wifi mediante
-                                        Eyetracker. Este robot permite simular el manejo de una silla de ruedas
-                                        empleando un eyetracker como interface de control, para personas con movilidad
-                                        reducida.</p>
+                                    <p class="trn">blog-eyerobot</p>
                                 </div>
-                                <a href="https://github.com/matiasmicheletto/EyeRobot" class="post-more">Leer más <i
-                                        class="fa fa-angle-double-right"></i></a>
+                                <a href="https://github.com/matiasmicheletto/EyeRobot" class="post-more"><span class="trn">read-more</span>
+                                    <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -643,15 +619,10 @@
                                     </li>
                                 </ul>
                                 <div class="post-text">
-                                    <p>Dataloggers GSM para monitorear variables de forma remota. Desarrollado para
-                                        medir temperatura y
-                                        conductividad eléctrica en pilas de compost, puede extenderse para diferentes
-                                        procesos. Posee
-                                        un puerto RS485 para conectar varios dispositivos en serie que comparten acceso
-                                        a la red y alimentación.</p>
+                                    <p class="trn">blog-compostgrid</p>
                                 </div>
-                                <a href="https://github.com/matiasmicheletto/CompostGrid" class="post-more">Leer más <i
-                                        class="fa fa-angle-double-right"></i></a>
+                                <a href="https://github.com/matiasmicheletto/CompostGrid" class="post-more"><span class="trn">read-more</span> 
+                                    <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -677,12 +648,10 @@
                                     </li>
                                 </ul>
                                 <div class="post-text">
-                                    <p>Cipressus es un sistema de gestión de contenidos para el aprendizaje (LCMS). Esta
-                                        aplicación web posee una interfaz para controlar un probador de circuitos
-                                        digitales de 8 canales por USB o por medio de una conexión Bluetooth LE.</p>
+                                    <p class="trn">blog-cipressus</p>
                                 </div>
-                                <a href="https://github.com/matiasmicheletto/Cipressus" class="post-more">Leer más <i
-                                        class="fa fa-angle-double-right"></i></a>
+                                <a href="https://github.com/matiasmicheletto/Cipressus" class="post-more"><span class="trn">read-more</span> 
+                                    <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -695,7 +664,7 @@
                             <div class="post-content">
                                 <div class="post-title">
                                     <a href="https://github.com/matiasmicheletto/EscanerLidar">
-                                        <h4>Escaner Lidar</h4>
+                                        <h4 class="trn">Escaner Lidar</h4>
                                     </a>
                                 </div>
                                 <ul class="post-info list-unstyled">
@@ -705,13 +674,10 @@
                                     </li>
                                 </ul>
                                 <div class="post-text">
-                                    <p>Un prototipo que permite escanear la superficie del suelo midiendo la altura de
-                                        la cobertura vegetal mediante un sensor de distancia láser accionado mediante un
-                                        mecanismo CNC. Se adjunta una aplicación móvil para el control inalámbrico del
-                                        escáner.</p>
+                                    <p class="trn">blog-escaner</p>
                                 </div>
-                                <a href="https://github.com/matiasmicheletto/EscanerLidar" class="post-more">Leer más <i
-                                        class="fa fa-angle-double-right"></i></a>
+                                <a href="https://github.com/matiasmicheletto/EscanerLidar" class="post-more"><span class="trn">read-more</span>
+                                    <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -734,12 +700,9 @@
                                     </li>
                                 </ul>
                                 <div class="post-text">
-                                    <p>
-                                        Sistema de control realimentado de posicionamiento para una cúpula de 2.5 metros
-                                        de diámetro de un observatorio clase ecuatorial.
-                                    </p>
+                                    <p class="trn">blog-domecontroller</p>
                                 </div>
-                                <a href="https://github.com/matiasmicheletto/DomeController" class="post-more">Leer más
+                                <a href="https://github.com/matiasmicheletto/DomeController" class="post-more"><span class="trn">read-more</span>
                                     <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -756,7 +719,7 @@
         <section class="contact" id="contact">
             <div class="main-container">
                 <div class="main-title">
-                    <h2>Contacto<span><i class="fa fa-headphones"></i></span></h2>
+                    <h2><span class="trn">section-contact</span><span><i class="fa fa-headphones"></i></span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -768,7 +731,7 @@
                                             <i class="fa fa-map-marker"></i>
                                         </div>
                                         <div class="name-box">
-                                            <h4>Ubicación</h4>
+                                            <h4 class="trn">location</h4>
                                         </div>
                                     </div>
                                     <div class="content-box">
@@ -785,7 +748,7 @@
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="name-box">
-                                            <h4>Email</h4>
+                                            <h4 class="trn">email</h4>
                                         </div>
                                     </div>
                                     <div class="content-box">
@@ -800,7 +763,7 @@
                                             <i class="fa fa-phone"></i>
                                         </div>
                                         <div class="name-box">
-                                            <h4>Teléfonos</h4>
+                                            <h4 class="trn">phones</h4>
                                         </div>
                                     </div>
                                     <div class="content-box">
@@ -818,7 +781,7 @@
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="name" name="name" required value=""
                                             onkeyup="this.setAttribute('value', this.value);">
-                                        <label for="name">Nombre</label>
+                                        <label class="trn" for="name">name</label>
                                         <span class="input-border"></span>
                                     </div>
                                 </div>
@@ -826,7 +789,7 @@
                                     <div class="form-group">
                                         <input type="email" class="form-control" id="email" name="email" required
                                             value="" onkeyup="this.setAttribute('value', this.value);">
-                                        <label for="email">Email</label>
+                                        <label class="trn" for="email">email</label>
                                         <span class="input-border"></span>
                                     </div>
                                 </div>
@@ -834,7 +797,7 @@
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="subject" name="subject" required
                                             value="" onkeyup="this.setAttribute('value', this.value);">
-                                        <label for="subject">Asunto</label>
+                                        <label class="trn" for="subject">subject</label>
                                         <span class="input-border"></span>
                                     </div>
                                 </div>
@@ -843,12 +806,12 @@
                                         <textarea class="form-control" id="message" name="message" required
                                             data-value=""
                                             onkeyup="this.setAttribute('data-value', this.value);"></textarea>
-                                        <label for="message">Tu mensaje</label>
+                                        <label class="trn" for="message">your-message</label>
                                         <span class="input-border"></span>
                                     </div>
                                 </div>
                             </div>
-                            <button class="main-btn" type="submit" name="send">Enviar</button>
+                            <button class="main-btn trn" type="submit" name="send">send</button>
                         </form>
                     </div>
                 </div>
@@ -889,7 +852,7 @@
                     <a href="https://www.codewars.com/users/matiasmicheletto/"><img
                             src="https://www.codewars.com/users/matiasmicheletto/badges/small"></a>
                     <br><br>
-                    <p>Matías Micheletto &copy; 2020</p>
+                    <p>Matías Micheletto &copy; 2021</p>
                 </div>
             </div>
         </footer>
@@ -899,10 +862,11 @@
         </a>
     </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.translate.js"></script>
     <script src="js/jquery.countTo.min.js"></script>
     <script src="js/jquery.filterizr.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>

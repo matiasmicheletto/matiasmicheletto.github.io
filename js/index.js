@@ -6,7 +6,8 @@ $(function () {
         htmlBody = $("html, body"),
         scrollToTop = $(".scroll-top"),
         progressCheck = false,
-        factsCheck = false;
+        factsCheck = false,
+        langSelector = $("#lang-selector");
         
     $('.preloader').delay(200).fadeOut(700, function () {
         $(this).remove();
@@ -29,6 +30,7 @@ $(function () {
             $(".slide-menu .menu-list li a[href='#" + $(this).attr("id") + "']").addClass("active").parent().siblings().find("a").removeClass("active");
         }
     });
+
     win.on("scroll", function () {
         $("section").each(function () {
             if (win.scrollTop() >= $(this).offset().top - 1) {
@@ -70,6 +72,7 @@ $(function () {
     $("#control li").on('click', function () {
         $(this).addClass('active').siblings("li").removeClass('active');
     });
+
     $('#filtr-container').filterizr({
         animationDuration: 0.4
     });
@@ -127,5 +130,17 @@ $(function () {
         }, 800);
     });
     
+    $.getJSON( "js/dictionary.json", function( data ) {
+        var translator = $('body').translate({lang: "es", t: data});
+        
+        langSelector.on("click", function(e) {            
+            translator.lang(this.value);
+            $("#resume-a-link").attr('href',`cv/${this.value}/cv_a/CV_Matias_Micheletto.pdf`);
+            $("#resume-n-link").attr('href',`cv/${this.value}/cv_n/CV_Matias_Micheletto.pdf`);
+        });
+    });
+
     new WOW().init();
 });
+
+
