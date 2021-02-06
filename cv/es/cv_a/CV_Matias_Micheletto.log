@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.12.27)  26 JAN 2021 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.12.27)  6 FEB 2021 20:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/matias/Documents/repos/matiasmicheletto.github.io/cv_a/CV_Matias_Micheletto.tex
-(/home/matias/Documents/repos/matiasmicheletto.github.io/cv_a/CV_Matias_Micheletto.tex
+**/home/matias/Documents/repos/matiasmicheletto.github.io/cv/es/cv_a/CV_Matias_Micheletto.tex
+(/home/matias/Documents/repos/matiasmicheletto.github.io/cv/es/cv_a/CV_Matias_Micheletto.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-07-17> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -240,7 +240,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count266
 \l__pdf_internal_box=\box51
-) (/home/matias/Documents/repos/matiasmicheletto.github.io/cv_a/CV_Matias_Micheletto.aux
+) (/home/matias/Documents/repos/matiasmicheletto.github.io/cv/es/cv_a/CV_Matias_Micheletto.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
@@ -327,7 +327,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
- (/home/matias/Documents/repos/matiasmicheletto.github.io/cv_a/CV_Matias_Micheletto.out) (/home/matias/Documents/repos/matiasmicheletto.github.io/cv_a/CV_Matias_Micheletto.out)
+ (/home/matias/Documents/repos/matiasmicheletto.github.io/cv/es/cv_a/CV_Matias_Micheletto.out) (/home/matias/Documents/repos/matiasmicheletto.github.io/cv/es/cv_a/CV_Matias_Micheletto.out)
 \@outlinefile=\write3
 \openout3 = `CV_Matias_Micheletto.out'.
 
@@ -352,7 +352,7 @@ Underfull \hbox (badness 3189) in paragraph at lines 234--235
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
  [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
- (/home/matias/Documents/repos/matiasmicheletto.github.io/cv_a/CV_Matias_Micheletto.aux
+ (/home/matias/Documents/repos/matiasmicheletto.github.io/cv/es/cv_a/CV_Matias_Micheletto.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
@@ -364,14 +364,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
  ) 
 Here is how much of TeX's memory you used:
  7313 strings out of 480906
- 108978 string characters out of 5910771
+ 109056 string characters out of 5910771
  412852 words of memory out of 5000000
  22783 multiletter control sequences out of 15000+600000
  540671 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,9n,37p,291b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,9n,37p,297b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /home/matias/Documents/repos/matiasmicheletto.github.io/cv_a/CV_Matias_Micheletto.pdf (5 pages, 121205 bytes).
+Output written on /home/matias/Documents/repos/matiasmicheletto.github.io/cv/es/cv_a/CV_Matias_Micheletto.pdf (5 pages, 121205 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
