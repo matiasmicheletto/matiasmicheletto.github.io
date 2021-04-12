@@ -19,21 +19,29 @@
         "es": "Formación<span>04.</span>",
         "en": "Education<span>04.</span>"
     },    
+    "stats": {
+        "es": "Tecnologías<span>05.</span>",
+        "en": "Tech &amp; tools<span>05.</span>"
+    },
     "portfolio": {
-        "es": "Portafolio<span>05.</span>",
-        "en": "Portfolio<span>05.</span>"
+        "es": "Portafolio<span>06.</span>",
+        "en": "Portfolio<span>06.</span>"
+    },
+    "facts": {
+        "es": "Números<span>07.</span>",
+        "en": "Stats<span>07.</span>"
     },
     "experience": {
-        "es": "Experiencia<span>06.</span>",
-        "en": "Experience<span>06.</span>"
+        "es": "Experiencia<span>08.</span>",
+        "en": "Experience<span>08.</span>"
     },
     "projects": {
-        "es": "Proyectos<span>07.</span>",
-        "en": "Projects<span>07.</span>"
+        "es": "Proyectos<span>09.</span>",
+        "en": "Projects<span>09.</span>"
     },
     "contact": {
-        "es": "Contacto<span>08.</span>",
-        "en": "Contact<span>08.</span>"
+        "es": "Contacto<span>10.</span>",
+        "en": "Contact<span>10.</span>"
     },
     "section-about" : {
         "es": "Sobre mí",
