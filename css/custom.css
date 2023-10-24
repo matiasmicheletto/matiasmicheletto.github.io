@@ -25,3 +25,7 @@ body::-webkit-scrollbar {
 .mate-img {
     opacity: 0.65;
 }
+
+.timeline {
+    background-color: white;
+}

@@ -73,6 +73,7 @@ $(function () {
         $(this).addClass('active').siblings("li").removeClass('active');
     });
 
+    /*
     $('#filtr-container').filterizr({
         animationDuration: 0.4
     });
@@ -86,6 +87,7 @@ $(function () {
             }
         });
     }
+    */
     
     if (!factsCheck && $(this).scrollTop() >= $(".facts").offset().top - 400) {
         $(".facts .fact-number").countTo();
@@ -139,6 +141,14 @@ $(function () {
             $("#resume-n-link").attr('href',`cv/${this.value}/cv_n/CV_Matias_Micheletto.pdf`);
         });
     });
+    
+    // TODO: translate this
+    var container = document.getElementById(timeline.container);
+    if(container){
+        var items = new vis.DataSet(timeline.data);
+        var groups = timeline.groups ? new vis.DataSet(timeline.groups) : null;
+        return new vis.Timeline(container, items, groups, {...timeline.options, locale: "es"});
+    }
 
     new WOW().init();
 });

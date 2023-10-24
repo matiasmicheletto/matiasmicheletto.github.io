@@ -13,55 +13,60 @@
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 
 
-\def\censorData{1} % Censurar datos personales para publicar
+%\def\censorData{1} % Censurar datos personales para publicar
 
 
 \title{\bfseries\huge Resume}
 \author{\Large Matías J. Micheletto}
-\date{February 2021}
+\date{July 2022}
 
 \begin{document}
 \maketitle
 
 \section{Personal data}
 \raggedright
-\textbf{Name:} Micheletto, Matías Javier \\
-\textbf{National ID Number:}
-\ifx\censorData\undefined
-  34.377.688 \\
-\else
-	\censor{34.377.688} \\
-\fi
-\textbf{Place and date of birth:}
-\ifx\censorData\undefined
-  	Bahía Blanca, april 26 1989 \\
-\else
-	\censor{Bahía Blanca, april 26 } 1989 \\
-\fi
-\textbf{Nacionality:} Argentine \\
+\textbf{Full name:} Micheletto, Matías Javier \\
+%\textbf{National ID Number:}
+%\ifx\censorData\undefined
+%  34.377.688 \\
+%\else
+%	\censor{34.377.688} \\
+%\fi
+%\textbf{Place and date of birth:}
+%\ifx\censorData\undefined
+%  	Bahía Blanca, april 26 1989 \\
+%\else
+%	\censor{Bahía Blanca, april 26 } 1989 \\
+%\fi
+\textbf{Nacionality:} Argentine  \\
 \textbf{Civil status:} Single \\
 \textbf{Work address:}
 \ifx\censorData\undefined
-  	San Andres 800, DIEC-IIIE UNS-CONICET, Bahía Blanca, CP 8000 \\
+  	CIT Golfo San Jorge, Ruta 1 KM 4, Comodoro Rivadavia (9000), Chubut. \\
 \else
-	\censor{San Andres 800 Bahía Blanca, CP 8000} \\
+	\censor{CIT Golfo San Jorge, Ruta 1 KM 4, Comodoro Rivadavia (9000), Chubut.} \\
 \fi
 \textbf{Phone:}
 \ifx\censorData\undefined
-  	+54 9 291 459 5181 - \textbf{Fax:} +54 9 291 459 5154 \\
+  	+54 9 xxx xxx xxxx \\
 \else
 	\censor{ +54 9 291 459 5181 - \textbf{Fax:} +54 9 291 459 5154 } \\
 \fi
 \textbf{Email:} matias.micheletto@uns.edu.ar \\
 
+\section{About}
+After obtainng my Electrical Engineering degree and during my doctoral stance, I have acquired experience and skills in technological solutions development applied to a wide range of fields, from embedded systems development, through scientific computing methods, to mathematical modeling and multiplatform software development. I have worked in both professional and academic environments, working independently or in multidisciplinary teams. I have published articles in international journals, won innovation competitions and participated in many national and international conferences.
+
 \section{Education}
 \begin{tabular}{L!{\VRule}R}
-2021 & {\bf Universidad Nacional del Sur}\\
+2021 & {\bf National University of the South}\\
 	 & PhD Engineering. \\
+	 & Thesis title: ``Development of Computer Systems for Supporting Agricultural Work in the Southwest of the Buenos Aires Province'' \\
 	 & Thesis grade: 10/10. \\[5pt]
 
-2016 & {\bf Universidad Nacional del Sur}\\
+2016 & {\bf National University of the South}\\
 	 & Electronic Engineer. \\
+	 & Thesis title: ``Scheduling of Optional-Mandatory Real-Time Tasks in Homogeneous Multicore Systems with Energy Constraints'' \\
 	 & GPA: 8.17/10. \\[5pt]
 
 2006 & {\bf Escuela de Agricultura y Ganadería U.N.S.} \\
@@ -69,48 +74,61 @@
 	 & GPA: 7.79/10. \\
 \end{tabular}
 
-\section{Teaching}
+\section{Teaching experience}
 \begin{tabular}{L!{\VRule}R}
 2018 - 2020 & {\bf Teaching assistant} \\
-	 & Digital electronics. \\[5pt]
+	 & Digital Electronics and Logic Circuit Design. \\[5pt]
 	 
 2016 - 2018 & {\bf Graduate teaching collaborator} \\
-	 & Digital electronics. \\
+	 & Digital Electronics and Logic Circuit Design. \\
 \end{tabular}
 
 \section{Scholarships}
 \begin{longtable}{L!{\VRule}R}
+2021 - 2024 & {\bf CONICET Postdoctorate Intern Scholarship} \\
+	& \textit{``Automated Learning for Smart Decision Making in Precision Agriculture in the South West of Buenos Aires Province''.} \\
+   	& \textbf{Advisor:} Dr. Carlos Chesñevar. \\
+   	& \textbf{Co-Advisor:} Dr. Juan Galantini. \\ [5pt]
+
 2016 - 2021 & {\bf CONICET PhD Intern Scholarship} \\
- 	 & \textit{``Development of Computer Systems for Supporting Agricultural Work in the Southwest of the Buenos Aires Province''.} \\
-	 & \textbf{Advisor:} Dr. Rodrigo Santos. \\
-	 & \textbf{Co-Advisor:} Dr. Juan Galantini. \\ [5pt]
-\newpage
+ 	& \textit{``Development of Computer Systems for Supporting Agricultural Work in the Southwest of the Buenos Aires Province''.} \\
+	& \textbf{Advisor:} Dr. Rodrigo Santos. \\
+	& \textbf{Co-Advisor:} Dr. Juan Galantini. \\ [5pt]
+
 2015 - 2016 & {\bf PGI-MAyDS Research Scholarship} \\
-	 & \textit{``Sustainability in Civil Infrastructure''.} \\
-	 & \textbf{Advisor:} Dr. Néstor Ortega. \\
-	 & Secretaría General de Ciencia y Tecnología U.N.S. Res. CSU-752/15. \\[5pt]
+	& \textit{``Sustainability in Civil Infrastructure''.} \\
+	& \textbf{Advisor:} Dr. Néstor Ortega. \\
+	& Secretaría General de Ciencia y Tecnología U.N.S. Res. CSU-752/15. \\[5pt]
 
 2014 & {\bf Introduction to Scientific Research for Advanced Students} \\
-	 & \textbf{Tema:}\textit{``Optimal Real-Time Scheduling in Multicore Systems''.} \\
-	 & \textbf{Advisor:} Dr. Javier Orozco. \\
-	 & Secretaría General de Ciencia y Tecnología U.N.S. \\
-	 & Res. CSU-135/14. \\[5pt]
+	& \textbf{Tema:}\textit{``Optimal Real-Time Scheduling in Multicore Systems''.} \\
+	& \textbf{Advisor:} Dr. Javier Orozco. \\
+	& Secretaría General de Ciencia y Tecnología U.N.S. \\
+	& Res. CSU-135/14. \\[5pt]
 
 2014 & {\bf Intern Scholarship Incentive Program} \\
-	 & Dpto. de Ingeniería Eléctrica y Computadoras U.N.S. \\
-	 & Res. CSU-213/14. \\[5pt]
+	& Dpto. de Ingeniería Eléctrica y Computadoras U.N.S. \\
+	& Res. CSU-213/14. \\[5pt]
 
-2013 & {\bf ntern Scholarship Incentive Program} \\
-	 & Dpto. de Ingeniería Eléctrica y Computadoras U.N.S. \\
-	 & Res. CSU-128/13. \\
+2013 & {\bf Intern Scholarship Incentive Program} \\
+	& Dpto. de Ingeniería Eléctrica y Computadoras U.N.S. \\
+	& Res. CSU-128/13. \\
 \end{longtable}
 
 \section{Journal articles}
-\begin{tabular}{L!{\VRule}R}
-2020 & {\bf An IoT-based Infraestructure to Enhance Self-Evacuations in Natural Hazardous Events.} \\
+\begin{longtable}{L!{\VRule}R}
+2022 & {\bf Flow Scheduling in Data Center Networks with Time and Energy Constraints: A Software-Defined Network Approach.} \\
+	& Martin Fraga, Matías Micheletto, Andrés Llinás, Rodrigo Santos and Paula Zabala. \\
+	& Future Internet | MDPI. \\[5pt]
+
+2022 & {\bf A novel approach for sEMG gesture recognition using resource-constrained hardware platforms.} \\
+	& Matías Micheletto, Carlos Chesñevar and Rodrigo Santos. \\
+	& Computer and Information Systems. \\[5pt]
+
+2021 & {\bf An IoT-based Infraestructure to Enhance Self-Evacuations in Natural Hazardous Events.} \\
  	 & Mariano Finochietto, Gabriel Eggly, Matías Micheletto, Roger Pueyo Centelles, Roc Messeguer, Sergio Ochoa, Rodrigo Santos, Javier Orozco. \\
  	 & Personal ans Ubiquitous Computing. \\[5pt]
-
+\newpage
 2020 & {\bf Development and Validation of a LiDAR Scanner for 3D Evaluation of Soil Vegetal Coverage.} \\
 	 & Matías Micheletto, Luciano Zubiaga, Rodrigo Santos, Juan Galantini, Miguel Cantamutto, Javier Orozco. \\
 	 & Electronics, 9(1), 109. \\[5pt]
@@ -130,35 +148,45 @@
 2017 & {\bf Real-Time Communication Support for Underwater Acoustic Sensor Networks.} \\
 	 & Rodrigo Santos, Javier Orozco, Matías Micheletto, Sergio Ochoa, Roc Meseguer, Pere Milan, Carlos Molina. \\
 	 & Sensors, 17(7), 1629. \\	 
-\end{tabular}
+\end{longtable}
 
 \section{Awards}
 \begin{tabular}{L!{\VRule}R}
+2021 & {\bf Agrotón 2021 - 24h innovation contest} \\
+	& \textbf{First Place.} \\
+	& \textbf{Equipo A:} Matías Micheletto, Alejandro André, Matías Timi, Martín Rodríguez and Guido Temperini. \\
+	& \textbf{Technological proposal:} Traceability of Meat Products Based on Agrigenomics, DNA-Hashing and Blockchain (TR4). \\
+
 2018 & {\bf Agrotón 2018 - 24h innovation contest} \\
 	 & \textbf{Second Place.} \\
-	 & \textbf{Equipo A:} Matías Micheletto, Alejandro André, Matías Timi, José Augusto Strick, Franco Tronelli y Guido Temperini. \\
+	 & \textbf{Equipo A:} Matías Micheletto, Alejandro André, Matías Timi, José Augusto Strick, Franco Tronelli and Guido Temperini. \\
 	 & \textbf{Technological proposal:} Automation and Integral Information Package for Agriculture Solutions (PAIISA). \\
 \end{tabular}
 
 \section{Posgraduate courses}
 \begin{longtable}{L!{\VRule}R}
-2020 & {\bf ``Big Data Visual Analysis''.} \\
-   & Departamento de Ciencias e Ingeniería de la Computación. \\
+2020 & {\bf ``Advanced Techniques for Evolutionary Computation''.} \\
+	& Department for Computer Science and Engineering \\
+	& By: Dr. Ingnacio Ponzoni. \\
+	& Duration: 120hs.  Grade: 10/10. \\[5pt]
+\newpage 
+2020 & {\bf ``Visual Analysis for Big Data''.} \\
+   & Department for Computer Science and Engineering \\
    & By: Dr. Silvia Castro and Dr. Ma. Luján Ganuza. \\
    & Duration: 90hs.  Grade: 10/10. \\[5pt]
 
 2020 & {\bf ``Time Aware Collaborative Systems''.} \\
-   & Departamento de Ingeniería Eléctrica y de Computadoras. \\
+   & Department for Electrical Engineering and Computers \\
    & By: Dr. Javier Orozco and Dr. Rodrigo Santos. \\
    & Duration: 60hs.  Grade: 10/10. \\[5pt]
 
 2017 & {\bf ``Datamining and Machine Learning''.} \\
-   & Departamento de Ciencias e Ingeniería de la Computación. \\
+   & Department for Computer Science and Engineering \\
    & By: Dr. Carlos Chesñevar. \\
    & Duration: 90hs.  Grade: 10/10. \\[5pt]
 
 2017 & {\bf ``Introduction to Big Data''.} \\
-   & Departamento de Ingeniería Eléctrica y Computadoras. \\
+   & Department for Electrical Engineering and Computers \\
    & By: Dr. Claudio Delrieux. \\
    & Duration: 80hs. Grade: 10/10. \\[5pt]
 
@@ -168,27 +196,39 @@
    & Duration: 60hs.  Grade: 10/10. \\[5pt]
 
 2016 & {\bf ``Real Time Distributed Systems''.} \\
-   & Departamento de Ingeniería Eléctrica y Computadoras. \\
+   & Department for Electrical Engineering and Computers \\
    & By: Dr. Ricardo Cayssials and Dr. Edgardo Ferro. \\
    & Duration: 60hs. Grade: 10/10. \\[5pt]
 
 2016 & {\bf ``Internet of Things and Control, an Holistic Approach''.} \\
-   & Departamento de Ingeniería Eléctrica y Computadoras. \\
+   & Department for Electrical Engineering and Computers \\
    & By: Dr. Rodrigo Santos and Dr. Sergio Ochoa. \\
    & Duration: 60hs. Grade: 10/10. \\[5pt]
 \end{longtable}
 
 \section{Internships}
 \begin{tabular}{L!{\VRule}R}
-2014 & {\bf Dpt. Ingeniería Eléctrica y Computadoras U.N.S. Internship} \\
+2014 & {\bf Department for Electrical Engineering and Computers - U.N.S. Internship} \\
 	 & Multimedia Interactive Applications for Physics Education. \\
 	 & Duration: 10 month. \\
 \end{tabular}
 
-\newpage
-
 \section{Conferences}
 \begin{longtable}{L!{\VRule}R}
+2021 & {\bf 50º Jornadas Argentinas de Informática} \\
+	& Congreso de AgroInformática (CAI) \\
+	& \textit{``Desarrollo de una aplicación híbrida para cálculos de siembra''.} \\
+	& Matías J. Micheletto, Gabriel M. Eggly, Juan P. D'Amico and Santiago J. Crocioni. \\[5pt]
+
+2021 & {\bf 50º Jornadas Argentinas de Informática} \\
+	& Simposio Argentino de Informática Industrial e Investigación Operativa (SIIO) \\
+	& \textit{``Planificación de flujos con vencimiento en redes definidas por software''.} \\
+	& Martín Fraga, Andres Llinás, Matías J. Micheletto, Rodrigo M. Santos and Paula Zabala. \\[5pt]
+\newpage
+2020 & {\bf International Conference on Computer Science and Intelligent Systems} \\
+	& \textit{``Unattended Crowdsensing Method to Monitor the Quality Condition of Dirt Roads''.} \\
+	& Matías J. Micheletto, Rodrigo Santos, Sergio Ochoa. \\[5pt]
+
 2020 & {\bf 49º Jornadas Argentinas de Informática} \\
 	& Simposio Argentino de Educación en Informática (SAEI) \\
 	& \textit{``Cipressus: Un Sistema de Gestión de Contenido para el Aprendizaje de Sistemas Digitales''.} \\
@@ -262,7 +302,7 @@
     &  Native speaker. \\[5pt]
     
     & {\bf English} \\
-    &  Oral and written comprehension. Writing of scientific and technical text. \\[5pt]
+    & B2-Upper-Intermediate (Listening: B1-Intermediate, Reading: C2-Proficient). \\[5pt]
 \end{tabular}
 
 \end{document}

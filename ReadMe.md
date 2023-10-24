@@ -1,6 +1,4 @@
-# Portfolio
+# Matías Micheletto - Portfolio
 
-Modelo de CV y portfolio de mi perfil, en versión online.  
-
-
-TODO: Soporte multilenguaje
+[es-ar] CV y portafolio online.  
+[en-us] Online CV and portfolio.  

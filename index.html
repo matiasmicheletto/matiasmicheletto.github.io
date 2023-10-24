@@ -13,16 +13,17 @@
     <title>Matías Micheletto - CV &amp; Portfolio</title>
 
     <link rel="icon" href="images/icon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,800">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/index.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,800">
+    <link rel="stylesheet" type="text/css" href="css/vis_4.21.0_vis.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 
 <body>    
@@ -291,13 +292,17 @@
         </section>
 
 
-        <!-- PROYECTOS -->
+        <!-- Cronologia -->
 
         <section class="portfolio" id="portfolio">
             <div class="main-container">
                 <div class="main-title">
                     <h2><span class="trn">section-portfolio</span><span><i class="fa fa-briefcase"></i></span></h2>
                 </div>
+
+                <div class="timeline" id="timeline"></div>
+                
+                <!--
                 <div class="filter-menu">
                     <ul id="control" class="list-filter list-unstyled">
                         <li class="active trn" data-filter="all">all</li>
@@ -306,6 +311,24 @@
                         <li data-filter="3">PWA</li>
                     </ul>
                 </div>
+                <div class="portfolio-content">
+                    <div id="filtr-container" class="row">
+                        <div class="col-md-4 col-sm-6 filtr-item" data-category="3" data-sort="value">
+                            <div class="item">
+                                <img class="img-responsive mate-img" src="images/portfolio/cipressus.png" alt="">
+                                <div class="overlay">
+                                    <a class="icon-img" href="images/portfolio/cipressus.png"><i
+                                            class="fa fa-search-plus"></i></a>
+                                    <h4 class="item-title">Cipressus</h4>
+                                    <div class="item-category">
+                                        <a href="https://www.cipressus.uns.edu.ar/" target="_blank">PWA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="portfolio-content">
                     <div id="filtr-container" class="row">
                         <div class="col-md-4 col-sm-6 filtr-item" data-category="3" data-sort="value">
@@ -428,7 +451,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--
+                        
                         <div class="col-md-4 col-sm-6 filtr-item" data-category="1" data-sort="value">
                             <div class="item">
                                 <img class="img-responsive mate-img" src="images/portfolio/JSAudioSequencer2.png"
@@ -443,9 +466,10 @@
                                 </div>
                             </div>
                         </div>
-                        -->
+                        
                     </div>
                 </div>
+                -->
             </div>
         </section>
 
@@ -460,7 +484,7 @@
                                 <i class="fa fa-book fa-lg"></i>
                             </div>
                             <h4 class="trn">ctr-publications</h4>
-                            <span class="fact-number" data-from="0" data-to="7" data-speed="2500"></span>
+                            <span class="fact-number" data-from="0" data-to="12" data-speed="2500"></span>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -469,7 +493,7 @@
                                 <i class="fa fa-graduation-cap fa-lg"></i>
                             </div>
                             <h4 class="trn">ctr-conferences</h4>
-                            <span class="fact-number" data-from="0" data-to="12" data-speed="2500"></span>
+                            <span class="fact-number" data-from="0" data-to="23" data-speed="2500"></span>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -478,7 +502,7 @@
                                 <i class="fa fa-briefcase fa-lg"></i>
                             </div>
                             <h4 class="trn">ctr-projects</h4>
-                            <span class="fact-number" data-from="0" data-to="20" data-speed="2500"></span>
+                            <span class="fact-number" data-from="0" data-to="50" data-speed="2500"></span>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -487,7 +511,7 @@
                                 <i class="fa fa-trophy fa-lg"></i>
                             </div>
                             <h4 class="trn">ctr-awards</h4>
-                            <span class="fact-number" data-from="0" data-to="1" data-speed="2500"></span>
+                            <span class="fact-number" data-from="0" data-to="3" data-speed="2500"></span>
                         </div>
                     </div>
                 </div>
@@ -508,11 +532,27 @@
                         <div class="education wow fadeInLeft" data-wow-duration="1.7s">
                             <div class="resume-item">
                                 <div class="resume-icon"><i class="fa fa-suitcase"></i></div>
+                                <div class="resume-date">2016 - 2023</div>
+                                <h4>CONICET</h4>
+                                <span>Consejo Nacional de Investigaciones Científicas y Técnicas</span>
+                                <p class="trn">exp-conicet-title</p>
+                                <p class="trn">exp-conicet-detail</p>
+                            </div>
+                            <div class="resume-item">
+                                <div class="resume-icon"><i class="fa fa-suitcase"></i></div>
+                                <div class="resume-date">2016 - 2023</div>
+                                <h4>INTA</h4>
+                                <span>Instituto Nacional de Tecnología Agropecuaria</span>
+                                <p class="trn">exp-inta-title</p>
+                                <p class="trn">exp-inta-detail</p>
+                            </div>
+                            <div class="resume-item">
+                                <div class="resume-icon"><i class="fa fa-suitcase"></i></div>
                                 <div class="resume-date">2019</div>
                                 <h4>CAPP</h4>
                                 <span>CAPP Mobile BB S.R.L.</span>
-                                <p class="trn">exp-1-title</p>
-                                <p class="trn">exp-1-detail</p>
+                                <p class="trn">exp-capp-title</p>
+                                <p class="trn">exp-capp-detail</p>
                             </div>
                             <div class="resume-item">
                                 <div class="resume-icon"><i class="fa fa-suitcase"></i></div>
@@ -521,9 +561,9 @@
                                 <span>Neufitech S.R.L.</span>
                                 <p>
                                     <ul style="color: #c2c0c3">
-                                        <li class="trn">exp-2-li1</li>
-                                        <li class="trn">exp-2-li2</li>
-                                        <li class="trn">exp-2-li3</li>
+                                        <li class="trn">exp-cina-li1</li>
+                                        <li class="trn">exp-cina-li2</li>
+                                        <li class="trn">exp-cina-li3</li>
                                     </ul>
                                 </p>
                             </div>
@@ -757,8 +797,7 @@
                                         </div>
                                     </div>
                                     <div class="content-box">
-                                        <p>San Andres 800, DIEC-IIIE</p>
-                                        <p>Bahía Blanca, Buenos Aires</p>
+                                        <p>Comodoro Rivadavia, Chubut</p>
                                         <p>Argentina</p>
                                     </div>
                                 </div>
@@ -797,7 +836,7 @@
                         </div>
                     </div>
                     <div class="col-md-10 col-md-offset-1">
-                        <form class="contact-form" action="/message.php" method="post">
+                        <form class="contact-form" id="contact-form" action="">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group">
@@ -833,7 +872,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="main-btn trn" type="submit" name="send">send</button>
+                            <button id="form-submit" class="main-btn trn" type="submit" name="send">send</button>
                         </form>
                     </div>
                 </div>
@@ -874,7 +913,7 @@
                     <a href="https://www.codewars.com/users/matiasmicheletto/"><img
                             src="https://www.codewars.com/users/matiasmicheletto/badges/small"></a>
                     <br><br>
-                    <p>Matías Micheletto &copy; 2021</p>
+                    <p>Matías Micheletto &copy; 2023</p>
                 </div>
             </div>
         </footer>
@@ -884,16 +923,25 @@
         </a>
     </div>
 
+    <script src="js/firebase-app.js"></script>
+	<script src="js/firebase-database.js"></script>
+    
+
+    <script src="js/moment-with-locales.min.js"></script>
+    <script src="js/vis_4.21.0_vis.min.js"></script>
+    <script src="js/timeline-data.js"></script>
+
     <script src="js/jquery-3.2.1.min.js"></script>    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.translate.js"></script>
     <script src="js/jquery.countTo.min.js"></script>
-    <script src="js/jquery.filterizr.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!--<script src="js/jquery.filterizr.js"></script>-->
+    <!--<script src="js/jquery.magnific-popup.min.js"></script>-->
     <script src="js/wow.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/ajax-contact.js"></script>
 
     <script type="text/javascript" src="//counter.websiteout.net/js/21/0/0/1"></script>
 

@@ -24,8 +24,8 @@
         "en": "Tech &amp; tools<span>05.</span>"
     },
     "portfolio": {
-        "es": "Portafolio<span>06.</span>",
-        "en": "Portfolio<span>06.</span>"
+        "es": "Línea de tiempo<span>06.</span>",
+        "en": "Timeline<span>06.</span>"
     },
     "facts": {
         "es": "Números<span>07.</span>",
@@ -60,8 +60,8 @@
         "en": "Programming &amp; Design"
     },
     "section-portfolio" : {
-        "es": "Portafolio",
-        "en": "Portfolio"
+        "es": "Línea de tiempo",
+        "en": "Timeline"
     },
     "section-experience" : {
         "es": "Experiencia laboral",
@@ -92,28 +92,28 @@
         "en": "Awards"
     },
     "about-p1" : {
-        "es": "Hola! Soy Matías Micheletto",
-        "en": "Hi! I am Matías Micheletto"
+        "es": "Hola! Soy Matías",
+        "en": "Hi! I am Matías"
     },
     "about-p2" : {
-        "es": "Soy Ingeniero Electrónico doctorado en Ingeniería, ex docente universitario y desarrollador independiente, de Bahía Blanca, Argentina.",
-        "en": "I am a PhD Electronic Engineer, educator and software and hardware development enthusiast, from Bahía Blanca, Argentina."
+        "es": "Soy Ingeniero Electrónico y Doctor en Ingeniería.",
+        "en": "I am a Ph.D. Electronic Engineer."
     },
     "about-p3" : {
-        "es": "Trabajando en grupos de investigación multidisciplinarios, ha adquirido experiencia y habilidades en el desarrollo de soluciones tecnológicas aplicadas a un amplio espectro de problemáticas.",
-        "en": "After obtaining my Electronic Engineering degree, I started working as PhD candidate under a CONICET intern scholarship where acquired skills and experience in data science, software and hardware development applied to a wide variety of applications and collaborating with researchers from different disciplines."
+        "es": "Trabajando en grupos de investigación multidisciplinarios, he adquirido experiencia y habilidades en el desarrollo de soluciones tecnológicas aplicadas a un amplio espectro de problemáticas.",
+        "en": "Working in multidisciplinary research groups, I have acquired experience and skills in the development of technological solutions applied to a wide variety of applications."
     },
     "about-p4" : {
         "es": "Durante el periodo doctoral, en paralelo a las actividades de investigación y docencia, he tenido la posibilidad de trabajar con análisis y procesamiento de datos, desarrollo de  aplicaciones móviles, web y de escritorio, como así también en la implementación de sistemas embebidos.",
-        "en": "I have worked as teaching assistant and have published 5+ articles in international journals and participated in 15+ national and international conferences related to technology, education and engineering."
+        "en": "During the doctoral period, alongside research and teaching activities, I have had the opportunity to work on data analysis and processing, the development of mobile, web, and desktop applications, as well as the implementation of embedded systems."
     },
     "skills-1-title" : {
-        "es": "Ciencia de datos",
-        "en": "Data science"
+        "es": "Computación científica",
+        "en": "Scientific computing"
     },
     "skills-1-detail" : {
-        "es": "Extracción de información. Modelado, simulación y optimización numérica. Investigación operativa.",
-        "en": "Information extraction. Modeling, simulation and numeric optimization. Operations research."
+        "es": "Flujo completo de procesamiento de datos. Investigación operativa.",
+        "en": "Full-stack data processing. Operational research."
     },
     "skills-2-title" : {
         "es": "Software",
@@ -129,15 +129,15 @@
     },
     "skills-3-detail" : {
         "es": "Diseño y fabricación de PCB. Diseño de piezas y mecanismos para impresión 3D.",
-        "en": "PCB design and manufacturing. 3D design of parts and mechanisms for printing."
+        "en": "PCB design and manufacturing. 3D design of parts and mechanisms for 3D-printing."
     },
     "skills-4-title" : {
         "es": "Educación",
         "en": "Coaching"
     },
     "skills-4-detail" : {
-        "es": "Docencia universitaria. Capacitación y formación de recursos humanos.",
-        "en": "University level teaching. Human resources coaching and training."
+        "es": "Docencia universitaria. Instructor Udemy con más de 3000 alumnos.",
+        "en": "University level teaching. Udemy instructor with 3000+ students."
     },
     "edu-1-title" : {
         "es": "Doctorado en Ingeniería",
@@ -171,23 +171,39 @@
         "es": "Promedio: 7.79/10",
         "en": "GPA: 7.79/10"
     },
-    "exp-1-title" : {
+    "exp-conicet-title" : {
+        "es": "Becario - Investigador asistente",
+        "en": "Assistant researcher"
+    },
+    "exp-conicet-detail" : {
+        "es": "Despliegue óptimo de redes de largo alcance y baja potencia en la cuenca el Golfo San Jorge.",
+        "en": "Optimal deployment of low-power wide-area networks in the San Jorge Gulf region."
+    },
+    "exp-inta-title" : {
+        "es": "Consultor IT - Desarrollador",
+        "en": "IT Consultant - Developer"
+    },
+    "exp-inta-detail" : {
+        "es": "Desarrollo y mantenimiento de aplicaciones móviles. Desarrollo de sistemas embebidos para adquisición de datos.",
+        "en": "Development and maintenance of mobile apps. Development of embedded systems for data acquisition."
+    },
+    "exp-capp-title" : {
         "es": "Desarrollador front-end",
         "en": "Front-end developer"
     },
-    "exp-1-detail" : {
+    "exp-capp-detail" : {
         "es": "Colaboración en el desarrollo de la Aplicación Móvil, Back-Office, Panel Administrador y Tienda Online.",
         "en": "Collaboration in the design and implementation of the CAPP mobile application, backoffice, admin panel and online shop."
     },
-    "exp-2-li1" : {
+    "exp-cina-li1" : {
         "es": "Desarrollo de plataforma web para aplicaciones de actividades neuro-psicológicas (PsiMESH).",
         "en": "Design and implementation of a PWA application."
     },
-    "exp-2-li2" : {
+    "exp-cina-li2" : {
         "es": "Sistema de solicitud y administración de turnos Centro Integral de Neurociencias Aplicadas.",
         "en": "Development of a patient appointment manager."
     },
-    "exp-2-li3" : {
+    "exp-cina-li3" : {
         "es": "Diseño e implementación de dispositivos IoT para asistencia en comunicación y movilidad de personas con discapacidades motrices (EyeRobot).",
         "en": "Design and implementation of IoT devices as communication interfaces for disabled people."
     },
