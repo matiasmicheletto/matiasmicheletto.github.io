@@ -179,13 +179,17 @@
         "es": "Despliegue óptimo de redes de largo alcance y baja potencia en la cuenca el Golfo San Jorge.",
         "en": "Optimal deployment of low-power wide-area networks in the San Jorge Gulf region."
     },
-    "exp-inta-title" : {
-        "es": "Consultor IT - Desarrollador",
-        "en": "IT Consultant - Developer"
+    "exp-sendevo-title" : {
+        "es": "Emprendimiento propio",
+        "en": "Own venture"
     },
-    "exp-inta-detail" : {
-        "es": "Desarrollo y mantenimiento de aplicaciones móviles. Desarrollo de sistemas embebidos para adquisición de datos.",
-        "en": "Development and maintenance of mobile apps. Development of embedded systems for data acquisition."
+    "exp-sendevo-subtitle" : {
+        "es": "Consultoría IT. Desarrollo de aplicaciones móviles y sistemas embebidos.",
+        "en": "IT Consultancy. Development of mobile apps and embedded systems."
+    },
+    "exp-sendevo-detail" : {
+        "es": "Desarrollo y mantenimiento de aplicaciones móviles de INTA. Desarrollo de sitios web institucionales. Desarrollo de aplicaciones Agrar.io y Presipedia.",
+        "en": "Development and maintenance of INTA mobile apps. Development of institutional websites. Development of Agrar.io and Presipedia apps."
     },
     "exp-capp-title" : {
         "es": "Desarrollador front-end",

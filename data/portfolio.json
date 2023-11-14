@@ -1,0 +1,647 @@
+{
+    "general": {
+        "first_name": "Matías",
+        "second_name": "Javier",
+        "last_name": "Micheletto",
+        "about_short": "",
+        "about_middle": "",
+        "about_long": ""
+    },    
+    "education": [
+        {
+            "degree": "Doctor en Ingeniería",
+            "institution": "Universidad Nacional del Sur",
+            "date_from": 1459479600000,
+            "date_to": 1608001200000,
+            "notes": "",
+            "gpa": 10
+        },
+        {
+            "degree": "Ingeniero Electrónico",
+            "institution": "Universidad Nacional del Sur",
+            "date_from": 1173927600000,
+            "date_to": 1458442800000,
+            "notes": "Beneficiado con dos becas de estímulo al estudio y dos becas para alumnos avanzados.",
+            "gpa": 8.34
+        },
+        {
+            "degree": "Técnico en Producción Agropecuaria y polimodal en Cs. Naturales",
+            "institution": "Escuela de Agricultura y Ganadería Adolfo J. Zabala (UNS)",
+            "date_from": 1079319600000,
+            "date_to": 1166670000000,
+            "notes": "",
+            "gpa": 7.79
+        }
+    ],
+    "courses": [
+        {
+            "type": "pg",
+            "title": "Sistemas Distribuidos de Tiempo Real",
+            "subt": "Curso de posgrado",
+            "by": "Dres. Edgardo Ferro y Ricardo Cayssials",
+            "date": 1536548400000,
+            "duration": 60,
+            "keywords": ["tiempo real", "sistemas embebidos", "sistemas distribuidos"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Ingeniería Eléctrica y Computadoras",
+            "score": 10
+        },
+        {
+            "type": "pg",
+            "title": "La Internet de las Cosas y el Control, un Enfoque Holístico",
+            "subt": "Curso de posgrado",
+            "by": "Dres. Sergio Ochoa y Rodrigo Santos",
+            "date": 1505185200000,
+            "duration": 60,
+            "keywords": ["IoT", "Control", "Tiempo real"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Ingeniería Eléctrica y Computadoras",
+            "score": 10
+        },
+        {
+            "type": "pg",
+            "title": "Modelos Matemáticos de Simulación en la Investigación Agropecuaria: Clima-Suelo-Atmósfera",
+            "subt": "Curso de posgrado",
+            "by": "Dr. Juan Galantini",
+            "date": 1512961200000,
+            "duration": 60,
+            "keywords": ["Simulación", "Métodos numéricos", "Matemática", "Agronomía", "Agricultura"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Agronomía",
+            "score": 10
+        },
+        {
+            "type": "pg",
+            "title": "Técnicas Avanzadas de Computación Evolutiva",
+            "subt": "Curso de posgrado",
+            "by": "Dr. Ignacio Ponzoni",
+            "date": 1628218800000,
+            "duration": 128,
+            "keywords": ["Algoritmos genéticos", "Métodos numéricos", "Computación evolutiva"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Ingeniería Eléctrica y Computadoras",
+            "score": 10
+        },
+        {
+            "type": "pg",
+            "title": "Sistemas Colaborativos con Restricciones Temporales",
+            "subt": "Curso de posgrado",
+            "by": "Dr. Rodrigo Santos y Javier Orozco",
+            "date": 1594695600000,
+            "duration": 60,
+            "keywords": ["Sistemas colaborativos", "Redes oportunistas", "IoT", "Tiempo real"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Ingeniería Eléctrica y Computadoras",
+            "score": 10
+        },
+        {
+            "type": "pg",
+            "title": "Minería de Datos y Aprendizaje Automático",
+            "subt": "Curso de posgrado",
+            "by": "Dr. Carlos Chesñevar",
+            "date": 1551668400000,
+            "duration": 90,
+            "keywords": ["Minería de datos", "Ciencia de datos", "Métodos numéricos", "Aprendizaje de máquina", "Inteligencia artificial"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Ingeniería Eléctrica y Computadoras",
+            "score": 10
+        },
+        {
+            "type": "pg",
+            "title": "Análisis Visual de Grandes Volúmenes de Datos",
+            "subt": "Curso de posgrado",
+            "by": "Dras. Silvia Castro y María Luján Ganuza",
+            "date": 1614049200000,
+            "duration": 90,
+            "keywords": ["Visualización de datos", "Ciencia de datos", "Análisis de datos"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Ingeniería Eléctrica y Computadoras",
+            "score": 10
+        },
+        {
+            "type": "pg",
+            "title": "Tópicos en Big Data",
+            "subt": "Curso de posgrado",
+            "by": "Dr. Claudio Delrieux",
+            "date": 1507604400000,
+            "duration": 80,
+            "keywords": ["Ciencia de datos", "Grandes datos", "Minería de datos"],
+            "url": "https://servicios.uns.edu.ar/intrauns/consultas/gerenciales/graduados/ver_matcur.asp?tipodoc=0&nrodoc=34377688&nom=MICHELETTO,MAT%CDAS",
+            "place": "Universidad Nacional del Sur - Departamento de Ingeniería Eléctrica y Computadoras",
+            "score": 10
+        }
+    ],
+    "projects": [
+        {
+            "name":"dnasolver",
+            "title": "DNA-Solver",
+            "short_desc": "Algoritmos genéticos para el navegador y el servidor.",
+            "long_desc": "",
+            "keywords": ["Algoritmos genéticos", "Javascript", "NodeJS", "ReactJS", "Heroku", "Ciencia de datos", "Software", "Web"],
+            "url": "http://dna-solver.herokuapp.com/",
+            "source": "https://github.com/matiasmicheletto/dna-solver"
+        },
+        {
+            "name":"wodin",
+            "title": "Wodin",
+            "short_desc": "Sistema experto para clasificación de estilos de cerveza artesanal",
+            "long_desc": "",
+            "keywords": ["Cerveza artesanal", "Clasificación", "NodeJS", "Javascript", "Vercel", "Ciencia de datos", "Software", "Web"],
+            "url": "https://wodin.vercel.app",
+            "source": "https://github.com/matiasmicheletto/wodin"
+        },
+        {
+            "name":"physics-experiments",
+            "title":"Laboratorio de mecánica",
+            "short_desc":"",
+            "long_desc": "",
+            "keywords": ["Física", "Javascript", "ThreeJS", "Heroku", "Software", "Newton", "Web", "Simulación"],
+            "url": "physics-experiments.herokuapp.com",
+            "source": "https://github.com/matiasmicheletto/physics-experiments"
+        },
+        {
+            "name":"cipressus",
+            "title": "Cipressus",
+            "short_desc": "Sistema de gestión de contenidos para el aprendizaje de sistemas digitales.",
+            "long_desc": "",
+            "keywords": ["LCMS", "Aprendizaje", "E-learning", "Software", "Angular", "Firebase"],
+            "url": "https://cipressus.uns.edu.ar",
+            "source": "https://github.com/matiasmicheletto/cipressus"
+        },
+        {
+            "name":"autotest-creator",
+            "title": "AutotestCreator",
+            "short_desc": "Sistema de creación y distribución de auto-encuestas con lógica compleja.",
+            "long_desc": "",
+            "keywords": ["Encuestas", "Software", "Decisión"],
+            "url": "https://covid19-autotest.web.app",
+            "source": "https://github.com/matiasmicheletto/autotest-creator"
+        },
+        {
+            "name":"eye-robot",
+            "title": "EyeRobot",
+            "short_desc": "Interface de control visual para rover FPV.",
+            "long_desc": "",
+            "keywords": ["ESP8266", "Tobii-4C", "Eyetracker", "Rover", "Robótica", "Arduino", "IoT", "Web-sockets"],
+            "source": "https://github.com/matiasmicheletto/eye-robot"
+        },
+        {
+            "name":"simcir-jm",
+            "title": "SimCirJM",
+            "short_desc": "Simulador web de circuitos digitales.",
+            "long_desc": "",
+            "keywords": ["Circuitos", "Simulador", "Digitales", "Circuitos lógicos", "Electronica", "Web"],
+            "url": "https://matiasmicheletto.github.io/simcirjs/",
+            "source": "https://github.com/matiasmicheletto/simcirjs"
+        },
+        {
+            "name":"pumpjack",
+            "title": "AIB",
+            "short_desc": "Modelos 3d paramétricos animados basados en código de aparatos de bombeo.",
+            "long_desc": "",
+            "keywords": ["OpenScad", "JScad", "Modelado parmétrico", "Diseño 3D", "Impresión 3D"],
+            "url": "https://cadhub.xyz/u/matiasmiche/oil-pumpjack",
+            "source": "https://github.com/matiasmicheletto/openscad-oil-pumpjack"
+        },
+        {
+            "name":"scanner",
+            "title": "Escáner Lidar",
+            "short_desc": "Escáner LiDAR CNC para análisis 3D de cobertura vegetal de suelos",
+            "long_desc": "",
+            "keywords": ["Escáner", "Cobertura", "Suelos", "Erosión", "CNC", "Arduino", "Robótica", "3D"],            
+            "source": "https://github.com/matiasmicheletto/lidar-scanner"
+        },
+        {
+            "name":"iot-sensor-grid",
+            "title": "IoTSensorGrid",
+            "short_desc": "Red de telemetría mixta (inalámbrica/cableada) para monitoreo remoto de variables.",
+            "long_desc": "",
+            "keywords": ["Arduino", "GSM", "IoT", "Sensores", "Temperatura", "Humedad", "Remoto", "Telemetría"],
+            "url": "",
+            "source": ""
+        },
+        {
+            "name":"dome-controller",
+            "title": "Controlador de cúpula",
+            "short_desc": "Sistema de control automático/manual para cúpula de observatorio astronómico.",
+            "long_desc": "",
+            "keywords": ["Arduino", "Astronomía", "Observatorio", "Control realimentado", "Cúpula", "Domo"],            
+            "source": "https://github.com/matiasmicheletto/DomeController"
+        },
+        {
+            "name":"psimesh",
+            "title": "PsiMESH",
+            "short_desc": "Plataforma para gestión y evaluación de actividades neuro-cognitivas.",
+            "long_desc": "",
+            "keywords": ["Software", "Neurociencias", "Eyetracker", "Psicología", "Firebase", "Serverless", "Angular", "Materialize"],
+            "url": "https://psimesh.com/"
+        },
+        {
+            "name":"sebastianlopez",
+            "title": "Sebastián López Representaciones",
+            "short_desc": "Plataforma para gestión de clientes y pedidos.",
+            "long_desc": "",
+            "keywords": ["Software", "CMS", "Construcción", "Venta", "Materiales", "Firebase", "Angular", "Materialize"],
+            "url": "https://sebastianlopezrepresentaciones.com/"
+        },
+        {
+            "name":"rts-website",
+            "title": "RTS Group",
+            "short_desc": "Sitio web del Grupo de Investigaciones de Sistemas de Tiempo Real.",
+            "long_desc": "",
+            "keywords": ["Sitio web", "Software", "Investigación", "Proyectos"],
+            "url": "http://www.diec.uns.edu.ar/rts/#/"
+        },
+        {
+            "name":"criollo",
+            "title": "Criollo",
+            "short_desc": "Aplicación móvil para cálculo de parámetros y verificación de pulverizadoras.",
+            "long_desc": "",
+            "keywords": ["Android", "Aplicación", "App", "Pulverización agrícola", "Fumigación", "Campo", "Agricultura"],
+            "url": "https://play.google.com/store/apps/details?id=com.inta.criollo2"
+        },
+        {
+            "name":"campero",
+            "title": "Campero",
+            "short_desc": "Aplicación híbrida para cálculos de parámetros y verificación de sembradoras.",
+            "long_desc": "",
+            "keywords": ["Android", "Aplicación", "App", "Siembra", "Framework7", "Angular", "Cordova"],
+            "url": "https://play.google.com/store/apps/details?id=com.inta.campero"
+        },
+        {
+            "name":"campero-fertilizadoras",
+            "title": "Campero Fertilizadoras",
+            "short_desc": "Aplicación híbrida para calibración de fertilizadoras y cálculos de perfil de distribución.",
+            "long_desc": "",
+            "keywords": ["Android", "Aplicación", "App", "Siembra", "Framework7", "React", "Capacitor"],
+            "url": "https://play.google.com/store/apps/details?id=com.inta.campero-fertilizadoras"
+        },
+        {
+            "name": "alkemy-spoonacular-app",
+            "title": "Alkemy Spoonacular App",
+            "short_desc": "Challenge aceleradora Alkemy: una aplicación para gestionar los platos del menú de un hotel.",
+            "long_desc": "",
+            "keywords": ["React", "Spoonacular", "Alkemy", "Bootstrap", "Axios", "SweetAlert"],
+            "url": "alkemy-spoonacular-app.herokuapp.com"
+        }
+    ],
+    "skills": [
+        {
+            "label": "",
+            "level": 0,
+            "description": ""
+        }
+    ],
+    "scholarships": [
+        {
+            "name": "Beca Interna Postdoctoral CONICET",
+            "title": "Toma Inteligente de Decisiones para Agricultura de Precisión basada en Aprendizaje Automatizado.",
+            "advisors": "Dres. Carlos I. Chesñevar y Juan A. Galantini",
+            "place": "Instituto de Ciencias e Ingeniería de la Computación (ICIC) UNS-CONICET",
+            "date_from": 0,
+            "date_to": 0
+        },
+        {
+            "name": "Beca Interna Doctoral CONICET",
+            "title": "Desarrollo de Sistemas Computacionales para Sustento de Tareas Agropecuarias en el Sudoeste de la Provincia de Buenos Aires",
+            "advisors": "",
+            "place": "Instituto de Investigaciones en Ingeniería Eléctrica (IIIE) UNS-CONICET",
+            "date_from": 0,
+            "date_to": 0
+        },
+        {
+            "name": "Beca de Investigación PGI-MAyDS",
+            "title": "Sustentabilidad de Construcciones Civiles",
+            "advisors": "Dr. Néstor F. Ortega",
+            "place": "Secretaría General de Ciencia y Tecnología UNS - Res. CSU-752/15.",
+            "date_from": 0,
+            "date_to": 0
+        },
+        {
+            "name": "Beca de Introducción a la Investigación para Alumnos Avanzados",
+            "title": "Planificación Óptima de Sistemas de Tiempo Real en Plataformas Multicore",
+            "advisors": "Dr. Javier D. Orozco",
+            "place": "Secretaría General de Ciencia y Tecnología UNS - Res. CSU-135/14.",
+            "date_from": 0,
+            "date_to": 0
+        },
+        {
+            "name": "Beca Interna de Estímulo al Estudio",            
+            "place": "Dpto. de Ingeniería Eléctrica y Computadoras UNS - Res. CSU-213/14.",
+            "date_from": 0,
+            "date_to": 0
+        },
+        {
+            "name": "Beca Interna de Estímulo al Estudio",            
+            "place": "Dpto. de Ingeniería Eléctrica y Computadoras UNS - Res. CSU-128/13.",
+            "date_from": 0,
+            "date_to": 0
+        }
+    ],
+    "internships": [
+        {
+            "name": "Pasantía Interna",
+            "title": "Desarrollo de un Libro Multimedial de Mecánica",
+            "place": "Depto. de Ingeniería Eléctrica y Computadoras (DIEC) - Universidad Nacional del Sur",
+            "date_from": 0,
+            "date_to": 0
+        }
+    ],
+    "awards": [
+        {
+            "name": "Agroton 2018 - Segundo Premio",
+            "date": 0,
+            "description": "Maratón de soluciones innovadoras para el agro. Propuesta: PAIISA, Paquete de Automatización e Información Integral de Software Agropecuario.",
+            "given_by": "Bolsa de Cereales y Productos de Bahía Blanca"
+        },
+        {
+            "name": "Agroton 2021 - Primer Premio",
+            "date": 0,
+            "description": "Maratón de soluciones innovadoras para el agro. Propuesta: TR4 - Sistema de trazabilidad basado en Agrigenomics, DNA-Hashing y Blockchain.",
+            "given_by": "Bolsa de Cereales y Productos de Bahía Blanca"
+        }
+    ],
+    "publications": [
+        {
+            "title": "An IoT-based Infraestructure to Enhance Self-Evacuations in Natural Hazardous Events.",
+            "type": "journal",
+            "place": "Personal ans Ubiquitous Computing.",
+            "authors": "Mariano Finochietto, Gabriel Eggly, Matías Micheletto, Roger Pueyo Centelles, Roc Messeguer, Sergio Ochoa, Rodrigo Santos, Javier Orozco.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Development and Validation of a LiDAR Scanner for 3D Evaluation of Soil Vegetal Coverage.",
+            "type": "journal",
+            "place": "Electronics, 9(1), 109.",
+            "authors": "Matías Micheletto, Luciano Zubiaga, Rodrigo Santos, Juan Galantini, Miguel Cantamutto, Javier Orozco.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Utilizando UML para el aprendizaje del modelado y diseño de sistemas ciber-físicos.",
+            "type": "journal",
+            "place": "IEEE-RITA, 15(1), 50-60.",
+            "authors": "Leonardo Ordínez, Rodrigo Santos, Gabriel Eggly, Matías Micheletto.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Scheduling Mandatory-Optional-Time Tasks in Homogeneous Multi-Core Systems with Energy Constraints Using Bio-Inspired Meta-Heuristics.",
+            "type": "journal",
+            "place": "Journal of Universal Computer Science, 25(4), 390-417.",
+            "authors": "Matías Micheletto, Rodrigo Santos, Javier Orozco.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Flying Real-Time Network to Coordinate Disaster Relief Activities in Urban Areas.",
+            "type": "journal",
+            "place": "Sensors, 18(5), 1662.",
+            "authors": "Matías Micheletto, Vinicius Petrucci, Rodrigo Santos, Javier Orozco, Daniel Mosse, Sergio Ochoa, Roc Meseguer.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Real-Time Communication Support for Underwater Acoustic Sensor Networks.",
+            "type": "journal",
+            "place": "Sensors, 17(7), 1629.",
+            "authors": "Rodrigo Santos, Javier Orozco, Matías Micheletto, Sergio Ochoa, Roc Meseguer, Pere Milan, Carlos Molina. ",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Unattended Crowdsensing Method to Monitor the Quality Condition of Dirt Roads",
+            "type": "conference",
+            "place": "International Conference on Computer Science and Intelligent Systems (ICCSIS001 2021)",
+            "authors": "Matías J. Micheletto, Rodrigo Santos, Sergio Ochoa",
+            "url": "",
+            "abstract": "",
+            "date": 0
+        },
+        {
+            "title": "Desarrollo de una Aplicación Híbrida para Cálculos de Siembra",
+            "type": "conference",
+            "place": "Congreso de AgroInformática (CAI 2021) - 50º Jornadas Argentinas de Informática",
+            "authors": "Matías J. Micheletto, Grabriel Eggly, Juan P. D'Amico, Santiago J. Crocioni",
+            "url": "",
+            "abstract": "",
+            "date": 0
+        },
+        {
+            "title": "Planificación de flujos con vencimiento en redes definidas por software",
+            "type": "conference",
+            "place": "Simposio Argentino de Informática Industrial e Investigación Operativa (SIIO 2021) - 50º Jornadas Argentinas de Informática",
+            "authors": "Martín Fraga, Andrés Llinas, Matías J. Micheletto, Paula Zabala, Rodrigo Santos",
+            "url": "",
+            "abstract": "",
+            "date": 0
+        },
+        {
+            "title": "Cipressus: Un Sistema de Gestión de Contenido para el Aprendizaje de Sistemas Digitales.",
+            "type": "conference",
+            "place": "Simposio Argentino de Educación en Informática (SAEI) - 49° Jornadas Argentinas de Informática",
+            "authors": "Matías J. Micheletto.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Evacuation Supporting System Network (ESSN) based on IoT Components",
+            "type": "conference",
+            "place": "13th International Conference on Ubiquitous Computing & Ambient Intelligence",
+            "authors": "Gabriel Eggly, José Mariano Finochietto, Matías Micheletto, Rodrigo Santos, Sergio Ochoa, Roc Meseguer and Javier Orozco.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Internet de las Cosas como Bien Social",
+            "type": "conference",
+            "place": "1° Taller Argentino de Internet de las Cosas (TAIC) - 48° Jornadas Argentinas de Informática",
+            "authors": "Gabriel Eggly, Mariano Finochietto, Matías J. Micheletto, Rodrigo Santos.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Diseño e Implementación de un Escáner Lidar para Análisis Tridimensional de Covertura Vegetal de Suelos",
+            "type": "conference",
+            "place": "10° Congreso de AgroInformática (CAI 2018) - 47° Jornadas Argentinas de Informática",
+            "authors": "Matías J. Micheletto, Rodrigo Santos, Luciano Zubiaga, Juan Galantini.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Planificación Óptima de un Sistema Multiprocesador de Tiempo Real con Restricciones de Precedencia, Comunicación y Energía",
+            "type": "conference",
+            "place": "XXV Jornadas de Jóvenes Investigadores - AUGM",
+            "authors": "Matías J. Micheletto, Alejandro Borghero, Gabriel M. Eggly.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Desarrollo de una Aplicación Móvil para Cálculos de Pulverizaciones Agrícolas.",
+            "type": "conference",
+            "place": "9° Congreso de AgroInformática (CAI 2017) - 46° Jornadas Argentinas de Informática",
+            "authors": "Gabriel M. Eggly, Matías J. Micheletto, Juan P. D'Amico, Santiago J. Crocioni.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Afectación de la Luna en la Medición de la Contaminación Lumínica.",
+            "type": "conference",
+            "place": "V Congreso Internacional sobre Cambio Climático y Desarrollo Sustentable",
+            "authors": "Luciana C. Lambertucci, Matías J. Micheletto, Jorge A. Starobinsky, Néstor F. Ortega.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Scheduling Real-Time Traffic in Underwater Acoustic Wireless Sensor Networks.",
+            "type": "conference",
+            "place": "10th International Conference on Ubiquitous Computing & Ambient Intelligence",
+            "authors": "Rodrigo Santos, Javier Orozco, Matías Micheletto, Sergio Ochoa, Roc Meseguer, Pere Millan, Carlos Molina.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Diseño e Implementación de un Registrador de Esfuerzos para Maquinaria Agrícola.",
+            "type": "conference",
+            "place": "8° Congreso de AgroInformática (CAI 2016) - 45° Jornadas Argentinas de Informática",
+            "authors": "Matías J. Micheletto, Gabriel M. Eggly, Rodrigo Santos.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Using bioinspired meta-heuristics to solve reward-based energy-aware mandatory/optional real-time tasks scheduling.",
+            "type": "conference",
+            "place": "V Brazilian Symposium on Computing Systems Engineering",
+            "authors": "Matías J. Micheletto, Javier D. Orozco, Rodrigo Santos.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Design and Implementation of an Embedded Prototype for Monitoring a Combine Harvester.",
+            "type": "conference",
+            "place": "Foro tecnológico 2014 - Simposio Argentino de Sistemas Embebidos",
+            "authors": "Ana S. Arauz Lozano, Matías J. Micheletto, Leonardo Ordinez, Rodrigo Santos.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        },
+        {
+            "title": "Optimizador de Funciones Multivariadas por Enjambre de Partículas.",
+            "type": "conference",
+            "place": "Concurso de Trabajos Estudiantiles - 41° Jornadas Argentinas de Informática",
+            "authors": "Matías J. Micheletto.",
+            "url": "",
+            "abstract": "",
+            "date": 0 
+        }
+    ],
+    "contact": [
+        {
+            "type": "phone",
+            "name": "phone",
+            "url": "tel:+5492914380079",
+            "display": "0291-154380079"
+        },
+        {
+            "type": "email",
+            "name": "uns",
+            "url": "mailto:matias.michelettto@uns.edu.ar",
+            "display": "matias.micheletto@uns.edu.ar"
+        },
+        {
+            "type": "email",
+            "name": "gmail",
+            "url": "mailto:matiasmicheletto@gmail.com",
+            "display": "matiasmicheletto@gmail.com"
+        },
+        {
+            "type": "email",
+            "name": "cs.uns",
+            "url": "mailto:matias.micheletto@cs.uns.edu.ar",
+            "display": "matias.micheletto@cs.uns.edu.ar"
+        },
+        {
+            "type": "portfolio",
+            "name": "conicet",
+            "url": "https://www.conicet.gov.ar/new_scp/detalle.php?id=49809&datos_academicos=yes",
+            "display": "Conicet"
+        },
+        {
+            "type": "portfolio",
+            "name": "scholar.google",
+            "url": "https://scholar.google.com/citations?user=qNQQYWIAAAAJ",
+            "display": "Google Scholar"
+        },
+        {
+            "type": "social",
+            "name": "facebook",
+            "url": "https://www.facebook.com/miche1989/",
+            "display": "Facebook"
+        },
+        {
+            "type": "social",
+            "name": "instagram",
+            "url": "https://instagram.com/matias.miche",
+            "display": "Instagram"
+        },
+        {
+            "type": "social",
+            "name": "twitter",
+            "url": "https://twitter.com/yomatiasmiche",
+            "display": "Twitter"
+        },
+        {
+            "type": "social",
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/matiasmicheletto/",
+            "display": "LinkedIn"
+        },
+        {
+            "type": "social",
+            "name": "youtube",
+            "url": "https://www.youtube.com/channel/UCI0mjA0Hl7jok8DzrWavTng",
+            "display": "YouTube"
+        },
+        {
+            "type": "social",
+            "name": "github",
+            "url": "https://github.com/matiasmicheletto",
+            "display": "Github"
+        },
+        {
+            "type": "social",
+            "name": "kaggle",
+            "url": "https://www.kaggle.com/matiasmiche",
+            "display": "Kaggle"
+        },
+        {
+            "type": "social",
+            "name": "researchgate",
+            "url": "https://www.researchgate.net/profile/Matias-Micheletto",
+            "display": "ResearchGate"
+        },
+        {
+            "type": "social",
+            "name": "codewars",
+            "url": "https://www.codewars.com/users/matiasmicheletto",
+            "display": "CodeWars"
+        }
+    ]
+}

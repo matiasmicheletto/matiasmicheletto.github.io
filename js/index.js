@@ -132,7 +132,7 @@ $(function () {
         }, 800);
     });
     
-    $.getJSON( "js/dictionary.json", function( data ) {
+    $.getJSON( "data/dictionary.json", function( data ) {
         var translator = $('body').translate({lang: "es", t: data});
         
         langSelector.on("click", function(e) {            
