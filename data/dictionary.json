@@ -68,8 +68,8 @@
         "en": "Experience"
     },
     "section-open-source" : {
-        "es": "Prototipos Open-Source",
-        "en": "Open-Source prototypes"
+        "es": "Proyectos personales",
+        "en": "Personal projects"
     },
     "section-contact" : {
         "es": "Contacto",
@@ -100,12 +100,12 @@
         "en": "I am a Ph.D. Electronic Engineer."
     },
     "about-p3" : {
-        "es": "Trabajando en grupos de investigación multidisciplinarios, he adquirido experiencia y habilidades en el desarrollo de soluciones tecnológicas aplicadas a un amplio espectro de problemáticas.",
-        "en": "Working in multidisciplinary research groups, I have acquired experience and skills in the development of technological solutions applied to a wide variety of applications."
+        "es": "Me dedico al desarrollo de tecnologías de la información y productos digitales aplicados transversalmente a múltiples disciplinas y en particular para el agro. Me especializo en computación científica, investigación operativa y análisis de datos.",
+        "en": "I am dedicated to the analysis and development of ITs for general purpose and mostly applied to agriculture. I specialise in scientific computing, operations research and data analysis. I work as a part-time digital products developer."
     },
     "about-p4" : {
-        "es": "Durante el periodo doctoral, en paralelo a las actividades de investigación y docencia, he tenido la posibilidad de trabajar con análisis y procesamiento de datos, desarrollo de  aplicaciones móviles, web y de escritorio, como así también en la implementación de sistemas embebidos.",
-        "en": "During the doctoral period, alongside research and teaching activities, I have had the opportunity to work on data analysis and processing, the development of mobile, web, and desktop applications, as well as the implementation of embedded systems."
+        "es": " ",
+        "en": " "
     },
     "skills-1-title" : {
         "es": "Computación científica",
@@ -120,8 +120,8 @@
         "en": "Software"
     },
     "skills-2-detail" : {
-        "es": "Diseño e implementación de aplicaciones móviles, web y de escritorio. Desarrollo de firmware para sistemas embebidos.",
-        "en": "Design and implementation of web, desktop and mobiles apps. Firmware development for embedded systems."
+        "es": "Diseño e implementación de aplicaciones. Desarrollo de firmware para sistemas embebidos.",
+        "en": "Applications design and implementation. Firmware development for embedded systems."
     },
     "skills-3-title" : {
         "es": "Hardware",
@@ -132,12 +132,12 @@
         "en": "PCB design and manufacturing. 3D design of parts and mechanisms for 3D-printing."
     },
     "skills-4-title" : {
-        "es": "Educación",
+        "es": "Docencia",
         "en": "Coaching"
     },
     "skills-4-detail" : {
-        "es": "Docencia universitaria. Instructor Udemy con más de 3000 alumnos.",
-        "en": "University level teaching. Udemy instructor with 3000+ students."
+        "es": "Formación de grado y posgrado. Instructor Udemy con más de 3000 alumnos.",
+        "en": "Undergraduate and graduate education. Udemy instructor with 3000+ students."
     },
     "edu-1-title" : {
         "es": "Doctorado en Ingeniería",
@@ -188,7 +188,7 @@
         "en": "IT Consultancy. Development of mobile apps and embedded systems."
     },
     "exp-sendevo-detail" : {
-        "es": "Desarrollo y mantenimiento de aplicaciones móviles de INTA. Desarrollo de sitios web institucionales. Desarrollo de aplicaciones Agrar.io y Presipedia.",
+        "es": "Desarrollo y mantenimiento de aplicaciones móviles de INTA. Desarrollo de Registrador Dinamométrico INTA. Proyectos Agrar.io, Presipedia, Quandra y Veradynium.",
         "en": "Development and maintenance of INTA mobile apps. Development of institutional websites. Development of Agrar.io and Presipedia apps."
     },
     "exp-capp-title" : {
@@ -238,6 +238,18 @@
     "all" : {
         "es": "Todo",
         "en": "All"
+    },
+    "blog-dna-solver" : {
+        "es": "Un conjunto de bibliotecas y herramientas en JavaScript y C++ para crear y probar experimentos con algoritmos genéticos para problemas de optimización combinatoria.",
+        "en": "A set of javascript and C++ libraries and tools to create and test Genetic Algorithms experiments for combinatorial optimization problems."
+    },
+    "blog-presipedia" : {
+        "es": "A partir de su base de datos, Presipedia compila la estadística presidencial para generar visualizaciones interactivas y preguntas y respuestas para que puedas evaluar no sólo tu conocimiento, sino también tu compatibilidad con el modelo de presidente argentino.",
+        "en": "Using its database, Presipedia compiles presidential statistics to generate interactive visualizations and questions and answers so you can assess not only your knowledge, but also your compatibility with the Argentine presidential model."
+    },
+    "blog-agrario" : {
+        "es": "Agrar.io es una aplicación multiplataforma orientada a la gestión de tareas agropecuarias de cualquier rubro. Con Agrar.io es posible realizar cálculos de todo tipo gracias a su librería de extensiones y bases de datos, permite generar órdenes de labor, presupuestos y reportes para el seguimiento de actividades.",
+        "en": "Agrar.io is a cross-platform application designed for managing agricultural tasks of any kind. With Agrar.io, you can perform all kinds of calculations thanks to its library of extensions and databases. It allows you to generate work orders, budgets, and reports for tracking activities."
     },
     "blog-autotest" : {
         "es": "Una aplicación móvil que guía al usuario por una lista de menús configurables y un panel de administrador que permite definir y crear arboles de decisión formados por menús de contenido editable. Desarrollado en el contexto de la expansión de la pandemia de COVID-19.",

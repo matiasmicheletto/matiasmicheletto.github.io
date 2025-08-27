@@ -26,6 +26,25 @@ body::-webkit-scrollbar {
     opacity: 0.65;
 }
 
-.timeline {
-    background-color: white;
+.vis-inner, .vis-text {
+    color: white!important;
+}
+
+.vis-timeline,
+.vis-timeline * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+.project-grid .col-sm-6.col-md-4 {
+    display: flex;
+}
+
+.project-grid .post {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
 }
