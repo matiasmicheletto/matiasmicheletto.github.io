@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #EEE;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.timelineSVG text {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    visibility: visible !important;
+    fill: black !important;
+    font-size: 14px !important;
+}
+
+.tooltip {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    fill: #000;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: absolute;
+    pointer-events: none;
+    text-anchor: end;
+    z-index: 1000;
+}
+
+.svgContainer {
+    border: 1px #666;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px;
+}
+
+.svgContainer svg {
+    width: 100% !important;
+    height: auto;
+    display: block;
+}
+
+.chartContainer {
+    border: 1px #666;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    height: 400px;
+}
+
+.chartContainer canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.statsContainer {
+    margin: 20px;
+}
+
+.statText {
+    font-size: 16px;
+    line-height: .4em;
+    margin-left: 10px;
+}
+
+
+.container {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+}

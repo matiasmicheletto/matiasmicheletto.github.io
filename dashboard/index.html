@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="documentTitle"></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="text-align: right;padding-right: 30px;">
+        <p id="lastUpdateText" style="font-style: italic; font-size: 14px; color: #CCC"></p>
+    </div>
+
+    <p class="title">Cronología de episodios</p>
+    <div class="svgContainer">
+        <svg id="timelineSVG"></svg>
+    </div>
+    
+    <p class="title">Proporción de episodios por día de la semana</p>
+    <div class="chartContainer">
+        <canvas id="dayCounterChart"></canvas>
+    </div>  
+    
+    <p class="title">Proporción de episodios por mes</p>
+    <div class="chartContainer">
+        <canvas id="yearMonthCounterChart"></canvas>
+    </div>
+
+    <p class="title">Intervalos entre episodios</p>
+    <div class="chartContainer">
+        <canvas id="intervalChart"></canvas>
+    </div>
+    
+    <p class="title">Recuento</p>
+    <div class="container">
+        <div class="column">
+            <h4 id="dayCounterTitle"></h4>
+            <div id="eventsPerDay" class="statsContainer"></div>
+        </div>
+        <div class="column">
+            <h4 id="monthCounterTitle"></h4>
+            <div id="eventsPerMonth" class="statsContainer"></div>
+        </div>
+        <div class="column">
+            <p id="lastEpisodeText"></p>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 50px"></div>
+
+    <script src="../js/firebase-app.js"></script>
+	<script src="../js/firebase-database.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="constants.js"></script>
+    <script src="utils.js"></script>
+    <script src="stats.js"></script>
+    <script src="timeline.js"></script>
+    <script src="chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
