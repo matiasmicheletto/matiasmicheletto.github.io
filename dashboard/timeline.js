@@ -37,7 +37,7 @@ const drawDayLabels = () => {
         text.setAttribute("y", index * boxSize + boxSize / 2);
         text.setAttribute("font-family", "Helvetica, Arial, sans-serif");
         text.setAttribute("text-anchor", "end");
-        text.setAttribute("font-size", "10px");
+        text.setAttribute("font-size", window.innerWidth < 768 ? "6" : "10");
         text.setAttribute("fill", "#EEE");
         text.setAttribute("dominant-baseline", "middle");
         text.textContent = label;
@@ -123,7 +123,7 @@ const makeTimeline = (data) => {
     weeksInRange = Math.floor((endMondayUTC - baseMondayUTC) / MS_W) + 1;
 
     // Layout now depends on weeksInRange
-    dayLabelsWidth = Math.max(...dayLabels.map((label) => label.length)) * 8;
+    dayLabelsWidth = Math.max(...dayLabels.map((label) => label.length)) * (window.innerWidth < 768 ? 2 : 8);
     boxSize = Math.min(Math.floor((window.innerWidth - 2 * dayLabelsWidth) / weeksInRange), 30);
 
     drawDayLabels();

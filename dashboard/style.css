@@ -72,7 +72,7 @@ svg {
 }
 
 .statText {
-    font-size: 16px;
+    font-size: 14px;
     line-height: .4em;
     margin-left: 10px;
 }
@@ -87,4 +87,25 @@ svg {
 
 .column {
     flex: 1;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .statText {
+        font-size: 12px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .column {
+        flex: none;
+        width: 100%;
+    }
 }

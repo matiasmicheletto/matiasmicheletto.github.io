@@ -56,8 +56,7 @@ const printEventsCount = data => {
         });
     }
     document.getElementById("monthCounterTitle").textContent = "Episodios por mes";
-
-
+    
     const lastEpisodeText = document.getElementById("lastEpisodeText");
     const lastEpisodeLabel = document.createElement("b");
     const lastEpisodeDate = document.createElement("span");
