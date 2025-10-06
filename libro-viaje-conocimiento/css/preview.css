@@ -2,7 +2,7 @@
     transition: opacity 0.4s 0.2s;
 }
 
-.cover, .cover-img{
+.cover, .page-img{
     width: 100%;
     height: 100%;
     border-radius: 4px;
@@ -26,9 +26,20 @@
     perspective: 250vw;
 }
 
+.book-container {
+    background: url('../images/DJI_0733.jpg') center center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+}
+
 .book .pages {
-    width: 60vw;
-    height: 44vw;
+    width: 80vw;
+    height: 55vw;
     position: relative;
     transform-style: preserve-3d;
     backface-visibility: hidden;
@@ -42,8 +53,8 @@
     margin: 0;
     position: absolute;
     top: 0;
-    width: 30vw;
-    height: 44vw;
+    width: 40vw;
+    height: 55vw;
     transform-origin: 0 0;
     transition: transform 1s;
     backface-visibility: hidden;
@@ -135,45 +146,8 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    background: #333;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-}
-
 .page:nth-child(odd) {
     background-position: right top;
-}
-
-h3, h4, h5, h6 {
-    font-family: "Droid Serif", "Palatino Linotype", "Book Antiqua", Palatino, serif;    
-    font-weight: normal;
-}
-
-p, li{
-    font-size: 0.7em;
-    text-align: justify;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-}
-
-ul {
-    padding-left: 20px;
-    margin-top: 0;
-    margin-bottom: 0.5em;
 }
 
 .quote {

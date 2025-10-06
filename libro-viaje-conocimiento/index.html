@@ -1,317 +1,411 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb" dir="ltr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Del laboratorio a la sociedad</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+        <!-- Standard Meta -->
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="author" content="Matias Micheletto" />
 
-<body>
-    <div class="book">
-        <div id="pages" class="pages">
-            <div class="page cover">
-                <img class="cover-img" src="cover.jpg" alt="Book Cover" />
+        <!-- Site Properties -->
+        <title>Del Laboratorio a la Sociedad</title>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto::100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,latin-ext" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/uikit.css">
+        <link rel="stylesheet" href="css/components/slider.css">
+        <link rel="stylesheet" href="css/components/slideshow.css">
+		<link rel="stylesheet" href="css/components/slidenav.css">
+        <link rel="stylesheet" href="css/components/dotnav.css"> 
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mediaquery.css">
+		<link rel="stylesheet" href="css/preview.css">
+    </head>
+
+    <body style="min-width: fit-content;!important">
+		
+		<!-- Header --> 
+        <header id="idz-header">
+
+        	<!-- Mobile / Offcanvas Menu --> 
+        	<div id="mobile-nav" class="uk-offcanvas">
+				<div class="uk-offcanvas-bar">
+					<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}" data-uk-nav>
+						<li><a href="#idz-header">Inicio</a></li>
+						<li><a href="#idz-features">Contenido</a></li>
+						<li><a href="#idz-about">Autor</a></li>
+						<li><a href="#idz-pricing">Precios</a></li>
+						<li><a href="#idz-preview">Vista previa</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- Mobile / Offcanvas Menu End --> 
+			
+			<!-- Sticky Header Wrapper --> 
+			<div class="idz-header-wrapper" data-uk-sticky="{top:-400, animation: 'uk-animation-slide-top'}">
+				<div class="uk-container uk-container-center">
+					
+					<!-- Top Header Container -->
+					<div class="idz-top-header">
+						<div class="uk-grid">
+
+							<div class="uk-width-large-2-5 uk-width-medium-2-5 uk-width-small-1-1">
+								
+								<!-- Logo -->
+								<div class="idz-logo">
+									<a href="#idz-header"><img src="images/logo.png" class="idz-logo-main"/></a>
+									<a href="#idz-header"><img src="images/logo.png" class="idz-logo-sticky"/></a>
+								</div>
+								<!-- Logo End -->
+
+							</div>
+							
+							<div class="uk-width-large-3-5 uk-width-medium-3-5 uk-width-small-1-1">
+
+								<!-- Main Navigation -->
+								<div class="idz-menu">
+									<nav id="idz-nav" class="uk-navbar uk-hidden-medium uk-hidden-small">
+										<div class="uk-navbar-flip">
+											<ul class="uk-navbar-nav" data-uk-scrollspy-nav="{closest:'li', smoothscroll:{offset:70}}">
+												<li><a href="#idz-header">Inicio</a></li>
+												<li><a href="#idz-features">Contenido</a></li>
+												<li><a href="#idz-about">Autor</a></li>
+												<li><a href="#idz-pricing">Precios</a></li>
+												<li><a href="#idz-preview">Vista previa</a></li>
+											</ul>
+										</div>
+									</nav>
+									<a href="#mobile-nav" class="uk-navbar-toggle" data-uk-offcanvas></a>
+								</div>
+								<!-- Main Navigation End -->
+
+							</div>
+
+						</div>
+					</div>
+					<!-- Top Header Container End -->
+
+	        	</div>
+        	</div>
+        	<!-- Sticky Header Wrapper End --> 
+			
+
+			<!-- Header Content --> 
+        	<div class="uk-container uk-container-center idz-header-section">
+        		<div class="uk-grid">
+	    			<div class="uk-width-large-5-10 uk-width-medium-2-3 uk-width-small-2-3">
+
+	    				<!-- Header Content Begin --> 
+	    				<div class="idz-header-content">
+						    <div class="uk-padding-xlarge">
+								<h1 class="idz-heading-shadow txtwhite txt42"><strong class="uppercase">Del Laboratorio a la Sociedad</strong> <br> Creación, Validación y Transferencia del Conocimiento</h1>
+								<div class="idz-header-intro">
+									<p class="uk-text-bold txtwhite uk-margin-bottom-remove">Una guía para comprender el funcionamiento del mundo científico desde adentro</p>
+								</div>
+							</div>
+						</div>
+						<!-- Header Content End --> 
+
+					</div>
+
+					<div class="uk-width-large-5-10 uk-width-medium-1-3 uk-width-small-1-3">
+						<img src="images/book-cover.png" alt="book cover" class="uk-img-preserve idz-float-img">
+					</div>
+
+				</div>
+        	</div>
+			<!-- Header Content --> 
+
+			<!-- Header Overlay --> 
+			<div class="idz-overlay"></div>
+			<div class="idz-gradient-overlay"></div>
+			<!-- Header Overlay End --> 
+
+    	</header>
+		<!-- Header End --> 
+		
+		<!-- Features Section -->
+		<section id="idz-features" class="uk-padding-large idz-padding-bottom">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid uk-margin">
+				
+                    <div class="uk-width-large-1-3 uk-width-medium-1-1 uk-width-small-1-1">
+                    	<div class="idz-feature-box">
+                    		<div class="idz-heading-with-icon">
+		                    	<i class="uk-icon-bullhorn uk-icon-large"></i>
+		                        <h2 class="bold txt42 idz-margin-large-bottom uppercase">completo</h2>
+	                        </div>
+	                        <p>Siete capítulos que abarcan cada etapa: cómo nace, se valida, se publica, se mide y se transfiere la ciencia</p>
+                        </div>
+                    </div>
+
+					 <div class="uk-width-large-1-3 uk-width-medium-1-1 uk-width-small-1-1">
+					 	<div class="idz-feature-box">
+					 		<div class="idz-heading-with-icon">
+								<i class="uk-icon-graduation-cap uk-icon-large"></i>
+							 	<h2  class="bold txt42 idz-margin-large-bottom uppercase">didáctico</h2>
+						 	</div>
+	                        <p>Con ejemplos concretos y casos históricos que ilustran cada concepto, desde el método científico hasta las publicaciones y patentes</p>
+                        </div>
+					 </div>
+
+					 <div class="uk-width-large-1-3 uk-width-medium-1-1 uk-width-small-1-1">
+					 	<div class="idz-feature-box">
+					 		<div class="idz-heading-with-icon">
+								<i class="uk-icon-lightbulb-o uk-icon-large"></i>
+							 	<h2  class="bold txt42 idz-margin-large-bottom uppercase">inspirador</h2>
+						 	</div>
+	                        <p>Entiende el poder transformador del conocimiento y cómo puedes participar en su construcción colectiva</p>
+                        </div>
+					 </div>
+					
+                </div>
+
             </div>
+        </section>
+		<!-- Features Section End -->
 
-            <div class="page"></div>
+        <!-- Features 2 Section -->
+		<section id="idz-features2" class="uk-padding-large idz-padding-large-bottom uk-margin-large-top" data-uk-parallax="{bg: '-200'}">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+				
+                	<div class="uk-width-4-10 uk-width-large-4-10 uk-width-medium-3-5">    
+                		<h2 class="txt42 uk-margin-bottom txtwhite idz-heading-shadow"><strong class="uppercase">Reseña</strong></h2>
+                		<p class="txtwhite idz-heading-shadow" style="color:white;font-size:18px;line-height:1.2em;text-shadow: 1px 1px 5px black;">El manuscrito aborda un ciclo de vida del conocimiento (Creación, Validación y Transferencia) de extrema oportunidad y relevancia en el contexto actual, donde el impacto social de la ciencia es una demanda ineludible. El autor ha diseñado un marco conceptual que busca ser comprehensivo, un "mapa" que guía al lector desde los fundamentos epistemológicos hasta las métricas de impacto.</p>
+                	</div>
 
-            <div class="page">
-                <div style="margin-top: 10vh;">
-                    <center>
-                        <h3>Del laboratorio a la <br> sociedad</h3>
-                    </center>
-                    <center>
-                        <h4>Creación, validación y transferencia del conocimiento</h4>
-                    </center>
-                    <br>
-                    <center>
-                        <h5>Matías J. Micheletto</h5>
-                    </center>
+                	<div class="uk-width-6-10 uk-width-large-6-10 uk-width-medium-2-5">
+                		<div class="idz-section-img">
+							<img src="images/book-table-2-small.jpeg" style="border-radius: 20px;" alt="book" class="uk-img-preserve idz-float-img">
+						</div>
+                	</div>
+					
                 </div>
             </div>
 
-            <div class="page"></div>
-
-            <div class="page">
-                <h4>Prefacio</h4>
-
-                <p class="quote">
-                    "Si he visto más lejos, es porque estoy sentado sobre los hombros de gigantes."
-                    <br>
-                    <b class="quote-author">-Isaac Newton.</b>
-                </p>
+            <div class="idz-overlay"></div>
+			<div class="idz-gradient-overlay"></div>
+        </section>
+		<!-- Features 2 Section End -->
 
 
-                <p>
-                    Los trabajos científicos son los bloques que componen la pirámide del conocimiento, y la ciencia es
-                    el esfuerzo colaborativo y acumulativo que mantiene a esta obra en una permanente construcción. Cada
-                    descubrimiento, cada investigación y cada avance tecnológico se sostiene si existe un sólido trabajo
-                    previo. La inspección rigurosa y la validación con criterio de cada parte de esta estructura es
-                    esencial para garantizar su confiabilidad y utilidad a largo plazo.
-                </p>
+		<!-- Preview -->
+		<div id="idz-preview" class="book-container">
+			<div class="book">
+				<h2 class="txt42 uk-text-center idz-heading-shadow uk-margin-large-bottom" style="position: relative;color:#00346d"><strong>Vista previa</strong></h2>
+				<div id="pages" class="pages">
+					<div class="page cover">
+						<img class="page-img" src="images/cover.jpg" alt="Book Cover" />
+					</div>
+					<div class="page"></div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p1.png"/>
+					</div>
+					<div class="page"></div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p2.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p3.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p4.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p5.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p6.png"/>
+					</div>
+					<div class="page"></div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p7.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p8.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p9.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p10.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p11.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/cover-back.jpg" alt="Synopsis" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Preview Section End -->
 
-                <p>
-                    El impacto de la ciencia trasciende los laboratorios y las publicaciones académicas, pues sus
-                    avances se traducen en mejoras tangibles para la sociedad, como tecnologías innovadoras, soluciones
-                    a problemas globales y una mejor comprensión de nuestro entorno. Sin embargo, el potencial
-                    transformador de la ciencia no solo depende de su calidad o creatividad, sino también de los
-                    recursos que se le asignen para desarrollarse plenamente. Así, el apoyo a la investigación se
-                    convierte en una inversión estratégica, capaz de influir tanto en el progreso social como en el
-                    crecimiento económico.
-                </p>
+        <!-- About Section -->
+		<section id="idz-about" class="uk-padding-large">
+            <div class="uk-container uk-container-center">
+				<div class="uk-grid">
+					<div class="uk-width-large-5-10 uk-width-medium-1-1 uk-width-small-1-1" style="margin-bottom:50px;">
+						<div class="idz-heading-with-icon">
+							<i class="uk-icon-pencil uk-icon-large"></i>
+							<h2 class="txt42 bold">Sobre el autor</h2>
+						</div>
+						<p class="uk-margin-large-bottom">Hola! Soy Matías Micheletto, soy Ingeniero Electrónico y Doctor en Ingeniería, actualmente trabajo como investigador en <a href="https://bicyt.conicet.gov.ar/fichas/p/matias-javier-micheletto" target="_blank">CONICET</a>.</p>
 
-                <p>
-                    No existe un camino directo para llegar a la cima de la pirámide. El trayecto es un ascenso plagado
-                    de desvíos,
-                </p>
+						<ul class="uk-list uk-list-line idz-about-list">
+							<li>
+								<div class="icon-wrap circle orange color uk-align-left">
+									<i class="uk-icon-trophy"></i>
+								</div>		
+								<div class="idz-about-list-content">
+									<h4 class="bold uk-margin-remove">20+ publicaciones</h4>
+									<p class="uk-margin-remove">En congresos nacionales e internacionales</p>
+								</div>
+							</li>
+							<li>
+								<div class="icon-wrap circle orange uk-align-left">
+									<i class="uk-icon-bank"></i>
+								</div>
+								<div class="idz-about-list-content">
+									<h4 class="bold uk-margin-remove">10+ artículos</h4>
+									<p class="uk-margin-remove">En revistas de alcance internacional</p>
+								</div>
+							</li>
+							<li>
+								<div class="icon-wrap circle orange uk-align-left">
+									<i class="uk-icon-graduation-cap"></i>
+								</div>
+								<div class="idz-about-list-content">
+									<h4 class="bold uk-margin-remove">Desarrollador y consultor IT</h4>	
+									<p class="uk-margin-remove">En tecnologías digitales aplicadas</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="uk-width-large-5-10 uk-width-medium-1-1" style="text-align: center;">
+						<img src="images/perfil2.jpg" alt="About" class="uk-img-preserve idz-normal-image" style="border-radius: 20px;" >
+					</div>
+				</div>
+
             </div>
+        </section>
+		<!-- About Section End -->
+		
+		<!-- Pricing Section -->
+		<section id="idz-pricing" class="uk-padding">
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid">
 
-            <div class="page">
-                <p>
-                    atajos, retrocesos, tropiezos y caídas. Cada paso hacia adelante requiere de un esfuerzo
-                    significativo de tiempo y recursos. La ciencia es un proceso de aprendizaje y adaptación continuos,
-                    donde cada error se convierte en una oportunidad para mejorar y cada éxito sienta las bases para
-                    logros futuros.
-                </p>
-                <p>
-                    Invertir en ciencia trae beneficios a largo plazo, pero a la vez, existen problemas y necesidades
-                    inmediatas que se podrían resolver con esos mismos recursos, por lo que decidir sobre el presupuesto
-                    óptimo a destinar para el desarrollo científico es un desafío complejo desde lo ético y lo práctico.
-                </p>
-                <p>
-                    A nivel global, la gran mayoría de los países enfrentan esta discusión, no solo respecto de cuánto
-                    capital destinar al avance científico, sino también cómo distribuir los recursos en las áreas de
-                    mayor impacto. Todo ello teniendo en cuenta las necesidades urgentes y el riesgo que implica
-                    destinar fondos públicos a una causa cuyos resultados son inciertos. Entonces, un punto de partida
-                    para abordar esta difícil decisión es conocer cómo se genera el conocimiento, cómo se valida y cómo
-                    se aplica a la vida cotidiana de las personas.
-                </p>
+					<div class="uk-width-large-3-4 uk-width-medium-1-1 uk-width-small-1-1 uk-container-center">
+						
+						<div class="idz-text-intro uk-margin-large-bottom">
+							<h2 class="txt42 uk-text-center idz-heading-shadow txtwhite">
+								Dos opciones! 
+								<br>
+								<span class="bold uppercase">impreso o digital</span>
+							</h2>
+						</div>
 
-                <p>
-                    "Conocimiento" y "Ciencia" son las palabras que se repiten una y otra vez a lo largo de este libro,
-                    que explora de manera concisa y didáctica el trayecto que recorre el conocimiento científico desde
-                    su creación en laboratorios y centros de investigación, pasando por las etapas de validación y
-                    divulgación, hasta su transformación en un beneficio para la sociedad. Es en este último tramo donde
-                    el conocimiento se convierte en un catalizador de innovación y desarrollo, devolviendo a la
-                    sociedad,
-                </p>
+						<div class="idz-pricing-box">
+							<ul class="uk-grid uk-grid-width-1-2 uk-grid-divider idz-price-list">
+								<li>
+									<div class="idz-price-item with-border uk-text-center">
+										<span class="idz-currency idz-heading-shadow">$</span><span class="idz-price idz-heading-shadow">20k</span><span class="uk-clearfix"></span><span class="idz-price-desc uk-text-center txtwhite">versión impresa</span>
+									</div>
+								</li>
+								<li>
+									<div class="idz-price-item uk-text-center">
+										<span class="idz-currency idz-heading-shadow">$</span><span class="idz-price idz-heading-shadow">7k</span><span class="uk-clearfix"></span><span class="idz-price-desc uk-text-center txtwhite">versión digital</span>
+									</div>
+								</li>
+							</ul>
+							<p class="idz-pricing-desc bold uk-text-center txtwhite">Precios a costo de impresión hasta agotar el stock de la primera tirada.</p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+        </section>
+		<!-- Pricing Section End -->
+		
+		<!-- Pre-footer Section -->
+		<section id="pre-footer" class="uk-padding">
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid">
+					<div class="uk-width-large-3-4 uk-width-medium-1-1 uk-width-small-1-1 uk-container-center uk-text-center idz-margin-large-bottom">
+						<p class="bold orange uk-margin-remove">Aprovecha los descuentos de la primera edición!</p>
+						<p class="thin uppercase txt14  uk-margin-top-remove uk-margin-medium-bottom">10% de descuento para estudiantes de grado y posgrado</p>
+
+						<div class="idz-button-block">
+							<a class="uk-button uk-button-xlarge idz-button-orange radius bold" href="#" target="_blank"><i class="uk-icon-shopping-cart"></i> Pedir ahora!</a>
+							<a class="idz-header-btn" href="https://www.amazon.com/dp/6310101633?ref_=pe_93986420_774957520" target="_blank"><img src="images/amazon.jpeg" alt="AMAZON"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Pre-footer Section End -->
+
+		<div class="uk-grid" style="margin-bottom: 100px;">
+			<div class="uk-container-center uk-width-large-3-5 uk-width-medium-1-1  uk-width-small-1-1">
+				<div class="idz-subscription-form idz-box-shadow">
+					<p class="uk-text-center"><strong>Contactarme</strong> por consultas e inquietudes.</p>
+					<img src="images/form-envelope-stamp.png" class="form-stamp" alt="form stamp">
+					<form class="uk-form idz-form">
+						<input type="text" placeholder="ingrese su correo electrónico aquí..." class="uk-width-1-1 uk-form-large">
+						<button class="uk-button" type="button"><i class="uk-icon-envelope"></i>Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+        <!-- Footer -->
+		<footer id="idz-footer">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid uk-grid-medium uk-grid-divider uk-text-center">
+					<div class="uk-width-10-10">
+						<div class="idz-footer-widget">
+							<h4 class="txtwhite bold uppercase">Sequime en redes</h4>
+							<ul class="uk-list idz-footer-social">
+								<li><a href="https://www.facebook.com/miche1989/" target="_blank"><i class="uk-icon-facebook-official uk-icon-medium"></i></a></li>
+								<li><a href="https://x.com/yomatiasmiche" target="_blank"><i class="uk-icon-twitter uk-icon-medium"></i></a></li>
+								<li><a href="https://www.youtube.com/@matiasmiche" target="_blank"><i class="uk-icon-youtube-play uk-icon-medium"></i></a></li>
+								<li><a href="https://www.instagram.com/matias.miche/" target="_blank"><i class="uk-icon-instagram uk-icon-medium"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="uk-width-10-10"><hr class="uk-grid-divider"></div>
+
+					<div class="uk-width-10-10 uk-text-left">
+						<p class="copyright">Matías Micheletto - Todos los derechos reservados &copy; 2025.</p>
+					</div>
+                </div>
             </div>
+            <a href="#top" class="to-top uk-icon-chevron-up" data-uk-smooth-scroll></a>    
+        </footer>
+		<!-- Footer End -->
 
-            <div class="page">
-                <p>
-                    en forma de bienes y servicios tangibles, la inversión y el esfuerzo de los científicos y de quienes
-                    confían en el progreso humano.
-                </p>
-            </div>
-
-            <div class="page"></div>
-
-            <div class="page">
-                <h4>Capítulo 2</h4>
-
-                <h3>Creación del conocimiento</h3>
-                <p class="quote">
-                    "La imaginación es más importante que el conocimiento. Porque el conocimiento es limitado, mientras
-                    que la imaginación abarca el mundo."
-                    <br>
-                    <b class="quote-author">-Albert Einstein.</b>
-                </p>
-
-
-                <h5>2.1 ¿Cómo nace una idea científica?</h5>
-
-                <p>
-                    El primer paso en este viaje del conocimiento es la observación y el planteo de una hipótesis. Para
-                    el científico, vencer este "rozamiento estático" y explotar la creatividad para generar ideas
-                    innovadoras requiere de cierto impulso que es difícil de lograr. El arte de crear es un proceso que
-                    se puede entrenar y mejorar, pero que también depende de factores personales y del entorno.
-                </p>
-
-                <p>
-                    Distintos autores han abordado el tema de la creatividad y la generación de ideas desde distintas
-                    perspectivas. Por ejemplo, "La Ciencia de las Buenas Ideas" de Diego Golombek y "Ágilmente" de
-                    Estanislao Bachrach explican algunos de los procesos que ocurren en la mente de las personas desde
-                    el enfoque de las neurociencias y con ejemplos de la vida cotidiana.
-                </p>
-            </div>
-
-            <div class="page">
-                <p>
-                    Un gran número de autores coinciden en que las mejores ideas surgen cuando la mente está relajada y
-                    no está enfocada directamente en el problema. Este fenómeno es conocido como "incubación". Durante
-                    este tiempo, el cerebro sigue trabajando en segundo plano,
-                    haciendo conexiones y asociaciones que no son evidentes a simple vista. De un instante al otro la
-                    idea puede surgir de manera repentina y sorprendente, efecto que suele ser conocido como "momento
-                    eureka" o "momento Ajá".
-                </p>
-
-                <p>
-                    Es por eso que muchas veces las ideas más brillantes, conocidas como <i>"insights"</i>, surgen en
-                    situaciones de ocio, como tomar una ducha, caminar o incluso durante el sueño. En la cultura popular
-                    se relatan historias de grandes descubrimientos que surgieron en momentos de relajación o de
-                    actividades completamente diferentes a las relacionadas con el invento. Tal vez valga la pena
-                    recordar alguna de estas historias para ilustrar cómo la creatividad y la ciencia pueden
-                    entrelazarse de maneras inesperadas.
-                </p>
-
-                <p>
-                    <b>El Principio de Arquímedes</b> se le ocurrió a Arquímedes mientras estaba en la bañera, al
-                    observar que el nivel del agua subía cuando él se sumergía. Se dice que Arquímedes salió a la calle
-                    desnudo gritando "¡eureka!" (¡Lo encontré!) cuando descubrió cómo medir el volumen de un objeto
-                    irregular. De este término surge el concepto de "momento eureka" o "efecto eureka".
-                </p>
-
-                <p>
-                    Hay quienes creen que Isaac Newton desarrolló su <b>Teoría de la Gravedad Universal</b> después de
-                    que una manzana le cayera en la cabeza mientras descansaba bajo un árbol. Newton se preguntó por qué
-                    la manzana caía hacia abajo y no lo hacía en otras direcciones. Aferrado a la idea de que la
-                    gravedad también afectaba a la luna, pudo explicar
-                </p>
-            </div>
-
-            <div class="page">
-                <p> el movimiento de los astros, lo cual llevó a este descubrimiento a ganarse el título de "ley
-                    universal".</p>
-
-                <p>El momento "eureka" de Nikola Tesla sucedió mientras paseaba por un parque con su amigo Antal
-                    Szigeti. En pleno entusiasmo por su epifanía, Tesla dibujó un diagrama en la arena y le explicó cómo
-                    fabricar un <b>motor de corriente alterna</b>, un invento que impactó enormemente en el proceso de
-                    generación y distribución de la energía eléctrica.</p>
-
-                <p>Philo Taylor Farnsworth ideó la <b>televisión</b> mientras trabajaba en una plantación de patatas.
-                    Inspirado en los surcos de siembra, imaginó que podía generar imágenes controlando la luz mediante
-                    barridos a lo largo de líneas paralelas.</p>
-
-                <p>Si bien Sir Alec Jeffreys no se encontraba en un momento de ocio cuando descubrió el <b>perfil de
-                        ADN</b>, dio con este hallazgo mientras observaba una imagen de rayos X, algo que no se
-                    relacionaba directamente con la tarea que se encontraba realizando. Jeffreys se dio cuenta de que
-                    podía identificar a las personas por sus huellas genéticas, lo que hoy en día permite resolver
-                    crímenes y analizar parentescos.</p>
-
-                <p>Si bien los momentos de iluminación representan instantes de inspiración que pueden dar lugar a ideas
-                    revolucionarias, su verdadero valor radica en cómo estas ideas se desarrollan y validan a través del
-                    <b>procedimiento científico</b>. Este proceso estructurado permite transformar intuiciones iniciales
-                    en conocimiento verificable, mediante la formulación de hipótesis, la experimentación controlada y
-                    el análisis riguroso de los resultados. La creatividad y el método científico trabajan en conjunto:</p>
-            </div>
-
-            <div class="page">
-                <p>
-                    la primera genera nuevas posibilidades, mientras que el segundo se encarga de someterlas a un
-                    escrutinio sistemático para confirmar su validez y aplicabilidad.
-                </p>
-
-                <h6>El procedimiento científico</h6>
-
-                <p>
-                    El procedimiento científico es un trabajo sistemático que los investigadores utilizan para analizar fenómenos, adquirir nuevos conocimientos y validar teorías sobre el mundo real. Este proceso asegura que las conclusiones científicas no se basen en suposiciones, creencias o intuiciones personales, sino en \textbf{evidencias verificables}. A través de una observación detallada, los científicos pueden identificar patrones o anomalías que necesitan ser explicadas. A partir de estas observaciones, surgen preguntas que conducen a la formulación de \textbf{hipótesis} o suposiciones preliminares sobre cómo o por qué ocurre un fenómeno.
-                </p>
-
-                <p>
-                    Aunque la aplicación del método científico puede variar según el área de estudio, el proceso sigue una estructura general que incluye pasos claramente definidos, diseñados para garantizar la precisión y la objetividad. Las etapas que suelen identificarse como las principales que conforman este procedimiento son observacion, planteo de la hipotesis, experimentacion, análisis y conclusión. 
-                </p>
-
-                <p><b>Observación</b></p>
-
-                <p>
-                    Este primer paso consiste en identificar un fenómeno o hecho que despierta curiosidad y formular una pregunta específica o definir un problema basado en las 
-                </p>
-            </div>
-
-            <div class="page">
-                <p>
-                    observaciones realizadas. Pocas personas son capaces de ir por la vida preguntándose todo, por lo que aquí juega un papel importante la curiosidad del investigador o de la investigadora. En esta etapa lo que ocurre es muy parecido a lo que nos pasa cuando algo nos llama la atención en la vida cotidiana, como notar que los árboles crecen más rápido en una parte del jardín que otra o que la cortina del baño se mueva hacia adentro al abrir la ducha. En ciencia, esa chispa de curiosidad es valiosa: es la puerta de entrada a una investigación.
-                </p>
-
-                <p>
-                    Pero no basta con sorprenderse. Los científicos deben convertir esa curiosidad en una pregunta concreta, algo que se pueda investigar con cierta lógica y método. Observar implica describir lo que se ve con cuidado, prestar atención a los detalles, tomar notas, registrar condiciones. No alcanza con enunciar algo que ocurre, sino capturar el cuándo, dónde, cómo y con qué frecuencia ocurre el fenómeno. La observación también es una especie de filtro: no todo lo que vemos puede investigarse, así que en esta etapa también se decide si vale la pena seguir con el tema. A veces la idea es buena pero no hay tiempo, dinero, instrumentos o simplemente no es el momento.
-                </p>
-
-                <p>
-                    Como dijo alguna vez Isaac Asimov: "El aspecto más emocionante del descubrimiento científico no es el grito de ¡Eureka!, sino más bien el murmullo de <i>qué raro…</i>".
-                </p>
-
-                <p><b>Hipótesis</b></p>
-
-                <p>
-                    Después de observar algo curioso y hacerse una buena pregunta, llega el momento de arriesgar una posible respuesta. A eso le llamamos hipótesis. Es, básicamente, una idea que el investigador propone para explicar lo que está pasando. No es adivinar al azar ni tener fe ciega en 
-                </p>
-            </div>
-
-            <div class="page"></div>
-
-            <div class="page">
-                <h4>Capítulo 5</h4>
-
-                <h3>Medición del conocimiento</h3>
-                <p class="quote">
-                    "Lo que no se define no se puede medir. Lo que no se mide no se puede mejorar. Lo que no se mejora, se degrada siempre."
-                    <br>
-                    <b class="quote-author">-William Thomson Kelvin.</b>
-                </p>
-
-                <h5>5.1 ¿Cómo mide la calidad de una revista científica?</h5>
-
-                <p>
-                    En la sección 2.2 hablamos sobre los factores que un investigador considera al momento de elegir una revista para publicar su trabajo. En esta sección, nos enfocaremos en cómo se mide la calidad de una revista científica y qué métricas se utilizan para clasificarla.
-                </p>
-
-                <p>
-                    Las revistas científicas se clasifican según su impacto y calidad relativa en un campo de investigación. Para ello, se emplean distintas métricas que permiten evaluar cuán influyentes son sus publicaciones dentro de la comunidad científica. Las más utilizadas son el factor de impacto (<i>Journal Impact Factor</i>), proporcionado por Clarivate, y el <i>CiteScore</i>, calculado por Elsevier a través de Scopus.
-                </p>
-
-                <p>
-                    Ambas métricas se basan en el número promedio de citas que reciben los artículos publicados en una revista durante un período determinado, generalmente de dos a 
-                </p>
-            </div>
-
-            <div class="page">
-                <p>
-                    cuatro años. Sin embargo, difieren en sus métodos de cálculo, en el tipo de documentos que consideran y en la base de datos utilizada. Estas métricas permiten establecer comparaciones entre revistas del mismo campo temático, lo cual es útil para realizar una evaluación justa.
-                </p>
-
-                <p>
-                    Para facilitar esta comparación, se utilizan cuartiles, que agrupan a las revistas en cuatro categorías jerárquicas: Q1, Q2, Q3 y Q4. Una revista ubicada en el cuartil Q1 es considerada de alta calidad y prestigio, ya que publica artículos con un elevado nivel de citación y, por ende, con gran visibilidad e impacto académico. Por el contrario, las revistas en Q4 suelen tener menor repercusión, aunque esto no necesariamente implica baja calidad, ya que pueden abordar nichos muy específicos o estar en regiones con menor visibilidad internacional.
-                </p>
-
-                <p>
-                    Estas clasificaciones son utilizadas por investigadores, instituciones y organismos de evaluación científica para tomar decisiones relacionadas con la publicación, financiamiento y reconocimiento académico. En general el cuartil no se considera como un único criterio de calidad, ya que existen factores complementarios como el proceso de revisión por pares, la reputación del comité editorial, el alcance internacional de la revista y la accesibilidad de sus contenidos.
-                </p>
-
-                <ul>
-                    <li>
-                        <b>Q1 (Primer cuartil):</b> Estas revistas se encuentran en el 25% superior del ranking dentro de su área temática, según métricas como el Factor de Impacto o el CiteScore. Se consideran las más prestigiosas y con mayor visibilidad internacional. Publicar en una revista Q1 suele ser un requisito en convocatorias de financiamiento, evaluaciones académicas o procesos de acreditación. El nivel de exigencia en la revisión por pares es alto, y los 
-                    </li>
-                </ul>
-            </div>
-
-            <div class="page">
-                <p>tiempos de evaluación pueden ser más prolongados debido al gran volumen de envíos que reciben.</p>
-
-                <ul>
-                    <li>
-                        <b>Q2 (Segundo cuartil):</b> Corresponde al rango entre el 25% y el 50% superior. Estas revistas mantienen estándares rigurosos de calidad editorial y científica, aunque no alcanzan el nivel de citación de las de Q1. Publicar en una revista Q2 sigue siendo un indicador de buena producción académica. Son una opción estratégica para investigadores que buscan una publicación con buena difusión, pero con menor tasa de rechazo que las revistas Q1.
-                    </li>
-                    <li>
-                        <b>Q3 (Tercer cuartil):</b> Estas revistas se sitúan entre el 50% y el 75% del ranking. Su impacto es más limitado, pero muchas de ellas cumplen un rol determinante en áreas emergentes, multidisciplinarias o de interés regional. También suelen ofrecer mayor accesibilidad para investigadores que están iniciando su carrera o trabajan en instituciones con menor tradición científica. Publicar en Q3 puede ser parte de una estrategia de consolidación académica o de difusión específica.
-                    </li>
-                    <li>
-                        <b>Q4 (Cuarto cuartil):</b> Ocupan el 25% inferior del ranking (del 75% al 100%). Eventualmente tienen menor nivel de citación y visibilidad internacional, aunque eso no implica que carezcan de valor. Algunas se enfocan en comunidades científicas locales, en lenguas distintas del inglés o en temáticas muy específicas. Publicar en revistas Q4 puede ser útil para llegar a audiencias concretas, consolidar líneas de investigación o cumplir requisitos institucionales básicos.
-                    </li>
-                </ul>
-
-                <p>Las dos fuentes principales de clasificación por cuartiles</p>
-            </div>
-
-            <div class="page cover">
-                <img class="cover-img" src="cover-back.jpg" alt="Synopsis" />
-            </div>
-
-        </div>
-    </div>
-    <script src="index.js"></script>
+		
+        <!-- Javascript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script> 
+		<script src="js/components/slider.js"></script>
+        <script src="js/components/slideshow.js"></script>
+        <script src="js/components/slideshow-fx.js"></script>
+        <script src="js/components/parallax.js"></script>
+        <script src="js/components/sticky.js"></script>
+        <script src="js/config.js"></script>
+		<script src="js/preview.js"></script>
 </body>
 
 </html>

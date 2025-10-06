@@ -1,0 +1,489 @@
+/* --------------------------------------------------------------------------
+ * File        : mediaquery.css
+ * Version     : 1.0
+ * Author      : Indonez Team
+ * Author URI  : http://indonez.com
+ *
+ * Indonez Copyright 2016 All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------
+   
+   [Table of contents]
+   1. tablet landscape
+   2. tablet portrait
+   3. mobile landscape
+   4. mobile portrait
+
+------------------------------------------------------------------ */
+
+/* [ 1. tablet landscape ] */
+@media only screen and (max-width:1024px) {
+	.idz-header-section .idz-float-img {
+	    right: -40px;
+	}
+	#idz-features2 .idz-float-img {
+		max-width: 600px;
+	}
+	.idz-normal-image {
+		max-width: 480px;
+	}
+	.to-top {
+	    right: 70px;
+	}
+	/* Style 2 */
+	header#idz-header.style2 .idz-float-img {
+		max-width: 480px;
+	}
+	#idz-features.style2 .idz-float-img {
+		max-width: 600px;
+	}
+	#idz-features.style2 .uk-padding {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	.idz-cta .uk-button {
+		margin-right: 2px;
+		padding-right: 10px;
+		padding-left: 42px;
+	}
+	.idz-cta .idz-button-icon {
+		height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	}
+	#idz-features2.style2 {
+		padding-bottom: 40px !important;
+	}
+	.idz-pricing-intro {
+		margin-bottom: 30px;
+	}
+}
+
+/* [ 2. tablet potrait ] */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	header#idz-header {
+		min-height: 550px;
+	}
+	.idz-header-section .idz-float-img {
+		max-width: 300px;
+		top: 160px;
+		right: -40px;
+	}
+	.idz-header-content .uk-padding-xlarge {
+		padding-top: 50px !important;
+		padding-bottom: 0px !important;
+	}
+	.idz-testimonials {
+		margin-bottom: 120px !important;
+	}
+	#idz-features2 {
+		max-height: 200px;
+	}
+	#idz-features2.uk-padding-large {
+		padding-top: 30px !important;
+	}
+	#idz-features2 .idz-float-img {
+		max-width: 350px;
+		top: 0;
+		left: -55px;
+	}
+	.idz-footer-logo {
+		display: block;
+		text-align: center;
+		margin: 0 auto 60px auto;
+	}
+	.copyright {
+		display: block;
+		text-align: center;
+	}
+	.to-top {
+	    width: 40px;
+	    height: 40px;
+	    right: 60px;
+	    line-height: 38px;
+	}
+
+	/* Style 2 */
+	header#idz-header.style2 {
+    	min-height: 680px;
+	}
+	header#idz-header.style2 .idz-float-img {
+		top: 130px;
+		max-width: 380px;
+	}
+	.idz-header-content.style2.uk-padding-large {
+		padding-top: 30px !important;
+	}
+	header#idz-header.style2 .idz-header-content h1 {
+		font-size: 32px;
+	}
+	#idz-features.style2 .idz-float-img {
+		top: -100px;
+		left: 70px;
+		right: auto;
+		bottom: auto;
+		max-width: 100%;
+		position: relative;
+		margin-bottom: -100px;
+	}
+	#idz-features.style2.uk-padding-large,
+	#idz-features.style2.uk-padding {
+		padding-top: 0px !important;
+	}
+	.idz-block-img {
+	}
+	.idz-cta .uk-button {
+		margin-right: 2px;
+		padding-right: 10px;
+		padding-left: 42px;
+	}
+	.idz-cta .idz-button-icon {
+		height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	}
+	#idz-features2.style2 {
+		padding-bottom: 40px !important;
+	}
+	#idz-pricing.style2 .idz-price {
+		font-size: 64px;
+	}
+	#idz-features2.style2 .idz-gradient-overlay {
+		max-height: 800px;
+	}
+	.idz-pricing-intro {
+		margin-bottom: 30px;
+	}
+	.idz-footer-widget,
+	.idz-block-text {
+		margin-bottom: 30px !important;
+	}
+}
+
+/* [ 3. mobile landscape ] */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	header#idz-header {
+		min-height: 250px;
+	}
+	.idz-header-section .idz-float-img {
+		max-width: 200px;
+		top: 160px;
+		right: -30px;
+	}
+	.idz-header-content .uk-padding-xlarge {
+		padding-top: 50px !important;
+		padding-bottom: 0px !important;
+	}
+	.idz-header-content h1 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.idz-header-intro p:first-child {
+		line-height: 24px;
+	}
+	.idz-header-intro p:last-child {
+		font-size: 14px;
+		line-height: 22px;
+		margin-top: 10px;
+	}
+	.idz-header-content .uk-button-xlarge {
+	    font-size: 14px !important;
+	    padding: 14px 24px;
+	}
+	.idz-header-content .idz-header-btn {
+		position: relative;
+		bottom: 53px;
+		left: 60%;
+	}
+	.idz-testimonials {
+		margin-bottom: 120px !important;
+	}
+	#idz-features2 {
+		max-height: 200px;
+	}
+	#idz-features2.uk-padding-large {
+		padding-top: 30px !important;
+	}
+	#idz-features2 .idz-float-img {
+		max-width: 250px;
+		top: 0;
+		right: -20px;
+		left: auto;
+	}
+	#idz-features2 h2 {
+		font-size: 24px;
+		line-height: 1;
+	}
+	#idz-features2 p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 20px !important;
+	}
+	.idz-normal-image {
+		max-width: 100%;
+	}
+	.idz-footer-logo {
+		display: block;
+		text-align: center;
+		margin: 0 auto 60px auto;
+	}
+	.copyright {
+		display: block;
+		text-align: center;
+	}
+	.to-top {
+	    width: 40px;
+	    height: 40px;
+	    right: 20px;
+	    line-height: 38px;
+	}
+
+	/* Style 2 */
+	header#idz-header.style2 {
+    	min-height: 680px;
+	}
+	header#idz-header.style2 .idz-float-img {
+		top: 130px;
+		max-width: 380px;
+	}
+	.idz-header-content.style2.uk-padding-large {
+		padding-top: 30px !important;
+	}
+	header#idz-header.style2 .idz-header-content {
+		margin-top: 80px;
+	}
+	header#idz-header.style2 .idz-header-content h1 {
+		font-size: 32px;
+		position: relative;
+		z-index: 1;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	}
+	header#idz-header.style2 .idz-header-content h2 {
+		position: relative;
+		z-index: 1;
+	}
+	#idz-features.style2 .idz-float-img {
+		top: -100px;
+		left: 0px;
+		right: auto;
+		bottom: auto;
+		max-width: 100%;
+		position: relative;
+		margin-bottom: -100px;
+	}
+	#idz-features.style2.uk-padding-large,
+	#idz-features.style2.uk-padding {
+		padding-top: 0px !important;
+	}
+	.idz-block-img {
+	}
+	.idz-cta .uk-button {
+		margin-right: 2px;
+		padding-right: 10px;
+		padding-left: 42px;
+	}
+	.idz-cta .idz-button-icon {
+		height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	}
+	#idz-features2.style2 {
+		padding-bottom: 40px !important;
+	}
+	#idz-pricing.style2 .idz-price {
+		font-size: 64px;
+	}
+	#idz-features2.style2 {
+		max-height: 1000px;
+	}
+	#idz-features2.style2 .idz-gradient-overlay {
+		max-height: 1100px;
+	}
+	.idz-pricing-intro {
+		margin-bottom: 30px;
+	}
+	.idz-table-content li {
+		margin-bottom: 0px;
+	}
+	.idz-footer-widget,
+	.idz-block-text {
+		margin-bottom: 30px !important;
+	}
+}
+
+/* [ 4. mobile potrait ] */
+@media only screen and (max-width: 479px) {
+	header#idz-header {
+		min-height: 300px;
+	}
+	.idz-header-section .idz-float-img {
+		max-width: 100px;
+		top: 140px;
+		right: -10px;
+	}
+	.idz-header-content .uk-padding-xlarge {
+		padding-top: 50px !important;
+		padding-bottom: 40px !important;
+	}
+	.idz-header-content h1 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.idz-header-intro p:first-child {
+		line-height: 24px;
+	}
+	.idz-header-intro p:last-child {
+		font-size: 14px;
+		line-height: 22px;
+		margin-top: 10px;
+		margin-bottom: 0px !important;
+	}
+	.idz-header-content .idz-button-block {
+		margin-top: -30px;
+	}
+	.idz-header-content .uk-button-xlarge {
+	    font-size: 14px !important;
+	    padding: 8px 18px;
+	    margin-bottom: 10px;
+	}
+	.idz-header-content .idz-header-btn {
+		position: relative;
+	}
+	.idz-header-content .idz-header-btn img {
+		width: 56%;
+	}
+	.idz-testimonials {
+		margin-bottom: 120px !important;
+	}
+	#idz-features2 {
+		max-height: 200px;
+	}
+	#idz-features2.uk-padding-large {
+		padding-top: 30px !important;
+	}
+	#idz-features2 .idz-float-img {
+		max-width: 180px;
+		top: 0;
+		right: -20px;
+		left: auto;
+	}
+	#idz-features2 h2 {
+		font-size: 24px;
+		line-height: 1;
+	}
+	#idz-features2 p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 20px !important;
+	}
+	.idz-normal-image {
+		max-width: 100%;
+	}
+	.idz-footer-logo {
+		display: block;
+		text-align: center;
+		margin: 0 auto 60px auto;
+	}
+	.idz-price {
+	    font-size: 58px;
+	}
+	.copyright {
+		display: block;
+		text-align: center;
+	}
+	.to-top {
+	    width: 40px;
+	    height: 40px;
+	    right: 20px;
+	    line-height: 38px;
+	}
+
+	/* Style 2 */
+	header#idz-header.style2 {
+    	min-height: 680px;
+	}
+	header#idz-header.style2 .idz-float-img {
+		top: 130px;
+		max-width: 250px;
+	}
+	.idz-header-content.style2.uk-padding-large {
+		padding-top: 30px !important;
+	}
+	header#idz-header.style2 .idz-header-content {
+		margin-top: 80px;
+	}
+	header#idz-header.style2 .idz-header-content h1 {
+		font-size: 32px;
+		position: relative;
+		z-index: 1;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	}
+	header#idz-header.style2 .idz-header-content h2 {
+		position: relative;
+		z-index: 1;
+	}
+	.idz-client-list {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#idz-features.style2 .idz-float-img {
+		top: -100px;
+		left: 0px;
+		right: auto;
+		bottom: auto;
+		max-width: 100%;
+		position: relative;
+		margin-bottom: -100px;
+	}
+	#idz-features.style2.uk-padding-large,
+	#idz-features.style2.uk-padding {
+		padding-top: 0px !important;
+	}
+	.idz-block-img {
+	}
+	.idz-cta .uk-button {
+		margin-right: 2px;
+		padding-right: 10px;
+		padding-left: 42px;
+	}
+	.idz-cta .idz-button-icon {
+		height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	}
+	#idz-features2.style2 {
+		padding-bottom: 40px !important;
+	}
+	#idz-pricing.style2 .idz-price {
+		font-size: 64px;
+	}
+	#idz-features2.style2 {
+		max-height: 1300px;
+	}
+	#idz-features2.style2 .idz-gradient-overlay {
+		max-height: 1400px;
+	}
+	.idz-pricing-intro {
+		margin-bottom: 30px;
+	}
+	#idz-pricing.style2 .idz-price-item {
+		width: 100%;
+	}
+	.idz-table-content li {
+		margin-bottom: 0px;
+	}
+	#idz-about .uk-img-preserve {
+		max-width: 100%;
+	}
+	.idz-footer-widget,
+	.idz-block-text {
+		margin-bottom: 30px !important;
+	}
+	#pre-footer .uk-button-xlarge {
+	    margin-bottom: 15px;
+	}
+}
