@@ -1,5 +1,10 @@
 /* =============================================== [ 1. Elements ] =============================================== */
 /* [ 1.1. Global ] */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -144,6 +149,10 @@ h6,.uk-h6 {
 }
 .bold{
 	font-weight:700;
+}
+.txt82 {
+    font-size: 82px;
+    line-height: 1em;
 }
 .txt48{
 	font-size:48px;
@@ -1277,12 +1286,15 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
 
 /* [ 2.8. Features Section ] */
 #idz-features {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #idz-features2 {
     background:url(../images/bg-parallax1.jpg) no-repeat;
     position: relative;
     max-height: 543px;
     max-width: 100%;
+    margin-top: 0px;
 }
 #idz-features2 .idz-overlay,
 #idz-features2 .idz-gradient-overlay {
@@ -1405,10 +1417,10 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
     position: relative;
 }
 .idz-currency {
-    font-size: 42px;
+    font-size: 60px;
     color: #ffffff;
     position: relative;
-    bottom: 20px;
+    padding-right: 4px;
     font-weight: normal;
 }
 .idz-price {

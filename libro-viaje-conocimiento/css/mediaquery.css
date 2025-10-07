@@ -487,3 +487,43 @@
 	    margin-bottom: 15px;
 	}
 }
+
+/* Responsive Typography for txt */
+@media only screen and (max-width: 1024px) {
+	.txt42 {
+		font-size: 36px;
+	}
+	.txt82 {
+		font-size: 72px;
+	}
+	.idz-resena-text {
+		font-size: 12px!important;
+		line-height: 1em!important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.txt42 {
+		font-size: 28px;
+	}
+	.txt82 {
+		font-size: 56px;
+	}
+	.idz-resena-text {
+		font-size: 11px!important;
+		line-height: 1em!important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.txt42 {
+		font-size: 24px;
+	}
+	.txt82 {
+		font-size: 48px;
+	}
+	.idz-resena-text {
+		font-size: 9px!important;
+		line-height: 0.9em!important;
+	}
+}

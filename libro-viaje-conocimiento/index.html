@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr">
 
-<head>
+	<head>
         <!-- Standard Meta -->
         <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no" />
@@ -28,7 +28,7 @@
 		<link rel="stylesheet" href="css/preview.css">
     </head>
 
-    <body style="min-width: fit-content;!important">
+    <body>
 		
 		<!-- Header --> 
         <header id="idz-header">
@@ -39,9 +39,9 @@
 					<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}" data-uk-nav>
 						<li><a href="#idz-header">Inicio</a></li>
 						<li><a href="#idz-features">Contenido</a></li>
-						<li><a href="#idz-about">Autor</a></li>
-						<li><a href="#idz-pricing">Precios</a></li>
 						<li><a href="#idz-preview">Vista previa</a></li>
+						<li><a href="#idz-about">Autor</a></li>
+						<li><a href="#idz-pricing" class="uk-button idz-button-outline rounded white">Comprar!</a>
 					</ul>
 				</div>
 			</div>
@@ -75,9 +75,9 @@
 											<ul class="uk-navbar-nav" data-uk-scrollspy-nav="{closest:'li', smoothscroll:{offset:70}}">
 												<li><a href="#idz-header">Inicio</a></li>
 												<li><a href="#idz-features">Contenido</a></li>
-												<li><a href="#idz-about">Autor</a></li>
-												<li><a href="#idz-pricing">Precios</a></li>
 												<li><a href="#idz-preview">Vista previa</a></li>
+												<li><a href="#idz-about">Autor</a></li>
+												<li><a href="#idz-pricing" class="uk-button idz-button-outline rounded white">Comprar!</a></li>
 											</ul>
 										</div>
 									</nav>
@@ -104,7 +104,7 @@
 	    				<!-- Header Content Begin --> 
 	    				<div class="idz-header-content">
 						    <div class="uk-padding-xlarge">
-								<h1 class="idz-heading-shadow txtwhite txt42"><strong class="uppercase">Del Laboratorio a la Sociedad</strong> <br> Creación, Validación y Transferencia del Conocimiento</h1>
+								<h1 class="idz-heading-shadow txtwhite txt42"><strong class="uppercase">Del Laboratorio <br> a la Sociedad</strong> <br> Creación, Validación y Transferencia del Conocimiento</h1>
 								<div class="idz-header-intro">
 									<p class="uk-text-bold txtwhite uk-margin-bottom-remove">Una guía para comprender el funcionamiento del mundo científico desde adentro</p>
 								</div>
@@ -178,7 +178,7 @@
 				
                 	<div class="uk-width-4-10 uk-width-large-4-10 uk-width-medium-3-5">    
                 		<h2 class="txt42 uk-margin-bottom txtwhite idz-heading-shadow"><strong class="uppercase">Reseña</strong></h2>
-                		<p class="txtwhite idz-heading-shadow" style="color:white;font-size:18px;line-height:1.2em;text-shadow: 1px 1px 5px black;">El manuscrito aborda un ciclo de vida del conocimiento (Creación, Validación y Transferencia) de extrema oportunidad y relevancia en el contexto actual, donde el impacto social de la ciencia es una demanda ineludible. El autor ha diseñado un marco conceptual que busca ser comprehensivo, un "mapa" que guía al lector desde los fundamentos epistemológicos hasta las métricas de impacto.</p>
+                		<p class="txtwhite idz-heading-shadow idz-resena-text">El manuscrito aborda un ciclo de vida del conocimiento (Creación, Validación y Transferencia) de extrema oportunidad y relevancia en el contexto actual, donde el impacto social de la ciencia es una demanda ineludible. El autor ha diseñado un marco conceptual que busca ser comprehensivo, un "mapa" que guía al lector desde los fundamentos epistemológicos hasta las métricas de impacto.</p>
                 	</div>
 
                 	<div class="uk-width-6-10 uk-width-large-6-10 uk-width-medium-2-5">
@@ -240,6 +240,16 @@
 					<div class="page cover">
 						<img class="page-img" src="images/paginas/p11.png"/>
 					</div>
+					<div class="page"></div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p12.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p13.png"/>
+					</div>
+					<div class="page cover">
+						<img class="page-img" src="images/paginas/p14.png"/>
+					</div>
 					<div class="page cover">
 						<img class="page-img" src="images/cover-back.jpg" alt="Synopsis" />
 					</div>
@@ -257,12 +267,12 @@
 							<i class="uk-icon-pencil uk-icon-large"></i>
 							<h2 class="txt42 bold">Sobre el autor</h2>
 						</div>
-						<p class="uk-margin-large-bottom">Hola! Soy Matías Micheletto, soy Ingeniero Electrónico y Doctor en Ingeniería, actualmente trabajo como investigador en <a href="https://bicyt.conicet.gov.ar/fichas/p/matias-javier-micheletto" target="_blank">CONICET</a>.</p>
+						<p class="uk-margin-large-bottom">Mi nombre es Matías Micheletto, soy Doctor en Ingeniería y trabajo como investigador en <a href="https://bicyt.conicet.gov.ar/fichas/p/matias-javier-micheletto" target="_blank">CONICET</a>.</p>
 
 						<ul class="uk-list uk-list-line idz-about-list">
 							<li>
 								<div class="icon-wrap circle orange color uk-align-left">
-									<i class="uk-icon-trophy"></i>
+									<i class="uk-icon-bookmark"></i>
 								</div>		
 								<div class="idz-about-list-content">
 									<h4 class="bold uk-margin-remove">20+ publicaciones</h4>
@@ -271,7 +281,7 @@
 							</li>
 							<li>
 								<div class="icon-wrap circle orange uk-align-left">
-									<i class="uk-icon-bank"></i>
+									<i class="uk-icon-book"></i>
 								</div>
 								<div class="idz-about-list-content">
 									<h4 class="bold uk-margin-remove">10+ artículos</h4>
@@ -280,11 +290,12 @@
 							</li>
 							<li>
 								<div class="icon-wrap circle orange uk-align-left">
-									<i class="uk-icon-graduation-cap"></i>
+									
+									<i class="uk-icon-trophy"></i>
 								</div>
 								<div class="idz-about-list-content">
-									<h4 class="bold uk-margin-remove">Desarrollador y consultor IT</h4>	
-									<p class="uk-margin-remove">En tecnologías digitales aplicadas</p>
+									<h4 class="bold uk-margin-remove">3 Premios</h4>	
+									<p class="uk-margin-remove">En competencias de innovación</p>
 								</div>
 							</li>
 						</ul>
@@ -308,9 +319,9 @@
 						
 						<div class="idz-text-intro uk-margin-large-bottom">
 							<h2 class="txt42 uk-text-center idz-heading-shadow txtwhite">
-								Dos opciones! 
+								Pedilo en formato
 								<br>
-								<span class="bold uppercase">impreso o digital</span>
+								<span class="bold uppercase" style="margin-top:20px">impreso o digital</span>
 							</h2>
 						</div>
 
@@ -318,16 +329,16 @@
 							<ul class="uk-grid uk-grid-width-1-2 uk-grid-divider idz-price-list">
 								<li>
 									<div class="idz-price-item with-border uk-text-center">
-										<span class="idz-currency idz-heading-shadow">$</span><span class="idz-price idz-heading-shadow">20k</span><span class="uk-clearfix"></span><span class="idz-price-desc uk-text-center txtwhite">versión impresa</span>
+										<span class="txt82 idz-currency idz-heading-shadow">$</span><span class="txt82 idz-price idz-heading-shadow">15k</span><br><span class="uk-clearfix"></span><span class="idz-price-desc uk-text-center txtwhite">versión impresa</span>
 									</div>
 								</li>
 								<li>
 									<div class="idz-price-item uk-text-center">
-										<span class="idz-currency idz-heading-shadow">$</span><span class="idz-price idz-heading-shadow">7k</span><span class="uk-clearfix"></span><span class="idz-price-desc uk-text-center txtwhite">versión digital</span>
+										<span class="txt82 idz-currency idz-heading-shadow">$</span><span class="txt82 idz-price idz-heading-shadow">7k</span><br><span class="uk-clearfix"></span><span class="idz-price-desc uk-text-center txtwhite">versión digital (kindle o pdf)</span>
 									</div>
 								</li>
 							</ul>
-							<p class="idz-pricing-desc bold uk-text-center txtwhite">Precios a costo de impresión hasta agotar el stock de la primera tirada.</p>
+							<p class="idz-pricing-desc bold uk-text-center txtwhite">Precio especial de lanzamiento: Primera tirada al costo.</p>
 						</div>
 
 					</div>
@@ -338,30 +349,29 @@
 		<!-- Pricing Section End -->
 		
 		<!-- Pre-footer Section -->
-		<section id="pre-footer" class="uk-padding">
-			<div class="uk-container uk-container-center">
+		<section id="pre-footer">
+			<div class="uk-container uk-container-center" style="padding-top: 50px; padding-bottom: 0px;">
 				<div class="uk-grid">
 					<div class="uk-width-large-3-4 uk-width-medium-1-1 uk-width-small-1-1 uk-container-center uk-text-center idz-margin-large-bottom">
-						<p class="bold orange uk-margin-remove">Aprovecha los descuentos de la primera edición!</p>
-						<p class="thin uppercase txt14  uk-margin-top-remove uk-margin-medium-bottom">10% de descuento para estudiantes de grado y posgrado</p>
-
-						<div class="idz-button-block">
-							<a class="uk-button uk-button-xlarge idz-button-orange radius bold" href="#" target="_blank"><i class="uk-icon-shopping-cart"></i> Pedir ahora!</a>
-							<a class="idz-header-btn" href="https://www.amazon.com/dp/6310101633?ref_=pe_93986420_774957520" target="_blank"><img src="images/amazon.jpeg" alt="AMAZON"></a>
+						<p class="bold orange uk-margin-remove">No te pierdas los descuentos de la primera edición!</p>
+						<div class="idz-button-block" style="padding: 20px 0;">
+							<a class="uk-button uk-button-xlarge idz-button-orange bold" style="border-radius: 10px; margin:0px 10px;" href="#"><i class="uk-icon-shopping-cart"></i> Pedir ahora!</a>
+							<a class="idz-header-btn" href="https://www.amazon.com/dp/6310101633?ref_=pe_93986420_774957520" target="_blank"><img src="images/amazon.png" alt="AMAZON" style="width: auto; height: 55px;"></a>
 						</div>
+						<p class="thin uppercase txt14  uk-margin-top-remove uk-margin-medium-bottom">20% de descuento para estudiantes! <a class="bold" href="mailto:matias.micheletto@uns.edu.ar">Solicitar</a></p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Pre-footer Section End -->
 
-		<div class="uk-grid" style="margin-bottom: 100px;">
+		<div id="idz-contact" class="uk-grid" style="margin-bottom: 100px;">
 			<div class="uk-container-center uk-width-large-3-5 uk-width-medium-1-1  uk-width-small-1-1">
 				<div class="idz-subscription-form idz-box-shadow">
-					<p class="uk-text-center"><strong>Contactarme</strong> por consultas e inquietudes.</p>
+					<p class="uk-text-center"><strong>Contactame</strong> por consultas e inquietudes.</p>
 					<img src="images/form-envelope-stamp.png" class="form-stamp" alt="form stamp">
 					<form class="uk-form idz-form">
-						<input type="text" placeholder="ingrese su correo electrónico aquí..." class="uk-width-1-1 uk-form-large">
+						<input type="text" placeholder="ingrese su correo electrónico" class="uk-width-1-1 uk-form-large">
 						<button class="uk-button" type="button"><i class="uk-icon-envelope"></i>Enviar</button>
 					</form>
 				</div>
@@ -370,23 +380,21 @@
 
         <!-- Footer -->
 		<footer id="idz-footer">
-            <div class="uk-container uk-container-center">
+            <div class="uk-container-center">
                 <div class="uk-grid uk-grid-medium uk-grid-divider uk-text-center">
-					<div class="uk-width-10-10">
-						<div class="idz-footer-widget">
-							<h4 class="txtwhite bold uppercase">Sequime en redes</h4>
-							<ul class="uk-list idz-footer-social">
-								<li><a href="https://www.facebook.com/miche1989/" target="_blank"><i class="uk-icon-facebook-official uk-icon-medium"></i></a></li>
-								<li><a href="https://x.com/yomatiasmiche" target="_blank"><i class="uk-icon-twitter uk-icon-medium"></i></a></li>
-								<li><a href="https://www.youtube.com/@matiasmiche" target="_blank"><i class="uk-icon-youtube-play uk-icon-medium"></i></a></li>
-								<li><a href="https://www.instagram.com/matias.miche/" target="_blank"><i class="uk-icon-instagram uk-icon-medium"></i></a></li>
-							</ul>
-						</div>
+					<div class="uk-width-10-10" style="margin: 20px 0px;">
+						<h4 class="txtwhite bold uppercase">Sequime en redes</h4>
+						<ul class="uk-list idz-footer-social">
+							<li><a href="https://www.facebook.com/miche1989/" target="_blank"><i class="uk-icon-facebook-official uk-icon-medium"></i></a></li>
+							<li><a href="https://x.com/yomatiasmiche" target="_blank"><i class="uk-icon-twitter uk-icon-medium"></i></a></li>
+							<li><a href="https://www.youtube.com/@matiasmiche" target="_blank"><i class="uk-icon-youtube-play uk-icon-medium"></i></a></li>
+							<li><a href="https://www.instagram.com/matias.miche/" target="_blank"><i class="uk-icon-instagram uk-icon-medium"></i></a></li>
+						</ul>
 					</div>
 
-					<div class="uk-width-10-10"><hr class="uk-grid-divider"></div>
+					<div class="uk-width-10-10"><hr class="uk-grid-divider" style="margin: 0px;"></div>
 
-					<div class="uk-width-10-10 uk-text-left">
+					<div class="uk-width-10-10 uk-text-left" style="margin: 20px 0px;">
 						<p class="copyright">Matías Micheletto - Todos los derechos reservados &copy; 2025.</p>
 					</div>
                 </div>
