@@ -323,6 +323,10 @@ pre {
     z-index: -1;
 }
 
+.idz-feature-box {
+    margin: 50px 0px;
+}
+
 /* [ 1.5. Button ] */
 .uk-button-mini {
     line-height: 16px;
@@ -991,16 +995,14 @@ h6.uk-accordion-title.uk-active:before {
 /* [ 1.1. header ] */
 header#idz-header {
     background: url(../images/DJI_0467.jpg) no-repeat;
-	min-height:750px;
     position: relative;
     z-index: 1; 
     background-color: transparent;
     background-size: cover;
 }
 .idz-top-header {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    padding-top: 35px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     position: relative;
     z-index: 3;
 }
@@ -1012,8 +1014,8 @@ header#idz-header {
     box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.1);
 }
 .idz-header-wrapper.uk-active .idz-top-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* [ 2.2 Logo ] */ 
@@ -1052,7 +1054,8 @@ nav#idz-nav .uk-navbar-nav > li > a {
     color: #ffffff;
     position: absolute;
     right: -20px;
-    bottom: 40px;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 22px;
 }
 .uk-navbar-toggle:hover,
@@ -1068,7 +1071,6 @@ nav#idz-nav .uk-navbar-nav > li > a {
 }
 .idz-header-wrapper.uk-active .idz-top-header .uk-navbar-toggle {
     color: #303030;
-    bottom: 25px;
 }
 nav#idz-nav .uk-navbar-nav > li > a:hover {
     background-color: transparent;
@@ -1170,7 +1172,6 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
     position: absolute;
     right: auto;
     left: auto;
-    top: 150px;
 }
 
 /* [ 2.6. Testimonials ] */
@@ -1249,6 +1250,8 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
     background-position: top center;
     background-repeat: no-repeat;
     position: relative;
+    max-width: 500px;
+    margin: 0 auto;
 }
 .idz-subscription-form .form-stamp {
     position: absolute;
@@ -1286,15 +1289,14 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
 
 /* [ 2.8. Features Section ] */
 #idz-features {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 #idz-features2 {
     background:url(../images/bg-parallax1.jpg) no-repeat;
     position: relative;
     max-height: 543px;
     max-width: 100%;
-    margin-top: 0px;
+    margin-top: 0px!important;
 }
 #idz-features2 .idz-overlay,
 #idz-features2 .idz-gradient-overlay {
@@ -1844,8 +1846,6 @@ header#idz-header.style2 .idz-header-content h2 {
     position: relative;
 }
 #idz-features.style2 .idz-float-img {
-    top: -180px;
-    left: -40px;
     bottom: auto;
     z-index: 0;
 }
@@ -1904,7 +1904,7 @@ header#idz-header.style2 .idz-header-content h2 {
 }
 #idz-footer .idz-footer-social li {
     display: inline-block;
-    margin-right: 15px;
+    margin: 0px 6px;
 }
 #idz-footer.style2 .idz-footer-social {
     display: block;
