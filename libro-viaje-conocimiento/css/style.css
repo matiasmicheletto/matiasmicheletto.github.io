@@ -297,19 +297,6 @@ blockquote cite:before {
 	text-align:center;
 }
 
-pre {
-    padding: 10px 15px;
-    background: #f3f3f3 url(../images/pre_bg.html) repeat 0 -9px;
-    border: 1px solid #e8e8e8;
-    border-radius: 4px;
-    font: 12px / 18px Consolas,monospace,serif;
-    color: #969696;
-    word-break: break-all;
-    word-wrap: break-word;
-    white-space: pre;
-    white-space: pre-wrap
-}
-
 /* [ 1.4. Heading with Icon ] */
 .idz-heading-with-icon {
     position: relative;

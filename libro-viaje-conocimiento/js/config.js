@@ -1,13 +1,4 @@
 /* --------------------------------------------------------------------------
- * File        : config.js
- * Version     : 1.0
- * Author      : Indonez Team
- * Author URI  : http://indonez.com
- *
- * Indonez Copyright 2016 All Rights Reserved.
- * -------------------------------------------------------------------------- */
-
-/* --------------------------------------------------------------------------
  * javascript handle initialization
       1. To top Jquery
       2. Testimonial Slider

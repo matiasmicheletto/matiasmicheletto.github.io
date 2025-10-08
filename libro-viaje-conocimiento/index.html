@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/mediaquery.css">
 		<link rel="stylesheet" href="css/preview.css">
+		<link rel="stylesheet" href="css/toast.css">
     </head>
 
     <body>
@@ -178,7 +179,7 @@
 				
                 	<div class="uk-width-4-10 uk-width-large-4-10 uk-width-medium-3-5">    
                 		<h2 class="txt42 uk-margin-bottom txtwhite idz-heading-shadow"><strong class="uppercase">Reseña</strong></h2>
-                		<p class="txtwhite idz-heading-shadow idz-resena-text">El manuscrito aborda un ciclo de vida del conocimiento (Creación, Validación y Transferencia) de extrema oportunidad y relevancia en el contexto actual, donde el impacto social de la ciencia es una demanda ineludible. El autor ha diseñado un marco conceptual que busca ser comprehensivo, un "mapa" que guía al lector desde los fundamentos epistemológicos hasta las métricas de impacto.</p>
+                		<p class="txtwhite idz-heading-shadow idz-resena-text">El manuscrito aborda un ciclo de vida del conocimiento de extrema oportunidad y relevancia en el contexto actual, donde el impacto social de la ciencia es una demanda ineludible. El autor ha diseñado un marco conceptual que busca ser comprehensivo, un "mapa" que guía al lector desde los fundamentos epistemológicos hasta las métricas de impacto.</p>
                 	</div>
 
                 	<div class="uk-width-6-10 uk-width-large-6-10 uk-width-medium-2-5">
@@ -267,7 +268,7 @@
 							<i class="uk-icon-pencil uk-icon-large"></i>
 							<h2 class="txt42 bold">Sobre el autor</h2>
 						</div>
-						<p class="uk-margin-large-bottom">Mi nombre es Matías Micheletto, soy Doctor en Ingeniería y trabajo como investigador en <a href="https://bicyt.conicet.gov.ar/fichas/p/matias-javier-micheletto" target="_blank">CONICET</a>. Me dedico al desarollo de tecnologías de la información y productos digitales.</p>
+						<p class="uk-margin-large-bottom">Matías Micheletto es Doctor en Ingeniería y trabaja como investigador en <a href="https://bicyt.conicet.gov.ar/fichas/p/matias-javier-micheletto" target="_blank">CONICET</a>. Se dedica al desarollo de tecnologías de la información y productos digitales.</p>
 
 						<ul class="uk-list uk-list-line idz-about-list">
 							<li>
@@ -375,8 +376,8 @@
 					<p class="uk-text-center"><strong>Contactame</strong> por consultas e inquietudes.</p>
 					<img src="images/form-envelope-stamp.png" class="form-stamp" alt="form stamp">
 					<form class="uk-form idz-form">
-						<input type="text" placeholder="ingrese su correo electrónico" class="uk-width-1-1 uk-form-large">
-						<button class="uk-button" type="button"><i class="uk-icon-envelope"></i>Enviar</button>
+						<input id="emailInput" type="text" placeholder="ingrese su correo electrónico" class="uk-width-1-1 uk-form-large">
+						<button class="uk-button" type="button" onclick="submitEmail()"><i class="uk-icon-envelope"></i>Enviar</button>
 					</form>
 				</div>
 			</div>
@@ -407,6 +408,9 @@
         </footer>
 		<!-- Footer End -->
 
+		<!-- Toast -->
+		<div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
 		
         <!-- Javascript -->
         <script src="js/jquery.js"></script>
@@ -418,6 +422,10 @@
         <script src="js/components/sticky.js"></script>
         <script src="js/config.js"></script>
 		<script src="js/preview.js"></script>
+		<script src="js/toast.js"></script>
+		<script src="../js/firebase-app.js"></script>
+		<script src="../js/firebase-database.js"></script>
+		<script src="js/contact.js"></script>
 </body>
 
 </html>
