@@ -19,9 +19,11 @@
 	.idz-normal-image {
 		max-width: 480px;
 	}
-	.idz-section-img {
-		max-width: 100%;
+	.idz-section-img {	
 		height: auto;
+	}
+	#carousel-image {
+		height: 500px;
 	}
 	.to-top {
 	    right: 70px;
@@ -85,6 +87,10 @@
 		display: block;
 		text-align: center;
 		margin: 0 auto 60px auto;
+	}
+	#carousel-image {
+		height: 300px;
+		margin-top: 100px;
 	}
 	.copyright {
 		display: block;
@@ -191,6 +197,10 @@
 	}
 	.idz-testimonials {
 		margin-bottom: 120px !important;
+	}
+	#carousel-image {
+		height: 300px;
+		margin-top: 100px;
 	}
 	#idz-features2 {
 		max-height: 400px;
@@ -350,6 +360,10 @@
 	.idz-testimonials {
 		margin-bottom: 120px !important;
 	}
+	#carousel-image {
+		height: 200px;
+		margin-top: 120px;
+	}
 	#idz-features {
 		padding-left: 10px!important;
 		padding-right: 10px!important;
@@ -485,6 +499,23 @@
 	}
 }
 
+@media only screen and (max-width: 360px) {
+	#carousel-image {
+		height: 150px;
+		margin-top: 140px;
+	}
+}
+
+/* Remove features section if smaller than 320px */
+@media only screen and (max-width: 320px) {
+	#carousel-image {
+		display: none;
+	}
+	#idz-features2 {
+		display: none;
+	}
+}
+
 /* Responsive Typography for txt */
 @media only screen and (max-width: 1024px) {
 	.txt42 {
@@ -520,7 +551,7 @@
 		font-size: 48px;
 	}
 	.idz-resena-text {
-		font-size: 12px!important;
+		font-size: 11px!important;
 		line-height: 1em!important;
 	}
 }

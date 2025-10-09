@@ -138,6 +138,9 @@ h6,.uk-h6 {
 .capitalize {
     text-transform: capitalize;
 }
+.lowercase {
+    text-transform: lowercase;
+}
 .underline{
 	text-decoration:underline
 }
@@ -185,6 +188,12 @@ h6,.uk-h6 {
 }
 .txt12{
 	font-size:14px;
+}
+.idz-resena-text {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
 }
 .lh24{
     line-height: 24px
@@ -1239,6 +1248,8 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
     position: relative;
     max-width: 500px;
     margin: 0 auto;
+    border: 1px solid #e8e8e8;
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.3)!important;
 }
 .idz-subscription-form .form-stamp {
     position: absolute;
@@ -1247,7 +1258,6 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
 }
 .idz-subscription-form input[type] {
     font-size: 14px;
-    text-transform: lowercase;
     border-radius: 3px;
     color: #cccccc;
 }
@@ -1291,6 +1301,13 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
 }
 .idz-section-img {
     position: relative;
+    top: -120px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#carousel-image {
+    height: 500px;
 }
 #idz-features2 .idz-float-img {
     top: -180px;
@@ -1976,4 +1993,14 @@ header#idz-header.style2 .idz-header-content h2 {
 .img-preview img {
     position: absolute;
     transition: top 2s ease-out 0s;
+}
+
+/* Carousel Dissolve Effect */
+.carousel-fade-img {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.carousel-fade-img.fade-out {
+    opacity: 0;
 }

@@ -77,6 +77,14 @@
     background: linear-gradient(90deg, #e74c3c, #c0392b);
 }
 
+.toast.warning {
+    background: linear-gradient(90deg, #f39c12, #d35400);
+}
+
+.toast.info {
+    background: linear-gradient(90deg, #3498db, #2980b9);
+}
+
 /* small screens center horizontally */
 @media (max-width:420px) {
     #toast-container {
