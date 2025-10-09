@@ -24,12 +24,13 @@
 
 .book {
     perspective: 250vw;
+    height: 50%;
 }
 
 .book-container {
     background: url('../images/DJI_0733.jpg') center center no-repeat;
     background-size: cover;
-    height: 80vh;
+    padding: 50px 0px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -160,4 +161,30 @@
     text-align: right;
     display: block;
     color: black;
+}
+
+/* Animation for the first page to indicate interactivity */
+@keyframes breathe-page {
+    0%, 100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(-20deg);
+    }
+}
+
+.book .page:first-child {
+    animation: breathe-page 3s ease-in-out infinite;
+    animation-delay: 1s; /* Start animation 2 seconds after page load */
+}
+
+/* Stop animation when user hovers over the book to avoid interference */
+.book:hover .page:first-child {
+    animation: none;
+}
+
+/* Stop animation once any page has been flipped */
+.book .page.flipped ~ .page:first-child,
+.book .page:first-child.flipped {
+    animation: none;
 }

@@ -1299,6 +1299,7 @@ ul#client-area-tab.uk-tab > li.uk-width-1-2 {
 
 /* [ 2.9. About Section ] */
 #idz-about {
+    padding: 70px 0px;
 }
 #idz-about .uk-list-line.idz-about-list > li {
 }
