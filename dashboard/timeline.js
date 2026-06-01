@@ -25,24 +25,48 @@ const hideTooltips = () => {
     tooltips.forEach(tooltip => tooltip.remove());
 };
 
+const MONTH_LABELS_HEIGHT = 20; // px reserved above the grid for month labels
+
 const drawDayLabels = () => {
     const svg = document.getElementById("timelineSVG");
     const totalWidth = weeksInRange * boxSize + dayLabelsWidth;
-    const totalHeight = daysPerWeek * boxSize;
+    const totalHeight = daysPerWeek * boxSize + MONTH_LABELS_HEIGHT;
     svg.setAttribute("viewBox", `0 0 ${totalWidth} ${totalHeight}`);
-    svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    svg.setAttribute("preserveAspectRatio", "xMinYMin meet");
+    svg.setAttribute("width", totalWidth);
+    svg.setAttribute("height", totalHeight);
     dayLabels.forEach((label, index) => {
         const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
         text.setAttribute("x", dayLabelsWidth - 5);
-        text.setAttribute("y", index * boxSize + boxSize / 2);
+        text.setAttribute("y", MONTH_LABELS_HEIGHT + index * boxSize + boxSize / 2);
         text.setAttribute("font-family", "Helvetica, Arial, sans-serif");
         text.setAttribute("text-anchor", "end");
-        text.setAttribute("font-size", window.innerWidth < 768 ? "6" : "10");
+        text.setAttribute("font-size", "12");
         text.setAttribute("fill", "#EEE");
         text.setAttribute("dominant-baseline", "middle");
         text.textContent = label;
         svg.appendChild(text);
     });
+};
+
+const drawMonthLabels = () => {
+    const svg = document.getElementById("timelineSVG");
+    let lastMonth = -1;
+    for (let col = 0; col < weeksInRange; col++) {
+        const weekDate = new Date(baseMondayUTC.getTime() + col * MS_W);
+        const month = weekDate.getUTCMonth();
+        if (month !== lastMonth) {
+            lastMonth = month;
+            const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            text.setAttribute("x", col * boxSize + dayLabelsWidth + 2);
+            text.setAttribute("y", MONTH_LABELS_HEIGHT - 5);
+            text.setAttribute("font-family", "Helvetica, Arial, sans-serif");
+            text.setAttribute("font-size", "11");
+            text.setAttribute("fill", "#AAA");
+            text.textContent = monthLabels[month];
+            svg.appendChild(text);
+        }
+    }
 };
 
 
@@ -52,15 +76,15 @@ const drawGrid = () => {
         const x = col * boxSize + dayLabelsWidth;
         const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
         line.setAttribute("x1", x);
-        line.setAttribute("y1", 0);
+        line.setAttribute("y1", MONTH_LABELS_HEIGHT);
         line.setAttribute("x2", x);
-        line.setAttribute("y2", daysPerWeek * boxSize);
+        line.setAttribute("y2", MONTH_LABELS_HEIGHT + daysPerWeek * boxSize);
         line.setAttribute("stroke", "#666");
         line.setAttribute("stroke-width", "1");
         svg.appendChild(line);
     }
     for (let row = 0; row <= daysPerWeek; row++) {
-        const y = row * boxSize;
+        const y = MONTH_LABELS_HEIGHT + row * boxSize;
         const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
         line.setAttribute("x1", dayLabelsWidth);
         line.setAttribute("y1", y);
@@ -83,7 +107,7 @@ const drawDates = (data) => {
 
         const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
         rect.setAttribute("x", week * boxSize + dayLabelsWidth);
-        rect.setAttribute("y", day * boxSize);
+        rect.setAttribute("y", MONTH_LABELS_HEIGHT + day * boxSize);
         rect.setAttribute("width", boxSize);
         rect.setAttribute("height", boxSize);
         rect.setAttribute("fill", color);
@@ -122,11 +146,12 @@ const makeTimeline = (data) => {
     const endMondayUTC = startOfWeekMondayUTC(maxDateUTC);
     weeksInRange = Math.floor((endMondayUTC - baseMondayUTC) / MS_W) + 1;
 
-    // Layout now depends on weeksInRange
-    dayLabelsWidth = Math.max(...dayLabels.map((label) => label.length)) * (window.innerWidth < 768 ? 2 : 8);
-    boxSize = Math.min(Math.floor((window.innerWidth - 2 * dayLabelsWidth) / weeksInRange), 30);
+    // Fixed box size for legibility; container scrolls horizontally
+    dayLabelsWidth = 70;
+    boxSize = 16;
 
     drawDayLabels();
+    drawMonthLabels();
     drawGrid();
     drawDates(data);
 };
