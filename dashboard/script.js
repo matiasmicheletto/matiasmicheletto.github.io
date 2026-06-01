@@ -10,18 +10,22 @@ const fbApp = firebase.initializeApp({
 
 const app = () => {
     const svg = document.getElementById("timelineSVG");
-    svg.setAttribute("width", weeksInYear * boxSize + dayLabelsWidth);
-    svg.setAttribute("height", daysPerWeek * boxSize);
-    svg.innerHTML = "";
+    svg.innerHTML = ""; // dimensions are set by makeTimeline
 
     // Firebase fetch
     const database = firebase.database();
     const dataRef = database.ref('events_data');
     dataRef.once('value').then(snapshot => {
         const result = snapshot.val();
-        makeTimeline(result.data);
-        makeCharts(result.data);
-        printEventsCount(result.data);
+        const normalized = normalizeEventsData(result && result.data ? result.data : {});
+
+        if (normalized.quality.invalidDateKeys || normalized.quality.invalidValues) {
+            console.warn("Se ignoraron registros inválidos de Firebase", normalized.quality);
+        }
+
+        makeTimeline(normalized.data);
+        makeCharts(normalized.data);
+        printEventsCount(normalized.data, normalized.quality);
         printLastUpdate(result.last_update);
     }).catch(error => {
         console.error("Error loading JSON data:", error);

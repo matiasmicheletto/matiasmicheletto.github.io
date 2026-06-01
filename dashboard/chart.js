@@ -25,7 +25,7 @@ const curve = (element, config) => {
                     y: {
                         title: {
                             display: true,
-                            text: "Proporción (%)"
+                            text: config.yScale || "Proporción (%)"
                         },
                         beginAtZero: true
                     }
@@ -61,14 +61,14 @@ const curve = (element, config) => {
 const displayIntervalChart = (data, options = {}) => {
     const perEvent = options.perEvent || false; // false => gaps between dates (default)
     const displayMax = typeof options.displayMax === 'number' ? options.displayMax : 15; // x-axis cap
+    const hideExtremes = options.hideExtremes || false;
 
     const gaps = computeGaps(data, perEvent);
     const counts = gapsToCounts(gaps);
     const numericKeys = Object.keys(counts).map(k => Number(k));
-    const maxGap = numericKeys.length ? Math.max(...numericKeys) : 0;
 
     // Build labels 0..displayMax and a final ">displayMax" bucket if needed
-    const labels = Array.from({
+    let labels = Array.from({
         length: displayMax + 1
     }, (_, i) => String(i));
     let overflowCount = 0;
@@ -77,10 +77,22 @@ const displayIntervalChart = (data, options = {}) => {
     });
     if (overflowCount > 0) labels.push(`>${displayMax}`);
 
-    const values = labels.map(lbl => {
+    let values = labels.map(lbl => {
         if (lbl.startsWith(">")) return overflowCount;
         return counts[Number(lbl)] || 0;
     });
+
+    // Filter out extremes (0-day and >displayMax bucket) when requested
+    if (hideExtremes) {
+        const filtered = labels.reduce((acc, lbl, i) => {
+            if (lbl === "0" || lbl.startsWith(">")) return acc;
+            acc.labels.push(lbl);
+            acc.values.push(values[i]);
+            return acc;
+        }, { labels: [], values: [] });
+        labels = filtered.labels;
+        values = filtered.values;
+    }
 
     // print / expose outliers so you can inspect them
     const outliers = gaps.filter(g => g.days > displayMax);
@@ -103,14 +115,31 @@ const displayIntervalChart = (data, options = {}) => {
         type: 'bar',
         data: {
             labels,
-            datasets: [{
-                label: 'Frecuencia (por episodio)',
-                data: values,
-                borderColor: 'rgba(54, 162, 235, 1)',
-                backgroundColor: 'rgba(54, 162, 235, 0.5)',
-                borderWidth: 0,
-                borderRadius: 5
-            }]
+            datasets: [
+                {
+                    type: 'bar',
+                    label: 'Frecuencia (entre fechas activas)',
+                    data: values,
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    borderWidth: 0,
+                    borderRadius: 5,
+                    order: 2
+                },
+                {
+                    type: 'line',
+                    label: 'Tendencia (spline)',
+                    data: values,
+                    borderColor: 'rgba(255, 160, 64, 1)',
+                    backgroundColor: 'rgba(255, 160, 64, 0.15)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 3,
+                    pointHoverRadius: 5,
+                    order: 1
+                }
+            ]
         },
         options: {
             responsive: true,
@@ -122,9 +151,9 @@ const displayIntervalChart = (data, options = {}) => {
                             const lbl = ctx.label;
                             const v = ctx.parsed.y;
                             if (lbl.startsWith(">")) {
-                                return `${lbl}: ${v} veces (sum of larger gaps)`;
+                                return `${lbl}: ${v} veces (suma de intervalos más largos)`;
                             }
-                            return `${lbl} días: ${v} episodios`;
+                            return `${lbl} días: ${v} veces`;
                         }
                     }
                 }
@@ -159,6 +188,7 @@ const makeCharts = data => {
     const dayChartConfig = {
         label: "Días",
         xScale: "Día de la semana",
+        yScale: "Proporción (%)",
         dataLabels: dayLabels,
         data: counters.daysNorm,
         label: "Episodios por día",
@@ -168,11 +198,12 @@ const makeCharts = data => {
     curve("dayCounterChart", dayChartConfig);
 
     // --- Chart 2: Events per Year-Month ---
-    const sortedYearMonthLabels = Object.keys(counters.datesNorm).sort((a, b) => a.localeCompare(b));
-    const sortedData = sortedYearMonthLabels.map(label => counters.datesNorm[label]);
+    const sortedYearMonthLabels = Object.keys(counters.dates).sort((a, b) => a.localeCompare(b));
+    const sortedData = sortedYearMonthLabels.map(label => counters.dates[label]);
     const yearMonthChartConfig = {
         label: "Año-Mes",
         xScale: "Fecha",
+        yScale: "Cantidad de episodios",
         dataLabels: sortedYearMonthLabels,
         data: sortedData,
         label: "Episodios por mes",
@@ -182,8 +213,16 @@ const makeCharts = data => {
     curve("yearMonthCounterChart", yearMonthChartConfig);
 
     // --- Chart 3: Frequency of intervals ---
-    displayIntervalChart(data, {
-        perEvent: false,
-        displayMax: 15
-    });
+    const intervalOptions = { perEvent: false, displayMax: 15 };
+    displayIntervalChart(data, intervalOptions);
+
+    const hideExtremesCheck = document.getElementById("hideExtremesCheck");
+    if (hideExtremesCheck) {
+        // Remove previous listener to avoid stacking on re-render
+        const newCheck = hideExtremesCheck.cloneNode(true);
+        hideExtremesCheck.parentNode.replaceChild(newCheck, hideExtremesCheck);
+        newCheck.addEventListener("change", () => {
+            displayIntervalChart(data, { ...intervalOptions, hideExtremes: newCheck.checked });
+        });
+    }
 }
