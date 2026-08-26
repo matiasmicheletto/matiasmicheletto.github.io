@@ -8,12 +8,12 @@ var timeline = {
         {"id": 4, "content": "Becas"}
     ],
     "data": [
-        {"group": 1, "content": "DIEC", "start": "2014-01-01", "end": "2014-12-01", "type": "background", "className": "red" },
-        {"group": 1, "content": "Sendevo", "start": "2020-03-20", "end": "2025-08-31" },
+        {"group": 1, "content": "Pasantía DIEC", "start": "2014-01-01", "end": "2014-12-01", "type": "background", "className": "red" },
+        {"group": 1, "content": "Sendevo", "start": "2020-03-20", "end": "2026-08-31" },
         {"group": 1, "content": "Coop. Apicola Pampero", "start": "2017-02-01", "end": "2017-06-01" },
         {"group": 1, "content": "Neufitech", "start": "2017-10-01", "end": "2019-06-01" },
         {"group": 1, "content": "CAPP", "start": "2019-06-01", "end": "2020-03-01" },
-        {"group": 1, "content": "CONICET", "start": "2016-04-01", "end": "2025-08-31" },
+        {"group": 1, "content": "Inv. Asist. CONICET", "start": "2026-01-01", "end": "2026-08-31" },
 
         {"group": 2, "content": "Ayudante Graduado", "start": "2016-08-15", "end": "2018-03-01", "type": "background" },
         {"group": 2, "content": "Asistente (JTP)", "start": "2018-03-01", "end": "2021-03-01", "type": "background", "className": "blue" },
@@ -37,7 +37,7 @@ var timeline = {
         {"group": 4, "content": "Beca de<br>estímulo al estudio", "start": "2014-03-01", "end": "2014-12-01"},
         {"group": 4, "content": "Beca de introd.<br>investig. alumnos", "start": "2014-03-01", "end": "2014-12-01" },
         {"group": 4, "content": "Beca de invest.<br>PGI-MAyDS", "start": "2015", "end": "2016" },
-        {"group": 4, "content": "Beca doctoral CONICET", "start": "2016-04-01", "end": "2021-03-31" },
-        {"group": 4, "content": "Beca posdoctoral CONICET", "start": "2021-04-01", "end": "2025-08-31" }
+        {"group": 4, "content": "Beca Doc. CONICET", "start": "2016-04-01", "end": "2021-04-01" },
+        {"group": 4, "content": "Beca Post-Doc. CONICET", "start": "2021-04-01", "end": "2025-12-31" },
     ].map((el,index) => ({...el, id:index}))
 };
